@@ -1,4 +1,5 @@
-{
+
+  {
     "campers": [
       {
         "Nombre": "Pablo Andres Pinzon Solano",
@@ -8,7 +9,9 @@
         "Dirección": "cra18-6599",
         "Teléfono": 3016681835,
         "Correo electrónico": "tommyelite25@gmail.com",
-        "Salón": 1
+        "Salón": 1,
+        "Estado": "Activo",
+        "Riesgo": "Ninguno"
       },
       {
         "Nombre": "Maria Fernanda Lopez Gomez",
@@ -18,7 +21,9 @@
         "Dirección": "cra19-6600",
         "Teléfono": 3016681836,
         "Correo electrónico": "mariafernanda@gmail.com",
-        "Salón": 1
+        "Salón": 1,
+        "Estado": "Activo",
+        "Riesgo": "Bajo"
       },
       {
         "Nombre": "Carlos Alberto Martinez Ruiz",
@@ -28,7 +33,9 @@
         "Dirección": "cra20-6601",
         "Teléfono": 3016681837,
         "Correo electrónico": "carlosmartinez@gmail.com",
-        "Salón": 2
+        "Salón": 2,
+        "Estado": "Activo",
+        "Riesgo": "Medio"
       },
       {
         "Nombre": "Ana Sofia Ramirez Diaz",
@@ -38,7 +45,9 @@
         "Dirección": "cra21-6602",
         "Teléfono": 3016681838,
         "Correo electrónico": "anasofia@gmail.com",
-        "Salón": 2
+        "Salón": 2,
+        "Estado": "Retirado",
+        "Riesgo": "Alto"
       },
       {
         "Nombre": "Juan David Torres Perez",
@@ -48,7 +57,9 @@
         "Dirección": "cra22-6603",
         "Teléfono": 3016681839,
         "Correo electrónico": "juandavid@gmail.com",
-        "Salón": 3
+        "Salón": 3,
+        "Estado": "Activo",
+        "Riesgo": "Ninguno"
       },
       {
         "Nombre": "Laura Valentina Gomez Sanchez",
@@ -58,7 +69,9 @@
         "Dirección": "cra23-6604",
         "Teléfono": 3016681840,
         "Correo electrónico": "lauravgomez@gmail.com",
-        "Salón": 3
+        "Salón": 3,
+        "Estado": "Graduado",
+        "Riesgo": "Bajo"
       },
       {
         "Nombre": "Andres Felipe Gonzalez Castro",
@@ -68,7 +81,9 @@
         "Dirección": "cra24-6605",
         "Teléfono": 3016681841,
         "Correo electrónico": "andresfelipe@gmail.com",
-        "Salón": 4
+        "Salón": 4,
+        "Estado": "Activo",
+        "Riesgo": "Medio"
       },
       {
         "Nombre": "Sofia Alejandra Herrera Mora",
@@ -78,7 +93,9 @@
         "Dirección": "cra25-6606",
         "Teléfono": 3016681842,
         "Correo electrónico": "sofiaherrera@gmail.com",
-        "Salón": 4
+        "Salón": 4,
+        "Estado": "Retirado",
+        "Riesgo": "Alto"
       },
       {
         "Nombre": "Diego Alejandro Vargas Rojas",
@@ -88,7 +105,9 @@
         "Dirección": "cra26-6607",
         "Teléfono": 3016681843,
         "Correo electrónico": "diegovargas@gmail.com",
-        "Salón": 5
+        "Salón": 5,
+        "Estado": "Activo",
+        "Riesgo": "Ninguno"
       },
       {
         "Nombre": "Valentina Andrea Molina Torres",
@@ -98,7 +117,9 @@
         "Dirección": "cra27-6608",
         "Teléfono": 3016681844,
         "Correo electrónico": "valentinaandrea@gmail.com",
-        "Salón": 5
+        "Salón": 5,
+        "Estado": "Activo",
+        "Riesgo": "Bajo"
       },
       {
         "Nombre": "Jorge Luis Rojas Gutierrez",
@@ -108,7 +129,9 @@
         "Dirección": "cra28-6609",
         "Teléfono": 3016681845,
         "Correo electrónico": "jorgerojas@gmail.com",
-        "Salón": 6
+        "Salón": 6,
+        "Estado": "Activo",
+        "Riesgo": "Medio"
       },
       {
         "Nombre": "Camila Andrea Diaz Lopez",
@@ -118,222 +141,42 @@
         "Dirección": "cra29-6610",
         "Teléfono": 3016681846,
         "Correo electrónico": "camiladiaz@gmail.com",
-        "Salón": 6
-      },
-      {
-        "Nombre": "Sebastian Andres Castro Ruiz",
-        "ide": 1091358070,
-        "edad": 16,
-        "Género": "masculino",
-        "Dirección": "cra30-6611",
-        "Teléfono": 3016681847,
-        "Correo electrónico": "sebastiancastro@gmail.com",
-        "Salón": 7
-      },
-      {
-        "Nombre": "Isabella Sofia Medina Vargas",
-        "ide": 1091358071,
-        "edad": 17,
-        "Género": "femenino",
-        "Dirección": "cra31-6612",
-        "Teléfono": 3016681848,
-        "Correo electrónico": "isabellamedina@gmail.com",
-        "Salón": 7
-      },
-      {
-        "Nombre": "David Santiago Perez Gomez",
-        "ide": 1091358072,
-        "edad": 18,
-        "Género": "masculino",
-        "Dirección": "cra32-6613",
-        "Teléfono": 3016681849,
-        "Correo electrónico": "davidperez@gmail.com",
-        "Salón": 8
-      },
-      {
-        "Nombre": "Mariana Alejandra Ruiz Diaz",
-        "ide": 1091358073,
-        "edad": 16,
-        "Género": "femenino",
-        "Dirección": "cra33-6614",
-        "Teléfono": 3016681850,
-        "Correo electrónico": "marianaruiz@gmail.com",
-        "Salón": 8
-      },
-      {
-        "Nombre": "Juan Pablo Morales Torres",
-        "ide": 1091358074,
-        "edad": 17,
-        "Género": "masculino",
-        "Dirección": "cra34-6615",
-        "Teléfono": 3016681851,
-        "Correo electrónico": "juanpmorales@gmail.com",
-        "Salón": 9
-      },
-      {
-        "Nombre": "Valeria Andrea Castro Herrera",
-        "ide": 1091358075,
-        "edad": 18,
-        "Género": "femenino",
-        "Dirección": "cra35-6616",
-        "Teléfono": 3016681852,
-        "Correo electrónico": "valeriacastro@gmail.com",
-        "Salón": 9
-      },
-      {
-        "Nombre": "Daniel Esteban Gomez Lopez",
-        "ide": 1091358076,
-        "edad": 16,
-        "Género": "masculino",
-        "Dirección": "cra36-6617",
-        "Teléfono": 3016681853,
-        "Correo electrónico": "danielgomez@gmail.com",
-        "Salón": 10
-      },
-      {
-        "Nombre": "Sara Valentina Diaz Martinez",
-        "ide": 1091358077,
-        "edad": 17,
-        "Género": "femenino",
-        "Dirección": "cra37-6618",
-        "Teléfono": 3016681854,
-        "Correo electrónico": "saradiaz@gmail.com",
-        "Salón": 10
-      },
-      {
-        "Nombre": "Mateo Alejandro Ruiz Castro",
-        "ide": 1091358078,
-        "edad": 18,
-        "Género": "masculino",
-        "Dirección": "cra38-6619",
-        "Teléfono": 3016681855,
-        "Correo electrónico": "mateoruiz@gmail.com",
-        "Salón": 11
-      },
-      {
-        "Nombre": "Gabriela Alejandra Torres Gomez",
-        "ide": 1091358079,
-        "edad": 16,
-        "Género": "femenino",
-        "Dirección": "cra39-6620",
-        "Teléfono": 3016681856,
-        "Correo electrónico": "gabrielatorres@gmail.com",
-        "Salón": 11
-      },
-      {
-        "Nombre": "Samuel Andres Herrera Diaz",
-        "ide": 1091358080,
-        "edad": 17,
-        "Género": "masculino",
-        "Dirección": "cra40-6621",
-        "Teléfono": 3016681857,
-        "Correo electrónico": "samuelherrera@gmail.com",
-        "Salón": 12
-      },
-      {
-        "Nombre": "Natalia Andrea Lopez Ruiz",
-        "ide": 1091358081,
-        "edad": 18,
-        "Género": "femenino",
-        "Dirección": "cra41-6622",
-        "Teléfono": 3016681858,
-        "Correo electrónico": "natalialopez@gmail.com",
-        "Salón": 12
-      },
-      {
-        "Nombre": "Juan Esteban Castro Diaz",
-        "ide": 1091358082,
-        "edad": 16,
-        "Género": "masculino",
-        "Dirección": "cra42-6623",
-        "Teléfono": 3016681859,
-        "Correo electrónico": "juanecastro@gmail.com",
-        "Salón": 1
-      },
-      {
-        "Nombre": "Laura Camila Gomez Torres",
-        "ide": 1091358083,
-        "edad": 17,
-        "Género": "femenino",
-        "Dirección": "cra43-6624",
-        "Teléfono": 3016681860,
-        "Correo electrónico": "lauracgomez@gmail.com",
-        "Salón": 2
-      },
-      {
-        "Nombre": "Santiago Andres Diaz Herrera",
-        "ide": 1091358084,
-        "edad": 18,
-        "Género": "masculino",
-        "Dirección": "cra44-6625",
-        "Teléfono": 3016681861,
-        "Correo electrónico": "santiagodiaz@gmail.com",
-        "Salón": 3
-      },
-      {
-        "Nombre": "Valeria Sofia Ruiz Gomez",
-        "ide": 1091358085,
-        "edad": 16,
-        "Género": "femenino",
-        "Dirección": "cra45-6626",
-        "Teléfono": 3016681862,
-        "Correo electrónico": "valeriasofia@gmail.com",
-        "Salón": 4
-      },
-      {
-        "Nombre": "Daniel Alejandro Torres Diaz",
-        "ide": 1091358086,
-        "edad": 17,
-        "Género": "masculino",
-        "Dirección": "cra46-6627",
-        "Teléfono": 3016681863,
-        "Correo electrónico": "danieltorres@gmail.com",
-        "Salón": 5
-      },
-      {
-        "Nombre": "Mariana Sofia Herrera Castro",
-        "ide": 1091358087,
-        "edad": 18,
-        "Género": "femenino",
-        "Dirección": "cra47-6628",
-        "Teléfono": 3016681864,
-        "Correo electrónico": "marianasofia@gmail.com",
-        "Salón": 6
-      },
-      {
-        "Nombre": "Juan David Gomez Ruiz",
-        "ide": 1091358088,
-        "edad": 16,
-        "Género": "masculino",
-        "Dirección": "cra48-6629",
-        "Teléfono": 3016681865,
-        "Correo electrónico": "juandgomez@gmail.com",
-        "Salón": 7
-      },
-      {
-        "Nombre": "Sofia Valentina Diaz Torres",
-        "ide": 1091358089,
-        "edad": 17,
-        "Género": "femenino",
-        "Dirección": "cra49-6630",
-        "Teléfono": 3016681866,
-        "Correo electrónico": "sofiavdiaz@gmail.com",
-        "Salón": 8
-      },
-      {
-        "Nombre": "Andres Felipe Herrera Gomez",
-        "ide": 1091358090,
-        "edad": 18,
-        "Género": "masculino",
-        "Dirección": "cra50-6631",
-        "Teléfono": 3016681867,
-        "Correo electrónico": "andresfherrera@gmail.com",
-        "Salón": 9
-      },
-      {
+        "Salón": 6,
+        "Estado": "Retirado",
+        "Riesgo": "Alto"
 
-
+          },
+          {
+            "Nombre": "Camila Estefania Rojas Medina",
+            "ide": 1091358091,
+            "edad": 16,
+            "Género": "femenino",
+            "Dirección": "cra51-6632",
+            "Teléfono": 3016681868,
+            "Correo electrónico": "camilam@gmail.com",
+            "Salón": 10
+        },
+        {
+            "Nombre": "Luis Alejandro Torres Sanchez",
+            "ide": 1091358092,
+            "edad": 17,
+            "Género": "masculino",
+            "Dirección": "cra52-6633",
+            "Teléfono": 3016681869,
+            "Correo electrónico": "luisatorres@gmail.com",
+            "Salón": 11
+        },
+        {
+            "Nombre": "Daniela Sofia Lopez Gutierrez",
+            "ide": 1091358093,
+            "edad": 18,
+            "Género": "femenino",
+            "Dirección": "cra53-6634",
+            "Teléfono": 3016681870,
+            "Correo electrónico": "danielalopez@gmail.com",
+            "Salón": 12
+        }
         
-      }
     ]
   }
+  

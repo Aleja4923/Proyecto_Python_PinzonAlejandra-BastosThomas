@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 {
   "campers": [
     {
@@ -148,3 +149,186 @@
         }
   ]
 }
+=======
+  {
+    "campers": [
+      {
+        "Nombre": "Pablo Andres Pinzon Solano",
+        "ide": 1091358058,
+        "edad": 16,
+        "Género": "masculino",
+        "Dirección": "cra18-6599",
+        "Teléfono": 3016681835,
+        "Correo electrónico": "tommyelite25@gmail.com",
+        "Salón": 1,
+        "Estado": "Activo",
+        "Riesgo": "Ninguno"
+      },
+      {
+        "Nombre": "Maria Fernanda Lopez Gomez",
+        "ide": 1091358059,
+        "edad": 17,
+        "Género": "femenino",
+        "Dirección": "cra19-6600",
+        "Teléfono": 3016681836,
+        "Correo electrónico": "mariafernanda@gmail.com",
+        "Salón": 1,
+        "Estado": "Activo",
+        "Riesgo": "Bajo"
+      },
+      {
+        "Nombre": "Carlos Alberto Martinez Ruiz",
+        "ide": 1091358060,
+        "edad": 18,
+        "Género": "masculino",
+        "Dirección": "cra20-6601",
+        "Teléfono": 3016681837,
+        "Correo electrónico": "carlosmartinez@gmail.com",
+        "Salón": 2,
+        "Estado": "Activo",
+        "Riesgo": "Medio"
+      },
+      {
+        "Nombre": "Ana Sofia Ramirez Diaz",
+        "ide": 1091358061,
+        "edad": 16,
+        "Género": "femenino",
+        "Dirección": "cra21-6602",
+        "Teléfono": 3016681838,
+        "Correo electrónico": "anasofia@gmail.com",
+        "Salón": 2,
+        "Estado": "Retirado",
+        "Riesgo": "Alto"
+      },
+      {
+        "Nombre": "Juan David Torres Perez",
+        "ide": 1091358062,
+        "edad": 17,
+        "Género": "masculino",
+        "Dirección": "cra22-6603",
+        "Teléfono": 3016681839,
+        "Correo electrónico": "juandavid@gmail.com",
+        "Salón": 3,
+        "Estado": "Activo",
+        "Riesgo": "Ninguno"
+      },
+      {
+        "Nombre": "Laura Valentina Gomez Sanchez",
+        "ide": 1091358063,
+        "edad": 18,
+        "Género": "femenino",
+        "Dirección": "cra23-6604",
+        "Teléfono": 3016681840,
+        "Correo electrónico": "lauravgomez@gmail.com",
+        "Salón": 3,
+        "Estado": "Graduado",
+        "Riesgo": "Bajo"
+      },
+      {
+        "Nombre": "Andres Felipe Gonzalez Castro",
+        "ide": 1091358064,
+        "edad": 16,
+        "Género": "masculino",
+        "Dirección": "cra24-6605",
+        "Teléfono": 3016681841,
+        "Correo electrónico": "andresfelipe@gmail.com",
+        "Salón": 4,
+        "Estado": "Activo",
+        "Riesgo": "Medio"
+      },
+      {
+        "Nombre": "Sofia Alejandra Herrera Mora",
+        "ide": 1091358065,
+        "edad": 17,
+        "Género": "femenino",
+        "Dirección": "cra25-6606",
+        "Teléfono": 3016681842,
+        "Correo electrónico": "sofiaherrera@gmail.com",
+        "Salón": 4,
+        "Estado": "Retirado",
+        "Riesgo": "Alto"
+      },
+      {
+        "Nombre": "Diego Alejandro Vargas Rojas",
+        "ide": 1091358066,
+        "edad": 18,
+        "Género": "masculino",
+        "Dirección": "cra26-6607",
+        "Teléfono": 3016681843,
+        "Correo electrónico": "diegovargas@gmail.com",
+        "Salón": 5,
+        "Estado": "Activo",
+        "Riesgo": "Ninguno"
+      },
+      {
+        "Nombre": "Valentina Andrea Molina Torres",
+        "ide": 1091358067,
+        "edad": 16,
+        "Género": "femenino",
+        "Dirección": "cra27-6608",
+        "Teléfono": 3016681844,
+        "Correo electrónico": "valentinaandrea@gmail.com",
+        "Salón": 5,
+        "Estado": "Activo",
+        "Riesgo": "Bajo"
+      },
+      {
+        "Nombre": "Jorge Luis Rojas Gutierrez",
+        "ide": 1091358068,
+        "edad": 17,
+        "Género": "masculino",
+        "Dirección": "cra28-6609",
+        "Teléfono": 3016681845,
+        "Correo electrónico": "jorgerojas@gmail.com",
+        "Salón": 6,
+        "Estado": "Activo",
+        "Riesgo": "Medio"
+      },
+      {
+        "Nombre": "Camila Andrea Diaz Lopez",
+        "ide": 1091358069,
+        "edad": 18,
+        "Género": "femenino",
+        "Dirección": "cra29-6610",
+        "Teléfono": 3016681846,
+        "Correo electrónico": "camiladiaz@gmail.com",
+        "Salón": 6,
+        "Estado": "Retirado",
+        "Riesgo": "Alto"
+
+          },
+          {
+            "Nombre": "Camila Estefania Rojas Medina",
+            "ide": 1091358091,
+            "edad": 16,
+            "Género": "femenino",
+            "Dirección": "cra51-6632",
+            "Teléfono": 3016681868,
+            "Correo electrónico": "camilam@gmail.com",
+            "Salón": 10
+        },
+        {
+            "Nombre": "Luis Alejandro Torres Sanchez",
+            "ide": 1091358092,
+            "edad": 17,
+            "Género": "masculino",
+            "Dirección": "cra52-6633",
+            "Teléfono": 3016681869,
+            "Correo electrónico": "luisatorres@gmail.com",
+            "Salón": 11
+        },
+        {
+            "Nombre": "Daniela Sofia Lopez Gutierrez",
+            "ide": 1091358093,
+            "edad": 18,
+            "Género": "femenino",
+            "Dirección": "cra53-6634",
+            "Teléfono": 3016681870,
+            "Correo electrónico": "danielalopez@gmail.com",
+            "Salón": 12
+        }
+        
+    ]
+  }
+  
+>>>>>>> 59e4c68d0617d6001368df4e8079084ec8a08205

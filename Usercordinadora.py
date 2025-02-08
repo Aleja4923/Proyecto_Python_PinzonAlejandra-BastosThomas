@@ -25,7 +25,7 @@ def agregarEstudiantes(estudiantes):
     salon= int(input("ingrese el numero del salon: "))
     estado= input("ingrense el estado del estudiante : ")
     riesgo= input("ingrese el nivel de riesgo : ")
-    estudiante23={
+    estudiante23 ={
     "ide": ide,
     "nombre": Nombre,
     "edad": edad,
@@ -34,6 +34,8 @@ def agregarEstudiantes(estudiantes):
     "telefono": Teléfono,
     "correoElectronico": correoElectronico,
     "salon": salon,
+    "estado": estado,
+    "salon ": salon,
     "estado": estado,
     "riesgo": riesgo,
     }
@@ -51,7 +53,6 @@ def actualizar_estado_riesgo(lista_estudiantes, ide, nuevo_estado, nuevo_riesgo)
             return True
     print("Estudiante no encontrado.")
     return False
-
 def cargar_desde_json(archivo="estudiantes.json"):
     try:
         with open(archivo, "r") as file:
@@ -128,5 +129,14 @@ if actualizar_estado_riesgo(lista_estudiantes, ide, nuevo_estado, nuevo_riesgo):
     cargar_desde_json(lista_estudiantes)
     print("Cambios guardados exitosamente.")
 
+lista_estudiantes = cargar_desde_json()
 
 
+ide = input("Ingrese el ID del estudiante: ")
+nuevo_estado = input("Ingrese el nuevo estado (Inscrito, Aprobado, etc.): ")
+nuevo_riesgo = input("Ingrese el nivel de riesgo (Alto, Medio, Bajo, No determinado): ")
+
+if actualizar_estado_riesgo(lista_estudiantes, ide, nuevo_estado, nuevo_riesgo):
+    cargar_desde_json(lista_estudiantes)
+    print("Cambios guardados exitosamente.")
+    

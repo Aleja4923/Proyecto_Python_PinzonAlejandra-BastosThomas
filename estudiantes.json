@@ -1,334 +1,214 @@
-
-<<<<<<< HEAD
 {
   "campers": [
-    {
-      "Nombre": "Pablo Andres Pinzon Solano",
-      "ide": 1091358058,
-      "edad": 16,
-      "Género": "masculino",
-      "Dirección": "cra18-6599",
-      "Teléfono": 3016681835,
-      "Correo electrónico": "tommyelite25@gmail.com",
-      "Salón": 1,
-      "Estado": "Activo",
-      "Riesgo": "Ninguno"
-    },
-    {
-      "Nombre": "Maria Fernanda Lopez Gomez",
-      "ide": 1091358059,
-      "edad": 17,
-      "Género": "femenino",
-      "Dirección": "cra19-6600",
-      "Teléfono": 3016681836,
-      "Correo electrónico": "mariafernanda@gmail.com",
-      "Salón": 1,
-      "Estado": "Activo",
-      "Riesgo": "Bajo"
-    },
-    {
-      "Nombre": "Carlos Alberto Martinez Ruiz",
-      "ide": 1091358060,
-      "edad": 18,
-      "Género": "masculino",
-      "Dirección": "cra20-6601",
-      "Teléfono": 3016681837,
-      "Correo electrónico": "carlosmartinez@gmail.com",
-      "Salón": 2,
-      "Estado": "Activo",
-      "Riesgo": "Medio"
-    },
-    {
-      "Nombre": "Ana Sofia Ramirez Diaz",
-      "ide": 1091358061,
-      "edad": 16,
-      "Género": "femenino",
-      "Dirección": "cra21-6602",
-      "Teléfono": 3016681838,
-      "Correo electrónico": "anasofia@gmail.com",
-      "Salón": 2,
-      "Estado": "Retirado",
-      "Riesgo": "Alto"
-    },
-    {
-      "Nombre": "Juan David Torres Perez",
-      "ide": 1091358062,
-      "edad": 17,
-      "Género": "masculino",
-      "Dirección": "cra22-6603",
-      "Teléfono": 3016681839,
-      "Correo electrónico": "juandavid@gmail.com",
-      "Salón": 3,
-      "Estado": "Activo",
-      "Riesgo": "Ninguno"
-    },
-    {
-      "Nombre": "Laura Valentina Gomez Sanchez",
-      "ide": 1091358063,
-      "edad": 18,
-      "Género": "femenino",
-      "Dirección": "cra23-6604",
-      "Teléfono": 3016681840,
-      "Correo electrónico": "lauravgomez@gmail.com",
-      "Salón": 3,
-      "Estado": "Graduado",
-      "Riesgo": "Bajo"
-    },
-    {
-      "Nombre": "Andres Felipe Gonzalez Castro",
-      "ide": 1091358064,
-      "edad": 16,
-      "Género": "masculino",
-      "Dirección": "cra24-6605",
-      "Teléfono": 3016681841,
-      "Correo electrónico": "andresfelipe@gmail.com",
-      "Salón": 4,
-      "Estado": "Activo",
-      "Riesgo": "Medio"
-    },
-    {
-      "Nombre": "Sofia Alejandra Herrera Mora",
-      "ide": 1091358065,
-      "edad": 17,
-      "Género": "femenino",
-      "Dirección": "cra25-6606",
-      "Teléfono": 3016681842,
-      "Correo electrónico": "sofiaherrera@gmail.com",
-      "Salón": 4,
-      "Estado": "Retirado",
-      "Riesgo": "Alto"
-    },
-    {
-      "Nombre": "Diego Alejandro Vargas Rojas",
-      "ide": 1091358066,
-      "edad": 18,
-      "Género": "masculino",
-      "Dirección": "cra26-6607",
-      "Teléfono": 3016681843,
-      "Correo electrónico": "diegovargas@gmail.com",
-      "Salón": 5,
-      "Estado": "Activo",
-      "Riesgo": "Ninguno"
-    },
-    {
-      "Nombre": "Valentina Andrea Molina Torres",
-      "ide": 1091358067,
-      "edad": 16,
-      "Género": "femenino",
-      "Dirección": "cra27-6608",
-      "Teléfono": 3016681844,
-      "Correo electrónico": "valentinaandrea@gmail.com",
-      "Salón": 5,
-      "Estado": "Activo",
-      "Riesgo": "Bajo"
-    },
-    {
-      "Nombre": "Jorge Luis Rojas Gutierrez",
-      "ide": 1091358068,
-      "edad": 17,
-      "Género": "masculino",
-      "Dirección": "cra28-6609",
-      "Teléfono": 3016681845,
-      "Correo electrónico": "jorgerojas@gmail.com",
-      "Salón": 6,
-      "Estado": "Activo",
-      "Riesgo": "Medio"
-    },
-    {
-      "Nombre": "Camila Andrea Diaz Lopez",
-      "ide": 1091358069,
-      "edad": 18,
-      "Género": "femenino",
-      "Dirección": "cra29-6610",
-      "Teléfono": 3016681846,
-      "Correo electrónico": "camiladiaz@gmail.com",
-      "Salón": 6,
-      "Estado": "Retirado",
-      "Riesgo": "Alto"
+      {
+          "Nombre": "Sofía",
+          "Apellidos": "Fernández",
+          "ide": 1679814378,
+          "Direccion": "Cra 35 # 88-9",
+          "Telefono Celular": 3144209769,
+          "Telefono fijo": 6004997389,
+          "Correo electrónico": "estudiante0@gmail.com",
+          "Estado": "Aprobado",
+          "Riesgo": "Alto"
+      },
+      {
+          "Nombre": "Laura",
+          "Apellidos": "Ramírez",
+          "ide": 1147671728,
+          "Direccion": "Cra 9 # 77-61",
+          "Telefono Celular": 3078735734,
+          "Telefono fijo": 6078959883,
+          "Correo electrónico": "estudiante1@gmail.com",
+          "Estado": "Retirado",
+          "Riesgo": "Alto"
+      },
+      {
+          "Nombre": "Andrés",
+          "Apellidos": "Pérez",
+          "ide": 1054042195,
+          "Direccion": "Cra 35 # 52-93",
+          "Telefono Celular": 3034795374,
+          "Telefono fijo": 6003051395,
+          "Correo electrónico": "estudiante2@gmail.com",
+          "Estado": "Expulsado",
+          "Riesgo": "Alto"
+      },
+      {
+          "Nombre": "Maria",
+          "Apellidos": "Pérez",
+          "ide": 1379858468,
+          "Direccion": "Cra 38 # 15-44",
+          "Telefono Celular": 3097540519,
+          "Telefono fijo": 6057438779,
+          "Correo electrónico": "estudiante3@gmail.com",
+          "Estado": "Cursando",
+          "Riesgo": "Alto"
+      },
+      {
+          "Nombre": "Andrés",
+          "Apellidos": "Fernández",
+          "ide": 1496199805,
+          "Direccion": "Cra 6 # 94-55",
+          "Telefono Celular": 3196028784,
+          "Telefono fijo": 6085418578,
+          "Correo electrónico": "estudiante4@gmail.com",
+          "Estado": "En proceso de ingreso",
+          "Riesgo": "Bajo"
+      },
+      {
+          "Nombre": "Pablo",
+          "Apellidos": "Torres",
+          "ide": 1617910751,
+          "Direccion": "Cra 68 # 21-10",
+          "Telefono Celular": 3128384780,
+          "Telefono fijo": 6043610894,
+          "Correo electrónico": "estudiante5@gmail.com",
+          "Estado": "Expulsado",
+          "Riesgo": "Alto"
+      },
+      {
+          "Nombre": "Sofía",
+          "Apellidos": "García",
+          "ide": 1274917641,
+          "Direccion": "Cra 3 # 59-70",
+          "Telefono Celular": 3192990746,
+          "Telefono fijo": 6053426281,
+          "Correo electrónico": "estudiante6@gmail.com",
+          "Estado": "Aprobado",
+          "Riesgo": "Bajo"
+      },
+      {
+          "Nombre": "Valentina",
+          "Apellidos": "Pérez",
+          "ide": 1518873117,
+          "Direccion": "Cra 19 # 31-20",
+          "Telefono Celular": 3042690826,
+          "Telefono fijo": 6099443273,
+          "Correo electrónico": "estudiante7@gmail.com",
+          "Estado": "Cursando",
+          "Riesgo": "Bajo"
+      },
+      {
+          "Nombre": "Valentina",
+          "Apellidos": "Ramírez",
+          "ide": 1561282025,
+          "Direccion": "Cra 12 # 58-82",
+          "Telefono Celular": 3051603007,
+          "Telefono fijo": 6071676554,
+          "Correo electrónico": "estudiante8@gmail.com",
+          "Estado": "Retirado",
+          "Riesgo": "Alto"
+      },
+      {
+          "Nombre": "Miguel",
+          "Apellidos": "Martínez",
+          "ide": 1664305965,
+          "Direccion": "Cra 86 # 74-77",
+          "Telefono Celular": 3188485202,
+          "Telefono fijo": 6061275164,
+          "Correo electrónico": "estudiante9@gmail.com",
+          "Estado": "Cursando",
+          "Riesgo": "Bajo"
+      },
+      {
+          "Nombre": "Camila",
+          "Apellidos": "Sánchez",
+          "ide": 1135571765,
+          "Direccion": "Cra 5 # 69-57",
+          "Telefono Celular": 3113389946,
+          "Telefono fijo": 6053475898,
+          "Correo electrónico": "estudiante10@gmail.com",
+          "Estado": "Expulsado",
+          "Riesgo": "Alto"
+      },
+      {
+          "Nombre": "Laura",
+          "Apellidos": "Martínez",
+          "ide": 1618880493,
+          "Direccion": "Cra 89 # 85-22",
+          "Telefono Celular": 3163377429,
+          "Telefono fijo": 6096018978,
+          "Correo electrónico": "estudiante11@gmail.com",
+          "Estado": "Retirado",
+          "Riesgo": "Bajo"
+      },
+      {
+          "Nombre": "Laura",
+          "Apellidos": "Fernández",
+          "ide": 1192521802,
+          "Direccion": "Cra 54 # 58-1",
+          "Telefono Celular": 3108938423,
+          "Telefono fijo": 6029796612,
+          "Correo electrónico": "estudiante12@gmail.com",
+          "Estado": "En proceso de ingreso",
+          "Riesgo": "Alto"
+      },
+      {
+          "Nombre": "Andrés",
+          "Apellidos": "Martínez",
+          "ide": 1929005776,
+          "Direccion": "Cra 80 # 4-93",
+          "Telefono Celular": 3091116245,
+          "Telefono fijo": 6079739780,
+          "Correo electrónico": "estudiante13@gmail.com",
+          "Estado": "Expulsado",
+          "Riesgo": "Alto"
+      },
+      {
+          "Nombre": "Miguel",
+          "Apellidos": "García",
+          "ide": 1504761748,
+          "Direccion": "Cra 88 # 92-93",
+          "Telefono Celular": 3153142067,
+          "Telefono fijo": 6011161366,
+          "Correo electrónico": "estudiante14@gmail.com",
+          "Estado": "Graduado",
+          "Riesgo": "Alto"
+      },
+      {
+          "Nombre": "Carlos",
+          "Apellidos": "Martínez",
+          "ide": 1495043302,
+          "Direccion": "Cra 89 # 83-80",
+          "Telefono Celular": 3072653532,
+          "Telefono fijo": 6077538954,
+          "Correo electrónico": "estudiante15@gmail.com",
+          "Estado": "Retirado",
+          "Riesgo": "Bajo"
+      },
+      {
+          "Nombre": "Sofía",
+          "Apellidos": "Rodríguez",
+          "ide": 1834939781,
+          "Direccion": "Cra 24 # 26-43",
+          "Telefono Celular": 3040117145,
+          "Telefono fijo": 6029501090,
+          "Correo electrónico": "estudiante16@gmail.com",
+          "Estado": "En proceso de ingreso",
+          "Riesgo": "Alto"
+      },
+      {
+          "Nombre": "Miguel",
+          "Apellidos": "López",
+          "ide": 1514879383,
+          "Direccion": "Cra 47 # 8-25",
+          "Telefono Celular": 3196006808,
+          "Telefono fijo": 6095035938,
+          "Correo electrónico": "estudiante17@gmail.com",
+          "Estado": "Aprobado",
+          "Riesgo": "Alto"
+      },
 
-        }
+      {
+          "Nombre": "Miguel",
+          "Apellidos": "Martínez",
+          "ide": 1015911169,
+          "Direccion": "Cra 39 # 8-31",
+          "Telefono Celular": 3126887185,
+          "Telefono fijo": 6013575592,
+          "Correo electrónico": "estudiante59@gmail.com",
+          "Estado": "Inscrito",
+          "Riesgo": "Bajo"
+      }
   ]
 }
-=======
-  {
-    "campers": [
-      {
-        "Nombre": "Pablo Andres Pinzon Solano",
-        "ide": 1091358058,
-        "edad": 16,
-        "Género": "masculino",
-        "Dirección": "cra18-6599",
-        "Teléfono": 3016681835,
-        "Correo electrónico": "tommyelite25@gmail.com",
-        "Salón": 1,
-        "Estado": "Activo",
-        "Riesgo": "Ninguno"
-      },
-      {
-        "Nombre": "Maria Fernanda Lopez Gomez",
-        "ide": 1091358059,
-        "edad": 17,
-        "Género": "femenino",
-        "Dirección": "cra19-6600",
-        "Teléfono": 3016681836,
-        "Correo electrónico": "mariafernanda@gmail.com",
-        "Salón": 1,
-        "Estado": "Activo",
-        "Riesgo": "Bajo"
-      },
-      {
-        "Nombre": "Carlos Alberto Martinez Ruiz",
-        "ide": 1091358060,
-        "edad": 18,
-        "Género": "masculino",
-        "Dirección": "cra20-6601",
-        "Teléfono": 3016681837,
-        "Correo electrónico": "carlosmartinez@gmail.com",
-        "Salón": 2,
-        "Estado": "Activo",
-        "Riesgo": "Medio"
-      },
-      {
-        "Nombre": "Ana Sofia Ramirez Diaz",
-        "ide": 1091358061,
-        "edad": 16,
-        "Género": "femenino",
-        "Dirección": "cra21-6602",
-        "Teléfono": 3016681838,
-        "Correo electrónico": "anasofia@gmail.com",
-        "Salón": 2,
-        "Estado": "Retirado",
-        "Riesgo": "Alto"
-      },
-      {
-        "Nombre": "Juan David Torres Perez",
-        "ide": 1091358062,
-        "edad": 17,
-        "Género": "masculino",
-        "Dirección": "cra22-6603",
-        "Teléfono": 3016681839,
-        "Correo electrónico": "juandavid@gmail.com",
-        "Salón": 3,
-        "Estado": "Activo",
-        "Riesgo": "Ninguno"
-      },
-      {
-        "Nombre": "Laura Valentina Gomez Sanchez",
-        "ide": 1091358063,
-        "edad": 18,
-        "Género": "femenino",
-        "Dirección": "cra23-6604",
-        "Teléfono": 3016681840,
-        "Correo electrónico": "lauravgomez@gmail.com",
-        "Salón": 3,
-        "Estado": "Graduado",
-        "Riesgo": "Bajo"
-      },
-      {
-        "Nombre": "Andres Felipe Gonzalez Castro",
-        "ide": 1091358064,
-        "edad": 16,
-        "Género": "masculino",
-        "Dirección": "cra24-6605",
-        "Teléfono": 3016681841,
-        "Correo electrónico": "andresfelipe@gmail.com",
-        "Salón": 4,
-        "Estado": "Activo",
-        "Riesgo": "Medio"
-      },
-      {
-        "Nombre": "Sofia Alejandra Herrera Mora",
-        "ide": 1091358065,
-        "edad": 17,
-        "Género": "femenino",
-        "Dirección": "cra25-6606",
-        "Teléfono": 3016681842,
-        "Correo electrónico": "sofiaherrera@gmail.com",
-        "Salón": 4,
-        "Estado": "Retirado",
-        "Riesgo": "Alto"
-      },
-      {
-        "Nombre": "Diego Alejandro Vargas Rojas",
-        "ide": 1091358066,
-        "edad": 18,
-        "Género": "masculino",
-        "Dirección": "cra26-6607",
-        "Teléfono": 3016681843,
-        "Correo electrónico": "diegovargas@gmail.com",
-        "Salón": 5,
-        "Estado": "Activo",
-        "Riesgo": "Ninguno"
-      },
-      {
-        "Nombre": "Valentina Andrea Molina Torres",
-        "ide": 1091358067,
-        "edad": 16,
-        "Género": "femenino",
-        "Dirección": "cra27-6608",
-        "Teléfono": 3016681844,
-        "Correo electrónico": "valentinaandrea@gmail.com",
-        "Salón": 5,
-        "Estado": "Activo",
-        "Riesgo": "Bajo"
-      },
-      {
-        "Nombre": "Jorge Luis Rojas Gutierrez",
-        "ide": 1091358068,
-        "edad": 17,
-        "Género": "masculino",
-        "Dirección": "cra28-6609",
-        "Teléfono": 3016681845,
-        "Correo electrónico": "jorgerojas@gmail.com",
-        "Salón": 6,
-        "Estado": "Activo",
-        "Riesgo": "Medio"
-      },
-      {
-        "Nombre": "Camila Andrea Diaz Lopez",
-        "ide": 1091358069,
-        "edad": 18,
-        "Género": "femenino",
-        "Dirección": "cra29-6610",
-        "Teléfono": 3016681846,
-        "Correo electrónico": "camiladiaz@gmail.com",
-        "Salón": 6,
-        "Estado": "Retirado",
-        "Riesgo": "Alto"
-
-          },
-          {
-            "Nombre": "Camila Estefania Rojas Medina",
-            "ide": 1091358091,
-            "edad": 16,
-            "Género": "femenino",
-            "Dirección": "cra51-6632",
-            "Teléfono": 3016681868,
-            "Correo electrónico": "camilam@gmail.com",
-            "Salón": 10
-        },
-        {
-            "Nombre": "Luis Alejandro Torres Sanchez",
-            "ide": 1091358092,
-            "edad": 17,
-            "Género": "masculino",
-            "Dirección": "cra52-6633",
-            "Teléfono": 3016681869,
-            "Correo electrónico": "luisatorres@gmail.com",
-            "Salón": 11
-        },
-        {
-            "Nombre": "Daniela Sofia Lopez Gutierrez",
-            "ide": 1091358093,
-            "edad": 18,
-            "Género": "femenino",
-            "Dirección": "cra53-6634",
-            "Teléfono": 3016681870,
-            "Correo electrónico": "danielalopez@gmail.com",
-            "Salón": 12
-        }
-        
-    ]
-  }
-  
->>>>>>> 59e4c68d0617d6001368df4e8079084ec8a08205

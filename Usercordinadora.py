@@ -5,7 +5,7 @@ def abrirJSON():
         with open("./estudiantes.json", 'r') as openFile:
             estudiantes = json.load(openFile)
     except FileNotFoundError:
-        estudiantes = []  # Si el archivo no existe, se crea una lista vacía
+        estudiantes = {"campers": []} 
     return estudiantes
 # Función para guardar el inventario en un archivo JSON
 def guardarJSON(estudiantes):
@@ -14,129 +14,90 @@ def guardarJSON(estudiantes):
 
 
 def agregarEstudiantes(estudiantes): 
-    print("\nAgregar un nuevo Estudiante i:")
+    print("Agregar un nuevo Estudiante i:")
     ide= int(input("Ingresa el ID: "))
+    for estudiante in estudiantes["campers"]:
+        if estudiante["ide"] == ide:
+            print ("El id ya existe")
+            return
+        
     Nombre = input("Ingresa el nombre: ")
-    edad =  int(input("Ingresa la edad: "))
-    Género = input("Ingresa el precio: ")
-    Dirección = (input("Ingresa el stock: "))
-    Teléfono = int(input("ingrese el numero de telefono: "))
+    Direccion = (input("Ingresa el stock: "))
+    TelefonoCel = int(input("ingrese el numero de telefono celular: "))
+    TelefonoFijo = int(input("ingrese el numero de telefono fijo: "))
     correoElectronico= (input("ingrese el correo electronico: "))
-    salon= int(input("ingrese el numero del salon: "))
     estado= input("ingrense el estado del estudiante : ")
     riesgo= input("ingrese el nivel de riesgo : ")
     estudiante23 ={
     "ide": ide,
-    "nombre": Nombre,
-    "edad": edad,
-    "genero":Género,
-    "Direccion" : Dirección,
-    "telefono": Teléfono,
-    "correoElectronico": correoElectronico,
-    "salon": salon,
-    "estado": estado,
-    "salon ": salon,
-    "estado": estado,
-    "riesgo": riesgo,
+    "Nombre": Nombre,
+    "Dirección" : Direccion,
+    "Telefono Celular": TelefonoCel,
+    "Telefono Fijo": TelefonoFijo,
+    "Correo electrónico": correoElectronico,
+    "Estado": estado,
+    "Riesgo": riesgo,
     }
 
-    estudiantes.append(estudiante23)
+    estudiantes["campers"].append(estudiante23)
     guardarJSON(estudiantes)
     print("estudiante agregado con exito")
 
-def actualizar_estado_riesgo(lista_estudiantes, ide, nuevo_estado, nuevo_riesgo):
-    for estudiante in lista_estudiantes:
-        if estudiante["ide"] == ide:
-            estudiante["estado"] = nuevo_estado
-            estudiante["riesgo"] = nuevo_riesgo
-            print(f"Estado y riesgo actualizados para {estudiante['nombre']}")
-            return True
-    print("Estudiante no encontrado.")
-    return False
-def cargar_desde_json(archivo="estudiantes.json"):
-    try:
-        with open(archivo, "r") as file:
-            return json.load(file)
-    except FileNotFoundError:
-        return []  
+def verestudiantes(estudiantes):
+    for i,estudiantes in enumerate (estudiantes["campers"], 1):
+        print("Estudiante "),i+1
+        print("  ID: " + str(estudiantes['ide']))
+        print("  Nombre: " + estudiantes['Nombre'])
+        print("  Dirección: " + estudiantes['Direccion'])
+        print("  Teléfono Celular: " + str(estudiantes['Telefono Celular']))
+        print("  Teléfono Fijo: " + str(estudiantes['Telefono Fijo']))
+        print("  Correo Electrónico: " + estudiantes['Correo electronico'])
+        print("  Estado: " + estudiantes['Estado'])
+        print("  Riesgo: " + estudiantes['Riesgo'])
 
-def registrar_notas():
-    ide = int(input("Ingrese el id del estu"))
-    notateorica=int(input("Ingrese nota teorica del estudiante"))
-
-def editar_estudi(lista_estudiantes):
-    while True:
-        ide= int(input("Ingrese el id del estudiante a editar"))
-        estudiencon= None
-        for estudiante in lista_estudiantes:
-            if estudiante ["ide"] == ide:
-                estudiencon = estudiante
-                break
-            else:
-                print ("id no encontrado")
-                return
-    
-        print ("Que desea editar")
-        print("1. Nombre")
-        print("2. Edad")
-        print("3. Género")
-        print("4. Dirección")
-        print("5. Teléfono")
-        print("6. Correo electrónico")
-        print("7. Salón")
-        print("8. Estado")
-        print("9. Riesgo")
-        print("10. Volver a menu")
-    
-        op=int(input("Selecione una opcion digitando el numero"))
-
-        if op == "1":
-            estudiencon["nombre"] = input ("Ingrese el nuevo nombre")
-        elif op =="2":
-            estudiencon["edad"] = input ("Ingrese la nueva edad")
-        elif op== "3":
-            estudiencon["genero"] = input("Ingrese el nuevo genero")
-        elif op== "4":
-            estudiencon["direccion"] = input("Ingrese la nueva direccion")
-        elif op == "5":
-            estudiencon["telefono"] = int(input("Ingrese el nuevo telefono"))
-        elif op == "6":
-            estudiencon["correo_electronico"] = input("Ingrese el nuevo correo electronico")
-        elif op == "7":
-            estudiencon["salon"] = int(input("Ingrese el nuevo salon"))
-        elif op == "8":
-            estudiencon["estado"] = input("Ingrese el nuevo estado")
-        elif op == "9":
-            estudiencon["riesgo"] = input("Ingrese el nuevo nivel de riesgo")
-        elif op == "10":
+def editar_estudi(estudiantes):
+    ide= int(input("Ingrese el id del estudiante a editar"))
+    estudiencon= None
+    for estudiante in estudiantes["campers"]:
+        if estudiante ["ide"] == ide:
+            estudiencon = estudiante
             break
 
-        else:
-            print("Opcion no valida")
-            return 
+    print ("Que desea editar")
+    print("1. Nombre")
+    print("2. Direccion")
+    print("3. Telefono Celular")
+    print("4. Telefono Fijo")        
+    print("5. Correo electrónico")
+    print("6. Estado")
+    print("7. Riesgo")
+    print("8. Volver a menu")
     
-        guardarJSON(lista_estudiantes)
-        print
+    op=input("Selecione una opcion digitando el numero")
 
-lista_estudiantes = cargar_desde_json()
+    if op == "1":
+        estudiencon["Nombre"] = str(input("Ingrese el nuevo nombre"))
+    elif op =="2":
+        estudiencon["Direccion"] = input("Ingrese la nueva direccion")
+    elif op == "3":
+        estudiencon["Telefono Celular"] = int(input("Ingrese el nuevo telefono celular"))
+    elif op == "4":
+        estudiencon["Telefono Fijo"] = int(input("Ingrese el nuevo telefono fijo"))
+    elif op == "5":
+        estudiencon["Correo electronico"] = input("Ingrese el nuevo correo electronico")
+    elif op == "6":
+        estudiencon["Estado"] = input("Ingrese el nuevo estado")
+    elif op == "7":
+        estudiencon["Riesgo"] = input("Ingrese el nuevo nivel de riesgo")
+    elif op == "8":
+        return
 
-
-ide = input("Ingrese el ID del estudiante: ")
-nuevo_estado = input("Ingrese el nuevo estado (Inscrito, Aprobado, etc.): ")
-nuevo_riesgo = input("Ingrese el nivel de riesgo (Alto, Medio, Bajo, No determinado): ")
-
-if actualizar_estado_riesgo(lista_estudiantes, ide, nuevo_estado, nuevo_riesgo):
-    cargar_desde_json(lista_estudiantes)
-    print("Cambios guardados exitosamente.")
-
-lista_estudiantes = cargar_desde_json()
-
-
-ide = input("Ingrese el ID del estudiante: ")
-nuevo_estado = input("Ingrese el nuevo estado (Inscrito, Aprobado, etc.): ")
-nuevo_riesgo = input("Ingrese el nivel de riesgo (Alto, Medio, Bajo, No determinado): ")
-
-if actualizar_estado_riesgo(lista_estudiantes, ide, nuevo_estado, nuevo_riesgo):
-    cargar_desde_json(lista_estudiantes)
-    print("Cambios guardados exitosamente.")
+    else:
+        print("Opcion no valida")
+        return 
     
+    guardarJSON(estudiantes)
+
+estudiantes = abrirJSON()   
+
+verestudiantes = (estudiantes)

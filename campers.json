@@ -1,77 +1,209 @@
 {
-    "campers": [
-        {
-            "Nombre": "Sofía",
-            "Apellidos": "Fernández",
-            "ide": 1679814378,
-            "Acudiente": "Pilar",
-            "Direccion": "Cra 35 # 88-9",
-            "Telefono Celular": 3144209769,
-            "Telefono fijo": 6004997389,
-            "Correo electrónico": "estudiante0@gmail.com",
-            "Estado": "Aprobado",
-            "Riesgo": "Alto"
-        },
-        {
-            "Nombre": "Mateo",
-            "Apellidos": "García",
-            "ide": 1689714379,
-            "Acudiente": "Juan",
-            "Direccion": "Cll 12 # 23-45",
-            "Telefono Celular": 3156789023,
-            "Telefono fijo": 6004997390,
-            "Correo electrónico": "estudiante1@gmail.com",
-            "Estado": "Pendiente",
-            "Riesgo": "Medio"
-        },
-        {
-            "Nombre": "Valentina",
-            "Apellidos": "López",
-            "ide": 1699814380,
-            "Acudiente": "Maria",
-            "Direccion": "Av 30 # 56-78",
-            "Telefono Celular": 3167890123,
-            "Telefono fijo": 6004997391,
-            "Correo electrónico": "estudiante2@gmail.com",
-            "Estado": "Aprobado",
-            "Riesgo": "Bajo"
-        },
-        {
-            "Nombre": "Andrés",
-            "Apellidos": "Martínez",
-            "ide": 1709814381,
-            "Acudiente": "Carlos",
-            "Direccion": "Cra 50 # 99-21",
-            "Telefono Celular": 3178901234,
-            "Telefono fijo": 6004997392,
-            "Correo electrónico": "estudiante3@gmail.com",
-            "Estado": "Rechazado",
-            "Riesgo": "Alto"
-        },
-        {
-            "Nombre": "Camila",
-            "Apellidos": "Ramírez",
-            "ide": 1719814382,
-            "Acudiente": "Laura",
-            "Direccion": "Cll 5 # 40-66",
-            "Telefono Celular": 3189012345,
-            "Telefono fijo": 6004997393,
-            "Correo electrónico": "estudiante4@gmail.com",
-            "Estado": "Pendiente",
-            "Riesgo": "Medio"
-        },
-        {
-            "Nombre": "Juan",
-            "Apellidos": "Pérez",
-            "ide": 1729814383,
-            "Acudiente": "Roberto",
-            "Direccion": "Av 7 # 80-12",
-            "Telefono Celular": 3190123456,
-            "Telefono fijo": 6004997394,
-            "Correo electrónico": "estudiante5@gmail.com",
-            "Estado": "Aprobado",
-            "Riesgo": "Bajo"
-        }
-        
+"campers": [
+    {
+        "Nombre": "Sofía",
+        "Apellidos": "Fernández",
+        "ide": 1679814378,
+        "Acudiente": "Pilar",
+        "Direccion": "Cra 35 # 88-9",
+        "Telefono Celular": 3144209769,
+        "Telefono fijo": 6004997389,
+        "Correo electrónico": "estudiante0@gmail.com",
+        "Estado": "Aprobado",
+        "Riesgo": "Alto"
+    },
+    {
+        "Nombre": "Juan",
+        "Apellidos": "Gómez",
+        "ide": 1679814379,
+        "Acudiente": "María",
+        "Direccion": "Calle 12 # 34-56",
+        "Telefono Celular": 3101234567,
+        "Telefono fijo": 6012345678,
+        "Correo electrónico": "estudiante1@gmail.com",
+        "Estado": "Inscrito",
+        "Riesgo": "Bajo"
+    },
+    {
+        "Nombre": "Laura",
+        "Apellidos": "Martínez",
+        "ide": 1679814380,
+        "Acudiente": "Carlos",
+        "Direccion": "Av 7 # 23-45",
+        "Telefono Celular": 3112345678,
+        "Telefono fijo": 6023456789,
+        "Correo electrónico": "estudiante2@gmail.com",
+        "Estado": "En proceso de ingreso",
+        "Riesgo": "Alto"
+    },
+    {
+        "Nombre": "Carlos",
+        "Apellidos": "López",
+        "ide": 1679814381,
+        "Acudiente": "Ana",
+        "Direccion": "Cra 8 # 12-34",
+        "Telefono Celular": 3123456789,
+        "Telefono fijo": 6034567890,
+        "Correo electrónico": "estudiante3@gmail.com",
+        "Estado": "Cursando",
+        "Riesgo": "Bajo"
+    },
+    {
+        "Nombre": "Ana",
+        "Apellidos": "García",
+        "ide": 1679814382,
+        "Acudiente": "Luis",
+        "Direccion": "Calle 45 # 67-89",
+        "Telefono Celular": 3134567890,
+        "Telefono fijo": 6045678901,
+        "Correo electrónico": "estudiante4@gmail.com",
+        "Estado": "Graduado",
+        "Riesgo": "Alto"
+    },
+    {
+        "Nombre": "Luis",
+        "Apellidos": "Rodríguez",
+        "ide": 1679814383,
+        "Acudiente": "Sofía",
+        "Direccion": "Cra 10 # 20-30",
+        "Telefono Celular": 3145678901,
+        "Telefono fijo": 6056789012,
+        "Correo electrónico": "estudiante5@gmail.com",
+        "Estado": "Expulsado",
+        "Riesgo": "Bajo"
+    },
+    {
+        "Nombre": "María",
+        "Apellidos": "Pérez",
+        "ide": 1679814384,
+        "Acudiente": "Juan",
+        "Direccion": "Av 3 # 45-67",
+        "Telefono Celular": 3156789012,
+        "Telefono fijo": 6067890123,
+        "Correo electrónico": "estudiante6@gmail.com",
+        "Estado": "Retirado",
+        "Riesgo": "Alto"
+    },
+    {
+        "Nombre": "Pedro",
+        "Apellidos": "Sánchez",
+        "ide": 1679814385,
+        "Acudiente": "Laura",
+        "Direccion": "Calle 78 # 90-12",
+        "Telefono Celular": 3167890123,
+        "Telefono fijo": 6078901234,
+        "Correo electrónico": "estudiante7@gmail.com",
+        "Estado": "Aprobado",
+        "Riesgo": "Bajo"
+    },
+    {
+        "Nombre": "Lucía",
+        "Apellidos": "Ramírez",
+        "ide": 1679814386,
+        "Acudiente": "Carlos",
+        "Direccion": "Cra 15 # 25-35",
+        "Telefono Celular": 3178901234,
+        "Telefono fijo": 6089012345,
+        "Correo electrónico": "estudiante8@gmail.com",
+        "Estado": "Inscrito",
+        "Riesgo": "Alto"
+    },
+    {
+        "Nombre": "Jorge",
+        "Apellidos": "Torres",
+        "ide": 1679814387,
+        "Acudiente": "Ana",
+        "Direccion": "Av 5 # 10-20",
+        "Telefono Celular": 3189012345,
+        "Telefono fijo": 6090123456,
+        "Correo electrónico": "estudiante9@gmail.com",
+        "Estado": "En proceso de ingreso",
+        "Riesgo": "Bajo"
+    },
+    {
+        "Nombre": "Carmen",
+        "Apellidos": "Flores",
+        "ide": 1679814388,
+        "Acudiente": "Luis",
+        "Direccion": "Calle 30 # 40-50",
+        "Telefono Celular": 3190123456,
+        "Telefono fijo": 6101234567,
+        "Correo electrónico": "estudiante10@gmail.com",
+        "Estado": "Cursando",
+        "Riesgo": "Alto"
+    },
+    {
+        "Nombre": "Diego",
+        "Apellidos": "Hernández",
+        "ide": 1679814389,
+        "Acudiente": "Sofía",
+        "Direccion": "Cra 20 # 30-40",
+        "Telefono Celular": 3201234567,
+        "Telefono fijo": 6112345678,
+        "Correo electrónico": "estudiante11@gmail.com",
+        "Estado": "Graduado",
+        "Riesgo": "Bajo"
+    },
+    {
+        "Nombre": "Elena",
+        "Apellidos": "Díaz",
+        "ide": 1679814390,
+        "Acudiente": "Juan",
+        "Direccion": "Av 9 # 11-22",
+        "Telefono Celular": 3212345678,
+        "Telefono fijo": 6123456789,
+        "Correo electrónico": "estudiante12@gmail.com",
+        "Estado": "Expulsado",
+        "Riesgo": "Alto"
+    },
+    {
+        "Nombre": "Fernando",
+        "Apellidos": "Morales",
+        "ide": 1679814391,
+        "Acudiente": "Laura",
+        "Direccion": "Calle 50 # 60-70",
+        "Telefono Celular": 3223456789,
+        "Telefono fijo": 6134567890,
+        "Correo electrónico": "estudiante13@gmail.com",
+        "Estado": "Retirado",
+        "Riesgo": "Bajo"
+    },
+    {
+        "Nombre": "Gabriela",
+        "Apellidos": "Ortiz",
+        "ide": 1679814392,
+        "Acudiente": "Carlos",
+        "Direccion": "Cra 25 # 35-45",
+        "Telefono Celular": 3234567890,
+        "Telefono fijo": 6145678901,
+        "Correo electrónico": "estudiante14@gmail.com",
+        "Estado": "Aprobado",
+        "Riesgo": "Alto"
+    },
+    {
+        "Nombre": "Héctor",
+        "Apellidos": "Gutiérrez",
+        "ide": 1679814393,
+        "Acudiente": "Ana",
+        "Direccion": "Av 2 # 4-6",
+        "Telefono Celular": 3245678901,
+        "Telefono fijo": 6156789012,
+        "Correo electrónico": "estudiante15@gmail.com",
+        "Estado": "Inscrito",
+        "Riesgo": "Bajo"
+    },
+    {
+        "Nombre": "Isabel",
+        "Apellidos": "Vargas",
+        "ide": 1679814394,
+        "Acudiente": "Luis",
+        "Direccion": "Calle 80 # 90-100",
+        "Telefono Celular": 3256789012,
+        "Telefono fijo": 6167890123,
+        "Correo electrónico": "estudiante16@gmail.com",
+        "Estado": "En proceso de ingreso",
+        "Riesgo": "Alto"
+    }
+
     ]
-}
+}    

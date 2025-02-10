@@ -1,4 +1,5 @@
 import json 
+
 def abrirJSON():
     try:
         with open("./campers.json", 'r') as openFile:

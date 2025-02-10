@@ -1,0 +1,131 @@
+{
+    "rutas" : {
+        "Ruta Java": [
+            "Intro",
+            "Python",
+            "HTML/CSS",
+            "Scrum",
+            "Git",
+            "JavaScript",
+            "Intro Back",
+            "Intro BBDD",
+            "MySQL",
+            "Java",
+            "PostgreSQL",
+            "SpringBoot"
+        ],
+        "Ruta NodeJS": [
+            "Intro",
+            "Python",
+            "HTML/CSS",
+            "Scrum",
+            "Git",
+            "JavaScript",
+            "Intro Back",
+            "Intro BBDD",
+            "MongoDB",
+            "JavaScript",
+            "MySQL",
+            "Express"
+        ],
+        "Ruta .NET": [
+            "Intro",
+            "Python",
+            "HTML/CSS",
+            "Scrum",
+            "Git",
+            "JavaScript",
+            "Intro Back",
+            "Intro BBDD",
+            "MySQL",
+            "C#",
+            "PostgreSQL",
+            ".Net Core"
+        ]
+    },
+    "trainers M1":{
+
+        "P1":[ 
+        "Ruta Java"
+        ],
+
+        "A1":[ 
+            "Ruta Java"
+            ],
+
+        "T1":[ 
+        "Ruta Java"
+          ],
+
+        "D1":[ 
+            "Ruta Java"
+            ],
+
+        "U1":[ 
+            "Ruta Java"
+            ]              
+
+        },
+
+    "trainers M2":{
+
+        "P2":[ 
+        "Ruta .NET"
+        ],
+
+        "A2":[ 
+        "Ruta .NET"
+        ],  
+
+        "T2":[ 
+        "Ruta .NET"
+        ],
+        "D2":[ 
+        "Ruta .NET"
+        ],
+        
+        "U2":[ 
+        "Ruta .NET"
+        ]
+        
+
+    },
+    "trainers T":{
+
+        "P4":[ 
+        "Ruta NodeJS"
+        ],
+        "P3":[ 
+        "Ruta .NET"
+        ],
+        "A4":[ 
+        "Ruta NodeJS"
+        ],
+        "A3":[ 
+        "Ruta .NET"
+        ],
+          
+        "T4":[ 
+            "Ruta NodeJS"
+            ],
+            "T3":[ 
+            "Ruta .NET"
+            ],
+            "D4":[ 
+            "Ruta NodeJS"
+            ],
+            "D3":[ 
+            "Ruta .NET"
+            ],
+            "U4":[ 
+            "Ruta NodeJS"
+            ],
+            "U3":[ 
+            "Ruta .NET"
+            ]
+        
+
+    }
+
+
+}

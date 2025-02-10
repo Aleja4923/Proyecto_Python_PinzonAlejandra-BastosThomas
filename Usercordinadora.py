@@ -15,7 +15,7 @@ def guardarJSON(estudiantes):
 estudiantes = abrirJSON()   
 
 def agregarEstudiantes(): 
-    print("Agregar un nuevo Estudiante i:")
+    print("Agregar nuevo estudiante:")
     ide= int(input("Ingresa el ID: "))
     for estudiante in estudiantes["campers"]:
         if estudiante["ide"] == ide:

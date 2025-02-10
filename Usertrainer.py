@@ -20,8 +20,3 @@ def registrar_notas():
             nota_practica = (input("Nota Práctica (0-100): "))
             nota_quices = (input("Nota de Quices/Trabajos (0-100): "))
             notafinal= (nota_quices*0,1)(nota_practica*0.6)(nota_teorica*0,3)/3
-        if notafinal > 59:
-            idees["campers"]["estado"] = ["aprobado"]
-        else:
-            idees["campers"]["estado"] = ["desaprobado"]
-            

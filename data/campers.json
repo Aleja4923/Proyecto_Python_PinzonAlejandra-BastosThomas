@@ -1,5 +1,4 @@
-{
-"campers": [
+[
     {
         "Nombre": "Sofía",
         "Apellidos": "Fernández",
@@ -205,5 +204,4 @@
         "Riesgo": "Alto"
     }
 
-    ]
-}    
+]

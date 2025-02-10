@@ -1,4 +1,9 @@
 import json
+import tabulate
+
+RUTA_campers = "data/campers.json"  
+RUTA_notas = "data/notas.json"  
+RUTA_rutas = "data/rutas.json"
 # Función para cargar el inventario desde un archivo JSON
 def abrirJSON():
     try:
@@ -12,42 +17,38 @@ def guardarJSON(estudiantes):
     with open("./campers.json", 'w') as outFile:
         json.dump(estudiantes, outFile, indent=4)  # indent=4 para formato legible
 
+
+
+
 estudiantes = abrirJSON()   
 
-def agregarEstudiantes(): 
-    print("Agregar nuevo estudiante:")
-    ide= int(input("Ingresa el ID: "))
-    for estudiante in estudiantes["campers"]:
-        if estudiante["ide"] == ide:
-            print ("El id ya existe")
-            return
-        
-    Nombre = input("Ingresa el nombre: ")
-    Apellido = input ("Ingrese el apellido")
-    Acudiente = input ("Ingrese el acudiente")
-    Direccion = (input("Ingresa la dirreción: "))
-    TelefonoCel = int(input("ingrese el numero de telefono celular: "))
-    TelefonoFijo = int(input("ingrese el numero de telefono fijo: "))
-    correoElectronico= (input("ingrese el correo electronico: "))
-    estado= input("ingrense el estado del estudiante : ")
-    riesgo= input("ingrese el nivel de riesgo : ")
-    estudiante23 ={
-    "ide": ide,
-    "Nombre": Nombre,
-    "Apellido": Apellido,
-    "Acudiente": Acudiente,
-    "Dirección" : Direccion,
-    "Telefono Celular": TelefonoCel,
-    "Telefono Fijo": TelefonoFijo,
-    "Correo electrónico": correoElectronico,
-    "Estado": estado,
-    "Riesgo": riesgo,
+def agregarEstudiantes():
+    ide = input("Ingresa el ide : ")
+    nombre = input("Ingresa el nombre: ")
+    apellido = input("Ingrese el apellido: ")
+    acudiente = input("Ingrese el acudiente: ")
+    direccion = input("Ingresa la dirección: ")
+    telefono_cel = input("Ingrese el número de teléfono celular: ")
+    telefono_fijo = input("Ingrese el número de teléfono fijo: ")
+    correo_electronico = input("Ingrese el correo electrónico: ")
+    estado = input("Ingrese el estado del estudiante: ")
+    riesgo = input("Ingrese el nivel de riesgo: ")
+    
+    estudiante = {
+        "ide": ide,
+        "Nombre": nombre,
+        "Apellido": apellido,
+        "Acudiente": acudiente,
+        "Dirección": direccion,
+        "Telefono Celular": telefono_cel,
+        "Telefono Fijo": telefono_fijo,
+        "Correo Electrónico": correo_electronico,
+        "Estado": estado,
+        "Riesgo": riesgo
     }
-
-    estudiantes["campers"].append(estudiante23)
-    guardarJSON(estudiantes)
-    print("estudiante agregado con exito")
-
+    
+    campers[ide] = estudiante
+    print("Estudiante agregado con éxito.")
 
 
 def verestudiantes(estudiantes):
@@ -114,32 +115,37 @@ def editar_estudi(estudiantes):
     guardarJSON(estudiantes)
 
 
+campers = {}  # Diccionario para almacenar los datos de los campers
+
 def registrarNotas():
-    campers = guardarJSON
-    ide = input("ingrese el ID del camper : ")
+    ide = input("Ingrese el ID del camper: ")
     if ide in campers:
-        notas = input("agrega la nota de 10 a 100 :")
-        campers[ide]["nota"]=notas
-        print ("nota actualizada correctamente")
+        notas = input("Agrega la nota de 10 a 100: ")
+        campers[ide]["nota"] = notas
+        print("Nota actualizada correctamente")
     else:
-        print("camper no encontrado.")
+        print("Camper no encontrado. Registrándolo...")
+        campers[ide] = {"nota": notas}
+        print("Camper registrado y nota guardada.")
+
 def horarios():
-    campers= guardarJSON()
     print("\n--- Gestión de Horarios ---")
-    ide= input("ingrese el id del camper: " )
+    ide = input("Ingrese el ID del camper: ")
     if ide in campers:
         print("1. Asignar horario")
-        print("2. cosultar horario")
-        opcion = input("seleccione una opcion: ")
+        print("2. Consultar horario")
+        opcion = input("Seleccione una opción: ")
         if opcion == "1":
-            horario= input("ingrese el horario (Ej: joranda de la mañana 6 am a 2 pm o tarde 2pm a 10pm)")
+            horario = input("Ingrese el horario (Ej: jornada de la mañana 6 am a 2 pm o tarde 2 pm a 10 pm): ")
             campers[ide]["horario"] = horario
-            print("horario asignado correctamente. ")
-        elif opcion == "2 ":
-            if " horario" in campers[ide]:
-                print(f"horario actual: {campers[ide]["horario"]}")
+            print("Horario asignado correctamente.")
+        elif opcion == "2":
+            if "horario" in campers[ide]:
+                print(f"Horario actual: {campers[ide]['horario']}")
             else:
-                print("El camper no tiene un horario asignado .")
+                print("El camper no tiene un horario asignado.")
+    else:
+        print("no joda")
 def reportes ():
     campers= guardarJSON()
     print("--- Generacion de reportes --- ")
@@ -149,17 +155,18 @@ def reportes ():
     if opcion=="1":
         print("----Campers Matriculados ---")
         for ide, datos in campers.items():
-            if "cursos"in datos and datos ["cursos"]:
-                print(f"Id:{ide}- nombre: {datos["Nombre"]} - cursos: {", ".join(datos["cursos"])}")
-        print("-"*30)  
-    elif opcion == "2":
-        print ("--- campers en riesgo -----")
-        for ide, datos in campers.items():
-            if datos.get("riesgo", "bajo") in ["meido","alto"]:
-                print(f"Id:{ide}- nombre: {datos["Nombre"]} - cursos: {", ".join(datos["cursos"])}")
-                print("-" * 30)
-            else:
-                print("Opción inválida.")    
+            if "cursos" in datos and datos["cursos"]:
+                print(f'Id:{ide}- nombre: {datos["Nombre"]} - cursos: {", ".join(datos["cursos"])}')
+            print("-" * 30)
+
+        if opcion == "2":
+            print("--- campers en riesgo -----")
+            for ide, datos in campers.items():
+                if datos.get("riesgo", "bajo") in ["medio", "alto"]:
+                    print(f'Id:{ide}- nombre: {datos["Nombre"]} - cursos: {", ".join(datos["cursos"])}')
+                    print("-" * 30)
+        else:
+            print("Opción inválida.")
     
 
 

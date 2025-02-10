@@ -1,3 +1,5 @@
+from Usercordinadora import *
+
 print("########################################")
 print("########## CAMPUSLANDS OS###############")
 print("########################################")
@@ -17,17 +19,25 @@ if eleccion == 1:
         print ("8. Editar campers en riesgo")
         print ("9. Ver estudiantes en riesgo")
         print ("10. Modulo reportes")
-        print ("11 salida")
+        print ("11. salida")
+        op= int (input(" "))
+        match op:
+                case 1: 
+                       agregarEstudiantes()
+                case 2:
+                        editar_estudi()
+                case 3:
+                        
+
 elif eleccion == 2 :
         print ("Bienvenido seleccione que desea hacer")
         print ("1. Agregar notas")
         print ("2. mirar rutas")
-        print ("3. Registrar notas")
-        print ("4. listas de estudiantes")
-        print ("5. Horarios de trabajo")
-        print ("6. Ver estudiantes en riesgo")
-        print ("7. Modulo reportes")
-        print ("8 salida")
+        print ("3. listas de estudiantes")
+        print ("4. Horarios de trabajo")
+        print ("5. Ver estudiantes en riesgo")
+        print ("6. Modulo reportes")
+        print ("7. Salida")
         
 elif eleccion == 3:
         print ("Ver notas")

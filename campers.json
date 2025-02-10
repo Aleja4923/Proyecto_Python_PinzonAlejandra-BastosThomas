@@ -1,0 +1,77 @@
+{
+    "campers": [
+        {
+            "Nombre": "Sofía",
+            "Apellidos": "Fernández",
+            "ide": 1679814378,
+            "Acudiente": "Pilar",
+            "Direccion": "Cra 35 # 88-9",
+            "Telefono Celular": 3144209769,
+            "Telefono fijo": 6004997389,
+            "Correo electrónico": "estudiante0@gmail.com",
+            "Estado": "Aprobado",
+            "Riesgo": "Alto"
+        },
+        {
+            "Nombre": "Mateo",
+            "Apellidos": "García",
+            "ide": 1689714379,
+            "Acudiente": "Juan",
+            "Direccion": "Cll 12 # 23-45",
+            "Telefono Celular": 3156789023,
+            "Telefono fijo": 6004997390,
+            "Correo electrónico": "estudiante1@gmail.com",
+            "Estado": "Pendiente",
+            "Riesgo": "Medio"
+        },
+        {
+            "Nombre": "Valentina",
+            "Apellidos": "López",
+            "ide": 1699814380,
+            "Acudiente": "Maria",
+            "Direccion": "Av 30 # 56-78",
+            "Telefono Celular": 3167890123,
+            "Telefono fijo": 6004997391,
+            "Correo electrónico": "estudiante2@gmail.com",
+            "Estado": "Aprobado",
+            "Riesgo": "Bajo"
+        },
+        {
+            "Nombre": "Andrés",
+            "Apellidos": "Martínez",
+            "ide": 1709814381,
+            "Acudiente": "Carlos",
+            "Direccion": "Cra 50 # 99-21",
+            "Telefono Celular": 3178901234,
+            "Telefono fijo": 6004997392,
+            "Correo electrónico": "estudiante3@gmail.com",
+            "Estado": "Rechazado",
+            "Riesgo": "Alto"
+        },
+        {
+            "Nombre": "Camila",
+            "Apellidos": "Ramírez",
+            "ide": 1719814382,
+            "Acudiente": "Laura",
+            "Direccion": "Cll 5 # 40-66",
+            "Telefono Celular": 3189012345,
+            "Telefono fijo": 6004997393,
+            "Correo electrónico": "estudiante4@gmail.com",
+            "Estado": "Pendiente",
+            "Riesgo": "Medio"
+        },
+        {
+            "Nombre": "Juan",
+            "Apellidos": "Pérez",
+            "ide": 1729814383,
+            "Acudiente": "Roberto",
+            "Direccion": "Av 7 # 80-12",
+            "Telefono Celular": 3190123456,
+            "Telefono fijo": 6004997394,
+            "Correo electrónico": "estudiante5@gmail.com",
+            "Estado": "Aprobado",
+            "Riesgo": "Bajo"
+        }
+        
+    ]
+}

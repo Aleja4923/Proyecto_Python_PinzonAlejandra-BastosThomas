@@ -1,4 +1,4 @@
-from Usercordinadora import *
+
 
 print("########################################")
 print("########## CAMPUSLANDS OS###############")
@@ -21,14 +21,6 @@ if eleccion == 1:
         print ("10. Modulo reportes")
         print ("11. salida")
         op= int (input(" "))
-        match op:
-                case 1: 
-                       agregarEstudiantes()
-                case 2:
-                        editar_estudi()
-                case 3:
-                        
-
 elif eleccion == 2 :
         print ("Bienvenido seleccione que desea hacer")
         print ("1. Agregar notas")

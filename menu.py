@@ -20,7 +20,6 @@ if eleccion == 1:
         print ("9. Ver estudiantes en riesgo")
         print ("10. Modulo reportes")
         print ("11. salida")
-        op= int (input(" "))
 elif eleccion == 2 :
         print ("Bienvenido seleccione que desea hacer")
         print ("1. Agregar notas")

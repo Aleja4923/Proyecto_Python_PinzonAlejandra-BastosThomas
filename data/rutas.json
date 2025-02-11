@@ -1,0 +1,74 @@
+{
+    "rutas": {
+        "Java": [
+            "Intro",
+            "Python",
+            "HTML/CSS",
+            "Scrum",
+            "Git",
+            "JavaScript",
+            "Intro Back",
+            "Intro BBDD",
+            "MySQL",
+            "Java",
+            "PostgreSQL",
+            "SpringBoot"
+        ],
+        "NodeJS": [
+            "Intro",
+            "Python",
+            "HTML/CSS",
+            "Scrum",
+            "Git",
+            "JavaScript",
+            "Intro Back",
+            "Intro BBDD",
+            "MongoDB",
+            "JavaScript",
+            "MySQL",
+            "Express"
+        ],
+        ".NET": [
+            "Intro",
+            "Python",
+            "HTML/CSS",
+            "Scrum",
+            "Git",
+            "JavaScript",
+            "Intro Back",
+            "Intro BBDD",
+            "MySQL",
+            "C#",
+            "PostgreSQL",
+            ".Net Core"
+        ]
+    },
+    "trainers": {
+        "M1": {
+            "P1": ["Java"],
+            "A1": ["Java"],
+            "T1": ["Java"],
+            "D1": ["Java"],
+            "U1": ["Java"]
+        },
+        "M2": {
+            "P2": [".NET"],
+            "A2": [".NET"],
+            "T2": [".NET"],
+            "D2": [".NET"],
+            "U2": [".NET"]
+        },
+        "T": {
+            "P4": ["NodeJS"],
+            "P3": [".NET"],
+            "A4": ["NodeJS"],
+            "A3": [".NET"],
+            "T4": ["NodeJS"],
+            "T3": [".NET"],
+            "D4": ["NodeJS"],
+            "D3": [".NET"],
+            "U4": ["NodeJS"],
+            "U3": [".NET"]
+        }
+    }
+}

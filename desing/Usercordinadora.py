@@ -1,5 +1,5 @@
 import json
-import tabulate
+import tabulate 
 
 RUTA_campers = "data/campers.json"  
 RUTA_notas = "data/notas.json"  
@@ -51,28 +51,23 @@ def agregarEstudiantes():
     print("Estudiante agregado con éxito.")
 
 
-def verestudiantes(estudiantes):
-    for i in range (len(estudiantes["campers"])):
+def verestudiantes():
+    for i in range (len(estudiantes)):
         print("Estudiante "),i+1
-        print("  ID: " + (estudiantes["campers"][i]["ide"])) 
-        print("  Nombre: " + (estudiantes["campers"] [i]["Nombre"]))
-        print("  Apellido: " + (estudiantes["campers"] [i]["Apellido"]))
+        print("  ID: " + (estudiantes[i]["ide"])) 
+        print("  Nombre: " + (estudiantes, [i]["Nombre"]))
+        print("  Apellido: " + (estudiantes, [i]["Apellido"]))
         print("  Acudiente" + (estudiantes["Acudiente"][i]["Acudiente"]))
-        print("  Dirección: " + (estudiantes["campers"][i]["Dirrecion"]))
-        print("  Teléfono Celular: " + (estudiantes["campers"][i]["Telefono Celular"]))
-        print("  Teléfono Fijo: " + (estudiantes["campers"][i]["Telefono Fijo"]))
-        print("  Correo Electrónico: " + (estudiantes["campers"][i]["Correo electronico"]))
-        print("  Estado: " + (estudiantes["campers"][i]["Estado"]))
-        print("  Riesgo: " + (estudiantes["campers"][i]["Riesgo"]))
+        print("  Dirección: " + (estudiantes,[i]["Dirrecion"]))
+        print("  Teléfono Celular: " + (estudiantes,[i]["Telefono Celular"]))
+        print("  Teléfono Fijo: " + (estudiantes,[i]["Telefono Fijo"]))
+        print("  Correo Electrónico: " + (estudiantes,[i]["Correo electronico"]))
+        print("  Estado: " + (estudiantes,[i]["Estado"]))
+        print("  Riesgo: " + (estudiantes,[i]["Riesgo"]))
 
 def editar_estudi(estudiantes):
+    verestudiantes()
     ide= int(input("Ingrese el id del estudiante a editar"))
-    estudiencon= None
-    for estudiante in estudiantes["campers"]:
-        if estudiante ["ide"] == ide:
-            estudiencon = estudiante
-            break
-
     print ("Que desea editar")
     print("1. Nombre")
     print("2. Apellido")
@@ -84,34 +79,43 @@ def editar_estudi(estudiantes):
     print("8. Estado")
     print("9. Riesgo")
     print("10. Volver a menu")
-    
+    opc=int(input(": "))
+    for i in range(estudiantes):
+        match opc:
+            case 1:
+                nm=input("Ingrese el nuevo nombre: ")
+                estudiantes[ide-1]["Nombre"]=(nm)
+            case 2: 
+                ap=input("Ingrese el nuevo apellido: ")
+                estudiantes[ide-1]["Apellido"]=(ap)
+            case 3:
+                ac=input("Ingrese el numero acudiente")
+                estudiantes[ide-1]["Acudiente"]=(ac)
+            case 4:
+                di=input("Ingrese la nueva dirrecion")
+                estudiantes[ide-1]["Dirrecion"]=(di)
+            case 5:
+                tc=input("Ingrese el nuevo telefono")
+                estudiantes[ide-1]["Telefono Celular"]=(tc)
+            case 6:
+                tf=input("Ingrese el nuevo telefono fijo")
+                estudiantes[ide-1]["Telefono Fijo"]=(tf)
+            case 7:
+                ce=input("Ingrese el correo electronico")
+                estudiantes[ide-1]["Correo electronico"]=(ce)
+            case 8:
+                es=input("Ingrese el estado que se encuentra")
+                estudiantes[ide-1]["Estado"]=(es)
+            case 9:
+                Ri=input("Ingrese el riesgo en el que esta")
+                estudiantes[ide-1]["Riesgo"]=(Ri)         
+            
+
+
+
+
     op=input("Selecione una opcion digitando el numero")
 
-    if op == "1":
-        estudiencon["campers"]["Nombre"] = str(input("Ingrese el nuevo nombre"))
-    elif op == "2":
-        estudiencon["campers"]["Apellido"] = input("Ingrese el nuevo apellido")
-    elif op == "3":
-        estudiencon["campers"]["Acudiente"] = input("Ingrese el nuevo acudiente")
-    elif op == "4":
-        estudiencon["campers"]["Direccion"] = input("Ingrese la nueva direccion")        
-    elif op == "5":
-        estudiencon["campers"]["Telefono Celular"] = int(input("Ingrese el nuevo telefono celular"))
-    elif op == "6":
-        estudiencon["campers"]["Telefono Fijo"] = int(input("Ingrese el nuevo telefono fijo"))
-    elif op == "7":
-        estudiencon["campers"]["Correo electronico"] = input("Ingrese el nuevo correo electronico")
-    elif op == "8":
-        estudiencon["campers"]["Estado"] = input("Opciones: (En proceso de ingreso, Inscrito, Aprobado,Cursando, Graduado, Expulsado, Retirado) ")
-    elif op == "9":
-        estudiencon["campers"]["Riesgo"] = input("Ingrese el nuevo nivel de riesgo")
-    elif op == "10":
-        return
-
-    else:
-        print("Opcion no valida")
-        return 
-    
     guardarJSON(estudiantes)
 
 
@@ -171,7 +175,7 @@ def reportes ():
 def modulo_matriculas():
     datos = abrirJSON()
     ide = int(input("Ingrese el ID del camper: "))
-    for estudiante in datos["campers"]:
+    for estudiante in datos,:
         if estudiante["ide"] == ide:
             print("1. Matricular camper en una ruta")
             print("2. Ver ruta actual del camper")

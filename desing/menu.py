@@ -31,5 +31,7 @@ elif eleccion == 2 :
         print ("7. Salida")
         
 elif eleccion == 3:
-        print ("Ver notas")
-        
+        print (" 1 Ver notas")
+        print("2 ver horarios")
+        print("3 ver estado  ")
+        print("4 salir")

@@ -9,7 +9,25 @@
         "Telefono fijo": 6004997389,
         "Correo electrónico": "estudiante0@gmail.com",
         "Estado": "Aprobado",
-        "Riesgo": "Alto"
+        "Riesgo": "Alto",
+        "Ruta" : "java",
+        "Grupo" : "P1",
+        "Trainer":"Pedro",
+        "cursos": {
+            "Intro": [85, 90, 80],
+            "Python": [87, 92, 79],
+            "HTML/CSS": [90, 95, 85],
+            "Scrum": [80, 75, 70],
+            "Git": [88, 83, 92],
+            "JavaScript": [85, 76, 85],
+            "Intro Back": [91, 89, 88],
+            "Intro BBDD": [85, 80, 78],
+            "MySQL": [90, 89, 88],
+            "C#": [84, 90, 89],
+            "PostgreSQL": [80, 85, 88],
+            ".Net Core": [95, 92, 91]
+          }
+        
     },
     {
         "Nombre": "Juan",
@@ -94,6 +112,7 @@
         "Correo electrónico": "estudiante7@gmail.com",
         "Estado": "Aprobado",
         "Riesgo": "Bajo"
+         
     },
     {
         "Nombre": "Lucía",

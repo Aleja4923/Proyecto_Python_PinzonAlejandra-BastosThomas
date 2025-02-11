@@ -168,5 +168,24 @@ def reportes ():
         else:
             print("Opción inválida.")
     
-
+def modulo_matriculas():
+    datos = abrirJSON()
+    ide = int(input("Ingrese el ID del camper: "))
+    for estudiante in datos["campers"]:
+        if estudiante["ide"] == ide:
+            print("1. Matricular camper en una ruta")
+            print("2. Ver ruta actual del camper")
+            opcion = input("Seleccione una opción: ")
+            if opcion == "1":
+                ruta = input("Ingrese la ruta de entrenamiento (Java, NodeJS, .NET): ")
+                estudiante["Ruta"] = ruta
+                guardarJSON(datos)
+                print(f"Camper matriculado en la ruta {ruta}.")
+            elif opcion == "2":
+                if "Ruta" in estudiante:
+                    print(f"Ruta actual: {estudiante['Ruta']}")
+                else:
+                    print("El camper no está matriculado en ninguna ruta.")
+            return
+    print("Camper no encontrado.")
 

@@ -7,16 +7,16 @@ RUTA_rutas = "data/rutas.json"
 # Función para cargar el inventario desde un archivo JSON
 def abrirJSON():
     try:
-        with open("./campers.json", 'r') as openFile:
+        with open("/data/campers.json", 'r') as openFile:
             estudiantes = json.load(openFile)
     except FileNotFoundError:
         estudiantes = {"campers": []} 
     return estudiantes
 # Función para guardar el inventario en un archivo JSON
 def guardarJSON(estudiantes):
-    with open("./campers.json", 'w') as outFile:
+    with open("./data/campers.json", 'w') as outFile:
         json.dump(estudiantes, outFile, indent=4)  # indent=4 para formato legible
-
+    return ("Guardado exitosamente")
 
 
 
@@ -48,6 +48,8 @@ def agregarEstudiantes():
     }
     
     campers[ide] = estudiante
+
+    guardarJSON(campers)
     print("Estudiante agregado con éxito.")
 
 
@@ -65,7 +67,7 @@ def verestudiantes():
         print("  Estado: " + (estudiantes,[i]["Estado"]))
         print("  Riesgo: " + (estudiantes,[i]["Riesgo"]))
 
-def editar_estudi(estudiantes):
+def editar_estudi():
     verestudiantes()
     ide= int(input("Ingrese el id del estudiante a editar"))
     print ("Que desea editar")
@@ -109,30 +111,26 @@ def editar_estudi(estudiantes):
             case 9:
                 Ri=input("Ingrese el riesgo en el que esta")
                 estudiantes[ide-1]["Riesgo"]=(Ri)         
-            
-
-
-
-
-    op=input("Selecione una opcion digitando el numero")
 
     guardarJSON(estudiantes)
 
 
-campers = {}  # Diccionario para almacenar los datos de los campers
+campers = {}  #Diccionario para almacenar los datos de los campers
 
-def registrarNotas():
+def registrarNotas(): #Probarla y reestructurar
+    ide= abrirJSON()
     ide = input("Ingrese el ID del camper: ")
     if ide in campers:
         notas = input("Agrega la nota de 10 a 100: ")
         campers[ide]["nota"] = notas
         print("Nota actualizada correctamente")
+        ide= guardarJSON()   
     else:
         print("Camper no encontrado. Registrándolo...")
         campers[ide] = {"nota": notas}
         print("Camper registrado y nota guardada.")
 
-def horarios():
+def horarios(): #Estructurar 
     print("\n--- Gestión de Horarios ---")
     ide = input("Ingrese el ID del camper: ")
     if ide in campers:
@@ -150,6 +148,8 @@ def horarios():
                 print("El camper no tiene un horario asignado.")
     else:
         print("no joda")
+
+
 def reportes ():
     campers= guardarJSON()
     print("--- Generacion de reportes --- ")

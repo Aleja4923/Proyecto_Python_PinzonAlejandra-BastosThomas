@@ -1,7 +1,7 @@
 import json
-import Usercordinadora as admin
-import Usertrainer as trainer
-from tabulate import tabulate
+from desing.userCordinadora import *
+from desing.userTrainer import *
+
 
 MENU_REPORTES = """
 *-----------------------------*
@@ -24,11 +24,11 @@ def mostrarMenuR ():
         case "1":
             pass
         case "2":
-            pass
+            actualizar_notas()
         case "3":
             pass
         case "4":
-            pass
+            campersRiesgo()
         case "5":
             pass
         case _:
@@ -36,11 +36,26 @@ def mostrarMenuR ():
 
 def campersRiesgo():
 
-    highRisk = []
+    altoriesgo = []
 
-    data = admin.abrirJSON()
+    data = abrirJSON()
     for camper in data:
         if camper["Riesgo"] == "Alto":
-            highRisk.append(camper)
-    
-    print(tabulate(highRisk))
+            altoriesgo.append(camper)
+    if altoriesgo:
+        for camper in altoriesgo:
+            print (camper)
+
+def campersInscritos():
+
+    data = abrirJSON()  
+
+    for camper in data:
+        if camper("Estado") == "Inscrito":  
+            print(camper)
+
+def campersAprobados():
+    data = abrirJSON()  
+    for camper in data:
+        if camper.get("Estado") == "Aprobado":  
+            print(camper)

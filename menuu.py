@@ -1,31 +1,5 @@
-from desing.Usercordinadora import *
-
-def menu():
-        print('''
-        ########################################
-        ########## CAMPUSLANDS OS###############
-        ########################################
-                1 USUARIO: CORDINADORA
-                2 USUARIO: TRAINER
-                3 USUARIO: CAMPER
-                4 Salir
-        ''')  
-
-        
-        opc = input("--> ")
-
-        
-        match opc:
-            case "1":
-                opcion_cordinadora()
-            case "2":
-                opcion_trainer()
-            case "3":
-                opcion_camper()
-            case "4":
-                print("Saliendo")
-
-
+from desing.userCordinadora import *
+from desing.ModuloRe import *
 
 def opcion_cordinadora():
         print ("Bienvenido seleccione que desea hacer")
@@ -75,3 +49,32 @@ def opcion_camper():
         print("2 ver horarios")
         print("3 ver estado  ")
         print("4 salir")
+def menu():
+        print('''
+        ########################################
+        ########## CAMPUSLANDS OS###############
+        ########################################
+                1 USUARIO: CORDINADORA
+                2 USUARIO: TRAINER
+                3 USUARIO: CAMPER
+                4 Salir
+        ''')  
+
+        
+        opc = input("--> ")
+
+        
+        match opc:
+            case "1":
+                opcion_cordinadora()
+            case "2":
+                opcion_trainer()
+            case "3":
+                opcion_camper()
+            case "4":
+                print("Saliendo")
+
+
+
+
+

@@ -1,249 +1,1920 @@
-[
-    {
-        "Nombre": "José",
-        "Apellidos": "Pérez",
-        "ide": 1052856287,
-        "Acudiente": "Hugo",
-        "Direccion": "Cra 85 # 62-29",
-        "Telefono Celular": 3148895699,
-        "Telefono fijo": 6009422056,
-        "Correo electrónico": "estudiante1052856287@gmail.com",
-        "Estado": "Cursando",
-        "Riesgo": "Bajo",
-        "Ruta": ".NET",
-        "Grupo": "A3",
-        "Trainer": "María",
-        "Salon de entrenamiento": "Apolo",
-        "Fecha Inicio": "2025-07-11",
-        "Fecha Finalizacion": "2026-03-08",
-        "cursos": {
-            "JavaScript": [
-                55,
-                73,
-                43
-            ],
-            "Intro Back": [
-                40,
-                89,
-                70
-            ],
-            ".Net Core": [
-                84,
-                89,
-                83
-            ],
-            "Intro BBDD": [
-                86,
-                43,
-                98
-            ],
-            "HTML/CSS": [
-                53,
-                87,
-                62
-            ],
-            "Python": [
-                70,
-                100,
-                44
-            ],
-            "MySQL": [
-                79,
-                45,
-                48
-            ],
-            "C#": [
-                82,
-                65,
-                68
-            ],
-            "PostgreSQL": [
-                80,
-                67,
-                70
-            ],
-            "Scrum": [
-                69,
-                60,
-                92
-            ],
-            "Git": [
-                66,
-                98,
-                96
-            ]
-        }
-    },
-    {
-        "Nombre": "Valentina",
-        "Apellidos": "Pérez",
-        "ide": 1608415762,
-        "Acudiente": "Javier",
-        "Direccion": "Cra 34 # 18-5",
-        "Telefono Celular": 3102341376,
-        "Telefono fijo": 6034519096,
-        "Correo electrónico": "estudiante1608415762@gmail.com",
-        "Estado": "Retirado",
-        "Riesgo": "N/A",
-        "Ruta": "NodeJS",
-        "Grupo": "P4",
-        "Trainer": "Camilo",
-        "Salon de entrenamiento": "Apolo",
-        "Fecha Inicio": "2024-01-12",
-        "Fecha Finalizacion": "2024-09-08",
+lo",
+        "Fecha Inicio": "2025-03-24",
+        "Fecha Finalizacion": "2025-11-19",
         "cursos": {}
     },
     {
-        "Nombre": "Andrés",
+        "Nombre": "Laura",
         "Apellidos": "Pérez",
-        "ide": 1519876950,
-        "Acudiente": "Mónica",
-        "Direccion": "Cra 74 # 90-33",
-        "Telefono Celular": 3103113001,
-        "Telefono fijo": 6032691261,
-        "Correo electrónico": "estudiante1519876950@gmail.com",
-        "Estado": "Aprobado",
-        "Riesgo": "Bajo",
+        "ide": 1051614110,
+        "Acudiente": "Pilar",
+        "Direccion": "Cra 15 # 78-17",
+        "Telefono Celular": 3015890083,
+        "Telefono fijo": 6035451624,
+        "Correo electrónico": "estudiante1051614110@gmail.com",
+        "Estado": "Expulsado",
+        "Riesgo": "N/A",
         "Ruta": ".NET",
-        "Grupo": "P1",
-        "Trainer": "María",
-        "Salon de entrenamiento": "Zeus",
-        "Fecha Inicio": "2024-05-21",
-        "Fecha Finalizacion": "2025-01-16",
-        "cursos": {
-            "Python": [
-                60,
-                95,
-                61
-            ],
-            "Git": [
-                83,
-                97,
-                63
-            ],
-            "Scrum": [
-                60,
-                64,
-                86
-            ],
-            "JavaScript": [
-                68,
-                98,
-                70
-            ],
-            "PostgreSQL": [
-                90,
-                63,
-                67
-            ],
-            "Intro Back": [
-                78,
-                73,
-                63
-            ],
-            ".Net Core": [
-                97,
-                75,
-                79
-            ],
-            "HTML/CSS": [
-                94,
-                70,
-                79
-            ],
-            "Intro": [
-                63,
-                97,
-                64
-            ],
-            "C#": [
-                62,
-                64,
-                60
-            ]
-        }
+        "Grupo": "A3",
+        "Trainer": "Pedro",
+        "Salon de entrenamiento": "Vladimir",
+        "Fecha Inicio": "2024-03-15",
+        "Fecha Finalizacion": "2024-11-10",
+        "cursos": {}
     },
     {
         "Nombre": "Pedro",
+        "Apellidos": "Ramírez",
+        "ide": 1335991773,
+        "Acudiente": "Mónica",
+        "Direccion": "Cra 80 # 85-50",
+        "Telefono Celular": 3139227671,
+        "Telefono fijo": 6018056920,
+        "Correo electrónico": "estudiante1335991773@gmail.com",
+        "Estado": "Graduado",
+        "Riesgo": "Bajo",
+        "Ruta": ".NET",
+        "Grupo": "C3",
+        "Trainer": "María",
+        "Salon de entrenamiento": "Zeus",
+        "Fecha Inicio": "2024-06-25",
+        "Fecha Finalizacion": "2025-02-20",
+        "cursos": {
+            "Intro": {
+                "nota1": 83,
+                "nota2": 96,
+                "nota3": 84,
+                "notaF": 87.67
+            },
+            "Python": {
+                "nota1": 70,
+                "nota2": 89,
+                "nota3": 74,
+                "notaF": 77.67
+            },
+            "HTML/CSS": {
+                "nota1": 70,
+                "nota2": 82,
+                "nota3": 89,
+                "notaF": 80.33
+            },
+            "Scrum": {
+                "nota1": 89,
+                "nota2": 88,
+                "nota3": 83,
+                "notaF": 86.67
+            },
+            "Git": {
+                "nota1": 92,
+                "nota2": 86,
+                "nota3": 84,
+                "notaF": 87.33
+            },
+            "JavaScript": {
+                "nota1": 77,
+                "nota2": 73,
+                "nota3": 74,
+                "notaF": 74.67
+            },
+            "Intro Back": {
+                "nota1": 70,
+                "nota2": 97,
+                "nota3": 78,
+                "notaF": 81.67
+            },
+            "Intro BBDD": {
+                "nota1": 77,
+                "nota2": 90,
+                "nota3": 70,
+                "notaF": 79.0
+            },
+            "MySQL": {
+                "nota1": 86,
+                "nota2": 76,
+                "nota3": 89,
+                "notaF": 83.67
+            },
+            "C#": {
+                "nota1": 72,
+                "nota2": 74,
+                "nota3": 76,
+                "notaF": 74.0
+            },
+            "PostgreSQL": {
+                "nota1": 77,
+                "nota2": 91,
+                "nota3": 74,
+                "notaF": 80.67
+            },
+            ".Net Core": {
+                "nota1": 85,
+                "nota2": 70,
+                "nota3": 83,
+                "notaF": 79.33
+            }
+        }
+    },
+    {
+        "Nombre": "Ana",
         "Apellidos": "García",
-        "ide": 1123613123,
-        "Acudiente": "Roberto",
-        "Direccion": "Cra 100 # 30-36",
-        "Telefono Celular": 3129977116,
-        "Telefono fijo": 6051142498,
-        "Correo electrónico": "estudiante1123613123@gmail.com",
-        "Estado": "Retirado",
-        "Riesgo": "N/A",
-        "Ruta": "NodeJS",
+        "ide": 1898215726,
+        "Acudiente": "Pilar",
+        "Direccion": "Cra 87 # 30-13",
+        "Telefono Celular": 3135562275,
+        "Telefono fijo": 6045161307,
+        "Correo electrónico": "estudiante1898215726@gmail.com",
+        "Estado": "Cursando",
+        "Riesgo": "Bajo",
+        "Ruta": ".NET",
         "Grupo": "J2",
         "Trainer": "Aura",
+        "Salon de entrenamiento": "Apolo",
+        "Fecha Inicio": "2024-07-13",
+        "Fecha Finalizacion": "2025-03-10",
+        "cursos": {
+            "Intro": {
+                "nota1": 78,
+                "nota2": 61,
+                "nota3": 51,
+                "notaF": 63.33
+            },
+            "Git": {
+                "nota1": 80,
+                "nota2": 53,
+                "nota3": 41,
+                "notaF": 58.0
+            },
+            "PostgreSQL": {
+                "nota1": 79,
+                "nota2": 66,
+                "nota3": 88,
+                "notaF": 77.67
+            }
+        }
+    },
+    {
+        "Nombre": "Luis",
+        "Apellidos": "Pérez",
+        "ide": 1482106307,
+        "Acudiente": "Patricia",
+        "Direccion": "Cra 58 # 5-36",
+        "Telefono Celular": 3082266241,
+        "Telefono fijo": 6042336533,
+        "Correo electrónico": "estudiante1482106307@gmail.com",
+        "Estado": "Aprobado",
+        "Riesgo": "Bajo",
+        "Ruta": "Java",
+        "Grupo": "M3",
+        "Trainer": "Aura",
+        "Salon de entrenamiento": "Zeus",
+        "Fecha Inicio": "2025-10-03",
+        "Fecha Finalizacion": "2026-05-31",
+        "cursos": {
+            "Scrum": {
+                "nota1": 69,
+                "nota2": 84,
+                "nota3": 81,
+                "notaF": 78.0
+            },
+            ".Net Core": {
+                "nota1": 79,
+                "nota2": 77,
+                "nota3": 61,
+                "notaF": 72.33
+            },
+            "HTML/CSS": {
+                "nota1": 85,
+                "nota2": 63,
+                "nota3": 99,
+                "notaF": 82.33
+            },
+            "JavaScript": {
+                "nota1": 67,
+                "nota2": 97,
+                "nota3": 63,
+                "notaF": 75.67
+            },
+            "Intro": {
+                "nota1": 64,
+                "nota2": 91,
+                "nota3": 98,
+                "notaF": 84.33
+            },
+            "Intro BBDD": {
+                "nota1": 96,
+                "nota2": 84,
+                "nota3": 76,
+                "notaF": 85.33
+            },
+            "Python": {
+                "nota1": 81,
+                "nota2": 75,
+                "nota3": 77,
+                "notaF": 77.67
+            },
+            "Git": {
+                "nota1": 98,
+                "nota2": 82,
+                "nota3": 94,
+                "notaF": 91.33
+            },
+            "MySQL": {
+                "nota1": 76,
+                "nota2": 79,
+                "nota3": 82,
+                "notaF": 79.0
+            },
+            "PostgreSQL": {
+                "nota1": 78,
+                "nota2": 98,
+                "nota3": 88,
+                "notaF": 88.0
+            },
+            "C#": {
+                "nota1": 95,
+                "nota2": 99,
+                "nota3": 84,
+                "notaF": 92.67
+            },
+            "Intro Back": {
+                "nota1": 93,
+                "nota2": 81,
+                "nota3": 75,
+                "notaF": 83.0
+            }
+        }
+    },
+    {
+        "Nombre": "Luis",
+        "Apellidos": "Rodríguez",
+        "ide": 1642161811,
+        "Acudiente": "Fernando",
+        "Direccion": "Cra 94 # 23-19",
+        "Telefono Celular": 3000200622,
+        "Telefono fijo": 6095728819,
+        "Correo electrónico": "estudiante1642161811@gmail.com",
+        "Estado": "Graduado",
+        "Riesgo": "Bajo",
+        "Ruta": ".NET",
+        "Grupo": "C4",
+        "Trainer": "Juan",
         "Salon de entrenamiento": "Vladimir",
-        "Fecha Inicio": "2025-10-04",
-        "Fecha Finalizacion": "2026-06-01",
+        "Fecha Inicio": "2024-11-14",
+        "Fecha Finalizacion": "2025-07-12",
+        "cursos": {
+            "Intro": {
+                "nota1": 92,
+                "nota2": 77,
+                "nota3": 82,
+                "notaF": 83.67
+            },
+            "Python": {
+                "nota1": 91,
+                "nota2": 89,
+                "nota3": 95,
+                "notaF": 91.67
+            },
+            "HTML/CSS": {
+                "nota1": 96,
+                "nota2": 72,
+                "nota3": 86,
+                "notaF": 84.67
+            },
+            "Scrum": {
+                "nota1": 95,
+                "nota2": 97,
+                "nota3": 70,
+                "notaF": 87.33
+            },
+            "Git": {
+                "nota1": 94,
+                "nota2": 70,
+                "nota3": 92,
+                "notaF": 85.33
+            },
+            "JavaScript": {
+                "nota1": 79,
+                "nota2": 79,
+                "nota3": 97,
+                "notaF": 85.0
+            },
+            "Intro Back": {
+                "nota1": 72,
+                "nota2": 73,
+                "nota3": 80,
+                "notaF": 75.0
+            },
+            "Intro BBDD": {
+                "nota1": 97,
+                "nota2": 83,
+                "nota3": 74,
+                "notaF": 84.67
+            },
+            "MySQL": {
+                "nota1": 100,
+                "nota2": 91,
+                "nota3": 95,
+                "notaF": 95.33
+            },
+            "C#": {
+                "nota1": 84,
+                "nota2": 75,
+                "nota3": 86,
+                "notaF": 81.67
+            },
+            "PostgreSQL": {
+                "nota1": 73,
+                "nota2": 93,
+                "nota3": 79,
+                "notaF": 81.67
+            },
+            ".Net Core": {
+                "nota1": 99,
+                "nota2": 94,
+                "nota3": 93,
+                "notaF": 95.33
+            }
+        }
+    },
+    {
+        "Nombre": "Luis",
+        "Apellidos": "Díaz",
+        "ide": 1000621092,
+        "Acudiente": "Javier",
+        "Direccion": "Cra 90 # 16-26",
+        "Telefono Celular": 3199361138,
+        "Telefono fijo": 6052626323,
+        "Correo electrónico": "estudiante1000621092@gmail.com",
+        "Estado": "Aprobado",
+        "Riesgo": "Bajo",
+        "Ruta": ".NET",
+        "Grupo": "C4",
+        "Trainer": "Aura",
+        "Salon de entrenamiento": "Apolo",
+        "Fecha Inicio": "2024-12-02",
+        "Fecha Finalizacion": "2025-07-30",
+        "cursos": {
+            "Intro": {
+                "nota1": 65,
+                "nota2": 74,
+                "nota3": 80,
+                "notaF": 73.0
+            },
+            "Python": {
+                "nota1": 68,
+                "nota2": 84,
+                "nota3": 92,
+                "notaF": 81.33
+            },
+            ".Net Core": {
+                "nota1": 98,
+                "nota2": 70,
+                "nota3": 99,
+                "notaF": 89.0
+            },
+            "Intro Back": {
+                "nota1": 99,
+                "nota2": 65,
+                "nota3": 78,
+                "notaF": 80.67
+            },
+            "Intro BBDD": {
+                "nota1": 96,
+                "nota2": 83,
+                "nota3": 71,
+                "notaF": 83.33
+            },
+            "C#": {
+                "nota1": 82,
+                "nota2": 87,
+                "nota3": 88,
+                "notaF": 85.67
+            },
+            "Scrum": {
+                "nota1": 100,
+                "nota2": 66,
+                "nota3": 78,
+                "notaF": 81.33
+            }
+        }
+    },
+    {
+        "Nombre": "Carlos",
+        "Apellidos": "Ramírez",
+        "ide": 1877693300,
+        "Acudiente": "Silvia",
+        "Direccion": "Cra 98 # 30-15",
+        "Telefono Celular": 3112785219,
+        "Telefono fijo": 6009417602,
+        "Correo electrónico": "estudiante1877693300@gmail.com",
+        "Estado": "Cursando",
+        "Riesgo": "Bajo",
+        "Ruta": "NodeJS",
+        "Grupo": "C3",
+        "Trainer": "Juan",
+        "Salon de entrenamiento": "Apolo",
+        "Fecha Inicio": "2025-08-28",
+        "Fecha Finalizacion": "2026-04-25",
+        "cursos": {
+            "JavaScript": {
+                "nota1": 80,
+                "nota2": 43,
+                "nota3": 82,
+                "notaF": 68.33
+            },
+            "Express": {
+                "nota1": 79,
+                "nota2": 48,
+                "nota3": 52,
+                "notaF": 59.67
+            },
+            "Intro Back": {
+                "nota1": 61,
+                "nota2": 63,
+                "nota3": 98,
+                "notaF": 74.0
+            },
+            "Python": {
+                "nota1": 50,
+                "nota2": 59,
+                "nota3": 83,
+                "notaF": 64.0
+            },
+            "Intro BBDD": {
+                "nota1": 43,
+                "nota2": 94,
+                "nota3": 55,
+                "notaF": 64.0
+            },
+            "HTML/CSS": {
+                "nota1": 91,
+                "nota2": 72,
+                "nota3": 57,
+                "notaF": 73.33
+            },
+            "Intro": {
+                "nota1": 93,
+                "nota2": 58,
+                "nota3": 67,
+                "notaF": 72.67
+            }
+        }
+    },
+    {
+        "Nombre": "Carlos",
+        "Apellidos": "García",
+        "ide": 1947333020,
+        "Acudiente": "Javier",
+        "Direccion": "Cra 11 # 47-37",
+        "Telefono Celular": 3031424414,
+        "Telefono fijo": 6054050072,
+        "Correo electrónico": "estudiante1947333020@gmail.com",
+        "Estado": "Aprobado",
+        "Riesgo": "Bajo",
+        "Ruta": "NodeJS",
+        "Grupo": "P2",
+        "Trainer": "Juan",
+        "Salon de entrenamiento": "Zeus",
+        "Fecha Inicio": "2024-12-11",
+        "Fecha Finalizacion": "2025-08-08",
+        "cursos": {
+            "Python": {
+                "nota1": 74,
+                "nota2": 70,
+                "nota3": 91,
+                "notaF": 78.33
+            },
+            "MongoDB": {
+                "nota1": 78,
+                "nota2": 72,
+                "nota3": 98,
+                "notaF": 82.67
+            },
+            "Scrum": {
+                "nota1": 89,
+                "nota2": 65,
+                "nota3": 70,
+                "notaF": 74.67
+            },
+            "Intro Back": {
+                "nota1": 64,
+                "nota2": 82,
+                "nota3": 73,
+                "notaF": 73.0
+            },
+            "Express": {
+                "nota1": 71,
+                "nota2": 86,
+                "nota3": 90,
+                "notaF": 82.33
+            },
+            "Intro": {
+                "nota1": 93,
+                "nota2": 61,
+                "nota3": 94,
+                "notaF": 82.67
+            },
+            "Git": {
+                "nota1": 87,
+                "nota2": 64,
+                "nota3": 91,
+                "notaF": 80.67
+            },
+            "JavaScript": {
+                "nota1": 83,
+                "nota2": 81,
+                "nota3": 100,
+                "notaF": 88.0
+            }
+        }
+    },
+    {
+        "Nombre": "Ana",
+        "Apellidos": "López",
+        "ide": 1718958337,
+        "Acudiente": "Pilar",
+        "Direccion": "Cra 28 # 36-47",
+        "Telefono Celular": 3098288433,
+        "Telefono fijo": 6087832616,
+        "Correo electrónico": "estudiante1718958337@gmail.com",
+        "Estado": "Expulsado",
+        "Riesgo": "N/A",
+        "Ruta": "Java",
+        "Grupo": "M3",
+        "Trainer": "Juan",
+        "Salon de entrenamiento": "Apolo",
+        "Fecha Inicio": "2025-01-29",
+        "Fecha Finalizacion": "2025-09-26",
+        "cursos": {}
+    },
+    {
+        "Nombre": "Pedro",
+        "Apellidos": "Sánchez",
+        "ide": 1211994658,
+        "Acudiente": "Diego",
+        "Direccion": "Cra 73 # 45-21",
+        "Telefono Celular": 3106695269,
+        "Telefono fijo": 6043889928,
+        "Correo electrónico": "estudiante1211994658@gmail.com",
+        "Estado": "Graduado",
+        "Riesgo": "Bajo",
+        "Ruta": "NodeJS",
+        "Grupo": "M1",
+        "Trainer": "Pedro",
+        "Salon de entrenamiento": "Zeus",
+        "Fecha Inicio": "2024-09-06",
+        "Fecha Finalizacion": "2025-05-04",
+        "cursos": {
+            "Intro": {
+                "nota1": 82,
+                "nota2": 96,
+                "nota3": 82,
+                "notaF": 86.67
+            },
+            "Python": {
+                "nota1": 88,
+                "nota2": 73,
+                "nota3": 87,
+                "notaF": 82.67
+            },
+            "HTML/CSS": {
+                "nota1": 88,
+                "nota2": 94,
+                "nota3": 94,
+                "notaF": 92.0
+            },
+            "Scrum": {
+                "nota1": 80,
+                "nota2": 85,
+                "nota3": 93,
+                "notaF": 86.0
+            },
+            "Git": {
+                "nota1": 75,
+                "nota2": 97,
+                "nota3": 77,
+                "notaF": 83.0
+            },
+            "JavaScript": {
+                "nota1": 86,
+                "nota2": 87,
+                "nota3": 82,
+                "notaF": 85.0
+            },
+            "Intro Back": {
+                "nota1": 78,
+                "nota2": 93,
+                "nota3": 98,
+                "notaF": 89.67
+            },
+            "Intro BBDD": {
+                "nota1": 79,
+                "nota2": 100,
+                "nota3": 98,
+                "notaF": 92.33
+            },
+            "MongoDB": {
+                "nota1": 87,
+                "nota2": 84,
+                "nota3": 79,
+                "notaF": 83.33
+            },
+            "Express": {
+                "nota1": 85,
+                "nota2": 75,
+                "nota3": 76,
+                "notaF": 78.67
+            }
+        }
+    },
+    {
+        "Nombre": "Laura",
+        "Apellidos": "Torres",
+        "ide": 1797565230,
+        "Acudiente": "Roberto",
+        "Direccion": "Cra 72 # 29-3",
+        "Telefono Celular": 3038183167,
+        "Telefono fijo": 6071223209,
+        "Correo electrónico": "estudiante1797565230@gmail.com",
+        "Estado": "Expulsado",
+        "Riesgo": "N/A",
+        "Ruta": "Java",
+        "Grupo": "P3",
+        "Trainer": "Pedro",
+        "Salon de entrenamiento": "Vladimir",
+        "Fecha Inicio": "2025-10-06",
+        "Fecha Finalizacion": "2026-06-03",
+        "cursos": {}
+    },
+    {
+        "Nombre": "Laura",
+        "Apellidos": "Sánchez",
+        "ide": 1113179874,
+        "Acudiente": "Mónica",
+        "Direccion": "Cra 79 # 46-49",
+        "Telefono Celular": 3070440228,
+        "Telefono fijo": 6041080128,
+        "Correo electrónico": "estudiante1113179874@gmail.com",
+        "Estado": "Inscrito",
+        "Riesgo": "N/A",
+        "Ruta": ".NET",
+        "Grupo": "J1",
+        "Trainer": "Camilo",
+        "Salon de entrenamiento": "Zeus",
+        "Fecha Inicio": "2025-11-17",
+        "Fecha Finalizacion": "2026-07-15",
+        "cursos": {}
+    },
+    {
+        "Nombre": "Pedro",
+        "Apellidos": "Rodríguez",
+        "ide": 1916761189,
+        "Acudiente": "Roberto",
+        "Direccion": "Cra 13 # 78-21",
+        "Telefono Celular": 3171404067,
+        "Telefono fijo": 6061460478,
+        "Correo electrónico": "estudiante1916761189@gmail.com",
+        "Estado": "Retirado",
+        "Riesgo": "N/A",
+        "Ruta": "Java",
+        "Grupo": "M3",
+        "Trainer": "Aura",
+        "Salon de entrenamiento": "Apolo",
+        "Fecha Inicio": "2025-11-29",
+        "Fecha Finalizacion": "2026-07-27",
         "cursos": {}
     },
     {
         "Nombre": "Mariana",
         "Apellidos": "López",
-        "ide": 1474499340,
-        "Acudiente": "Patricia",
-        "Direccion": "Cra 17 # 2-49",
-        "Telefono Celular": 3014653297,
-        "Telefono fijo": 6009661955,
-        "Correo electrónico": "estudiante1474499340@gmail.com",
+        "ide": 1429467598,
+        "Acudiente": "Claudia",
+        "Direccion": "Cra 31 # 26-17",
+        "Telefono Celular": 3032811711,
+        "Telefono fijo": 6051133245,
+        "Correo electrónico": "estudiante1429467598@gmail.com",
         "Estado": "Retirado",
         "Riesgo": "N/A",
-        "Ruta": ".NET",
-        "Grupo": "A3",
-        "Trainer": "María",
-        "Salon de entrenamiento": "Zeus",
-        "Fecha Inicio": "2024-11-29",
-        "Fecha Finalizacion": "2025-07-27",
+        "Ruta": "NodeJS",
+        "Grupo": "M3",
+        "Trainer": "Aura",
+        "Salon de entrenamiento": "Vladimir",
+        "Fecha Inicio": "2024-09-10",
+        "Fecha Finalizacion": "2025-05-08",
         "cursos": {}
     },
     {
         "Nombre": "Carlos",
-        "Apellidos": "López",
-        "ide": 1730595583,
-        "Acudiente": "Silvia",
-        "Direccion": "Cra 26 # 52-17",
-        "Telefono Celular": 3062663675,
-        "Telefono fijo": 6096171594,
-        "Correo electrónico": "estudiante1730595583@gmail.com",
-        "Estado": "Cursando",
-        "Riesgo": "Alto",
-        "Ruta": "Java",
-        "Grupo": "C3",
+        "Apellidos": "Fernández",
+        "ide": 1857899203,
+        "Acudiente": "Fernando",
+        "Direccion": "Cra 55 # 61-11",
+        "Telefono Celular": 3041604578,
+        "Telefono fijo": 6040470454,
+        "Correo electrónico": "estudiante1857899203@gmail.com",
+        "Estado": "Inscrito",
+        "Riesgo": "N/A",
+        "Ruta": ".NET",
+        "Grupo": "M1",
+        "Trainer": "María",
+        "Salon de entrenamiento": "Vladimir",
+        "Fecha Inicio": "2025-09-23",
+        "Fecha Finalizacion": "2026-05-21",
+        "cursos": {}
+    },
+    {
+        "Nombre": "Valentina",
+        "Apellidos": "Díaz",
+        "ide": 1873132318,
+        "Acudiente": "Mónica",
+        "Direccion": "Cra 64 # 96-8",
+        "Telefono Celular": 3092125050,
+        "Telefono fijo": 6037151283,
+        "Correo electrónico": "estudiante1873132318@gmail.com",
+        "Estado": "Aprobado",
+        "Riesgo": "Bajo",
+        "Ruta": "NodeJS",
+        "Grupo": "M2",
+        "Trainer": "María",
+        "Salon de entrenamiento": "Apolo",
+        "Fecha Inicio": "2025-02-03",
+        "Fecha Finalizacion": "2025-10-01",
+        "cursos": {
+            "HTML/CSS": {
+                "nota1": 66,
+                "nota2": 86,
+                "nota3": 63,
+                "notaF": 71.67
+            },
+            "MongoDB": {
+                "nota1": 97,
+                "nota2": 100,
+                "nota3": 73,
+                "notaF": 90.0
+            },
+            "Scrum": {
+                "nota1": 73,
+                "nota2": 79,
+                "nota3": 94,
+                "notaF": 82.0
+            },
+            "Git": {
+                "nota1": 72,
+                "nota2": 91,
+                "nota3": 60,
+                "notaF": 74.33
+            },
+            "Intro": {
+                "nota1": 76,
+                "nota2": 83,
+                "nota3": 63,
+                "notaF": 74.0
+            },
+            "JavaScript": {
+                "nota1": 95,
+                "nota2": 83,
+                "nota3": 60,
+                "notaF": 79.33
+            },
+            "Intro Back": {
+                "nota1": 64,
+                "nota2": 77,
+                "nota3": 79,
+                "notaF": 73.33
+            },
+            "Python": {
+                "nota1": 100,
+                "nota2": 99,
+                "nota3": 65,
+                "notaF": 88.0
+            },
+            "Express": {
+                "nota1": 91,
+                "nota2": 62,
+                "nota3": 88,
+                "notaF": 80.33
+            },
+            "Intro BBDD": {
+                "nota1": 64,
+                "nota2": 89,
+                "nota3": 80,
+                "notaF": 77.67
+            }
+        }
+    },
+    {
+        "Nombre": "Andrés",
+        "Apellidos": "Martínez",
+        "ide": 1573576490,
+        "Acudiente": "Javier",
+        "Direccion": "Cra 33 # 59-29",
+        "Telefono Celular": 3031413387,
+        "Telefono fijo": 6034781610,
+        "Correo electrónico": "estudiante1573576490@gmail.com",
+        "Estado": "Graduado",
+        "Riesgo": "Bajo",
+        "Ruta": ".NET",
+        "Grupo": "A3",
         "Trainer": "Camilo",
         "Salon de entrenamiento": "Apolo",
-        "Fecha Inicio": "2025-05-18",
-        "Fecha Finalizacion": "2026-01-13",
+        "Fecha Inicio": "2025-03-11",
+        "Fecha Finalizacion": "2025-11-06",
         "cursos": {
-            ".Net Core": [
-                65,
-                53,
-                41
-            ],
-            "MySQL": [
-                66,
-                86,
-                40
-            ]
+            "Intro": {
+                "nota1": 100,
+                "nota2": 95,
+                "nota3": 90,
+                "notaF": 95.0
+            },
+            "Python": {
+                "nota1": 91,
+                "nota2": 82,
+                "nota3": 96,
+                "notaF": 89.67
+            },
+            "HTML/CSS": {
+                "nota1": 97,
+                "nota2": 100,
+                "nota3": 87,
+                "notaF": 94.67
+            },
+            "Scrum": {
+                "nota1": 72,
+                "nota2": 89,
+                "nota3": 95,
+                "notaF": 85.33
+            },
+            "Git": {
+                "nota1": 85,
+                "nota2": 77,
+                "nota3": 81,
+                "notaF": 81.0
+            },
+            "JavaScript": {
+                "nota1": 99,
+                "nota2": 94,
+                "nota3": 82,
+                "notaF": 91.67
+            },
+            "Intro Back": {
+                "nota1": 81,
+                "nota2": 82,
+                "nota3": 73,
+                "notaF": 78.67
+            },
+            "Intro BBDD": {
+                "nota1": 84,
+                "nota2": 74,
+                "nota3": 76,
+                "notaF": 78.0
+            },
+            "MySQL": {
+                "nota1": 96,
+                "nota2": 74,
+                "nota3": 86,
+                "notaF": 85.33
+            },
+            "C#": {
+                "nota1": 93,
+                "nota2": 95,
+                "nota3": 91,
+                "notaF": 93.0
+            },
+            "PostgreSQL": {
+                "nota1": 91,
+                "nota2": 72,
+                "nota3": 96,
+                "notaF": 86.33
+            },
+            ".Net Core": {
+                "nota1": 75,
+                "nota2": 79,
+                "nota3": 72,
+                "notaF": 75.33
+            }
+        }
+    },
+    {
+        "Nombre": "Ana",
+        "Apellidos": "Fernández",
+        "ide": 1116740949,
+        "Acudiente": "Silvia",
+        "Direccion": "Cra 20 # 92-1",
+        "Telefono Celular": 3155468745,
+        "Telefono fijo": 6022267925,
+        "Correo electrónico": "estudiante1116740949@gmail.com",
+        "Estado": "Aprobado",
+        "Riesgo": "Bajo",
+        "Ruta": "Java",
+        "Grupo": "J1",
+        "Trainer": "Camilo",
+        "Salon de entrenamiento": "Zeus",
+        "Fecha Inicio": "2025-03-12",
+        "Fecha Finalizacion": "2025-11-07",
+        "cursos": {
+            "Intro": {
+                "nota1": 67,
+                "nota2": 74,
+                "nota3": 88,
+                "notaF": 76.33
+            },
+            "MySQL": {
+                "nota1": 84,
+                "nota2": 92,
+                "nota3": 79,
+                "notaF": 85.0
+            },
+            "Python": {
+                "nota1": 98,
+                "nota2": 82,
+                "nota3": 67,
+                "notaF": 82.33
+            },
+            "PostgreSQL": {
+                "nota1": 73,
+                "nota2": 65,
+                "nota3": 90,
+                "notaF": 76.0
+            },
+            "C#": {
+                "nota1": 83,
+                "nota2": 66,
+                "nota3": 63,
+                "notaF": 70.67
+            },
+            "Intro BBDD": {
+                "nota1": 94,
+                "nota2": 96,
+                "nota3": 75,
+                "notaF": 88.33
+            }
+        }
+    },
+    {
+        "Nombre": "Ana",
+        "Apellidos": "Fernández",
+        "ide": 1112167819,
+        "Acudiente": "Silvia",
+        "Direccion": "Cra 58 # 99-41",
+        "Telefono Celular": 3173174310,
+        "Telefono fijo": 6019645657,
+        "Correo electrónico": "estudiante1112167819@gmail.com",
+        "Estado": "En proceso de ingreso",
+        "Riesgo": "N/A",
+        "Ruta": "NodeJS",
+        "Grupo": "C4",
+        "Trainer": "Juan",
+        "Salon de entrenamiento": "Apolo",
+        "Fecha Inicio": "2024-04-03",
+        "Fecha Finalizacion": "2024-11-29",
+        "cursos": {}
+    },
+    {
+        "Nombre": "Mariana",
+        "Apellidos": "Sánchez",
+        "ide": 1915471801,
+        "Acudiente": "Roberto",
+        "Direccion": "Cra 21 # 90-11",
+        "Telefono Celular": 3197470297,
+        "Telefono fijo": 6025672823,
+        "Correo electrónico": "estudiante1915471801@gmail.com",
+        "Estado": "Graduado",
+        "Riesgo": "Bajo",
+        "Ruta": ".NET",
+        "Grupo": "P1",
+        "Trainer": "María",
+        "Salon de entrenamiento": "Vladimir",
+        "Fecha Inicio": "2025-05-06",
+        "Fecha Finalizacion": "2026-01-01",
+        "cursos": {
+            "Intro": {
+                "nota1": 75,
+                "nota2": 73,
+                "nota3": 97,
+                "notaF": 81.67
+            },
+            "Python": {
+                "nota1": 89,
+                "nota2": 85,
+                "nota3": 71,
+                "notaF": 81.67
+            },
+            "HTML/CSS": {
+                "nota1": 82,
+                "nota2": 86,
+                "nota3": 78,
+                "notaF": 82.0
+            },
+            "Scrum": {
+                "nota1": 70,
+                "nota2": 97,
+                "nota3": 94,
+                "notaF": 87.0
+            },
+            "Git": {
+                "nota1": 96,
+                "nota2": 82,
+                "nota3": 88,
+                "notaF": 88.67
+            },
+            "JavaScript": {
+                "nota1": 93,
+                "nota2": 72,
+                "nota3": 82,
+                "notaF": 82.33
+            },
+            "Intro Back": {
+                "nota1": 76,
+                "nota2": 74,
+                "nota3": 79,
+                "notaF": 76.33
+            },
+            "Intro BBDD": {
+                "nota1": 88,
+                "nota2": 75,
+                "nota3": 95,
+                "notaF": 86.0
+            },
+            "MySQL": {
+                "nota1": 95,
+                "nota2": 100,
+                "nota3": 83,
+                "notaF": 92.67
+            },
+            "C#": {
+                "nota1": 80,
+                "nota2": 76,
+                "nota3": 90,
+                "notaF": 82.0
+            },
+            "PostgreSQL": {
+                "nota1": 74,
+                "nota2": 76,
+                "nota3": 95,
+                "notaF": 81.67
+            },
+            ".Net Core": {
+                "nota1": 76,
+                "nota2": 90,
+                "nota3": 80,
+                "notaF": 82.0
+            }
+        }
+    },
+    {
+        "Nombre": "Laura",
+        "Apellidos": "García",
+        "ide": 1483654420,
+        "Acudiente": "Javier",
+        "Direccion": "Cra 27 # 89-15",
+        "Telefono Celular": 3040915320,
+        "Telefono fijo": 6050854401,
+        "Correo electrónico": "estudiante1483654420@gmail.com",
+        "Estado": "Aprobado",
+        "Riesgo": "Bajo",
+        "Ruta": "Java",
+        "Grupo": "P4",
+        "Trainer": "Pedro",
+        "Salon de entrenamiento": "Apolo",
+        "Fecha Inicio": "2025-12-24",
+        "Fecha Finalizacion": "2026-08-21",
+        "cursos": {
+            "Intro BBDD": {
+                "nota1": 90,
+                "nota2": 92,
+                "nota3": 100,
+                "notaF": 94.0
+            },
+            "PostgreSQL": {
+                "nota1": 78,
+                "nota2": 66,
+                "nota3": 82,
+                "notaF": 75.33
+            },
+            ".Net Core": {
+                "nota1": 95,
+                "nota2": 63,
+                "nota3": 86,
+                "notaF": 81.33
+            },
+            "HTML/CSS": {
+                "nota1": 100,
+                "nota2": 94,
+                "nota3": 80,
+                "notaF": 91.33
+            },
+            "C#": {
+                "nota1": 96,
+                "nota2": 85,
+                "nota3": 78,
+                "notaF": 86.33
+            },
+            "MySQL": {
+                "nota1": 97,
+                "nota2": 77,
+                "nota3": 93,
+                "notaF": 89.0
+            },
+            "Git": {
+                "nota1": 76,
+                "nota2": 78,
+                "nota3": 63,
+                "notaF": 72.33
+            },
+            "Intro": {
+                "nota1": 90,
+                "nota2": 93,
+                "nota3": 86,
+                "notaF": 89.67
+            },
+            "Scrum": {
+                "nota1": 88,
+                "nota2": 84,
+                "nota3": 100,
+                "notaF": 90.67
+            },
+            "JavaScript": {
+                "nota1": 80,
+                "nota2": 68,
+                "nota3": 94,
+                "notaF": 80.67
+            },
+            "Python": {
+                "nota1": 96,
+                "nota2": 83,
+                "nota3": 65,
+                "notaF": 81.33
+            },
+            "Intro Back": {
+                "nota1": 88,
+                "nota2": 75,
+                "nota3": 67,
+                "notaF": 76.67
+            }
         }
     },
     {
         "Nombre": "Pedro",
-        "Apellidos": "Pérez",
-        "ide": 1901502430,
+        "Apellidos": "Sánchez",
+        "ide": 1650485995,
+        "Acudiente": "Silvia",
+        "Direccion": "Cra 13 # 18-6",
+        "Telefono Celular": 3011411328,
+        "Telefono fijo": 6019055429,
+        "Correo electrónico": "estudiante1650485995@gmail.com",
+        "Estado": "Cursando",
+        "Riesgo": "Bajo",
+        "Ruta": "Java",
+        "Grupo": "P4",
+        "Trainer": "Aura",
+        "Salon de entrenamiento": "Vladimir",
+        "Fecha Inicio": "2025-02-04",
+        "Fecha Finalizacion": "2025-10-02",
+        "cursos": {
+            "Git": {
+                "nota1": 46,
+                "nota2": 91,
+                "nota3": 65,
+                "notaF": 67.33
+            },
+            "JavaScript": {
+                "nota1": 71,
+                "nota2": 87,
+                "nota3": 73,
+                "notaF": 77.0
+            },
+            "Intro Back": {
+                "nota1": 71,
+                "nota2": 47,
+                "nota3": 89,
+                "notaF": 69.0
+            },
+            "Intro BBDD": {
+                "nota1": 80,
+                "nota2": 54,
+                "nota3": 54,
+                "notaF": 62.67
+            },
+            "HTML/CSS": {
+                "nota1": 96,
+                "nota2": 49,
+                "nota3": 78,
+                "notaF": 74.33
+            },
+            ".Net Core": {
+                "nota1": 52,
+                "nota2": 51,
+                "nota3": 71,
+                "notaF": 58.0
+            }
+        }
+    },
+    {
+        "Nombre": "Laura",
+        "Apellidos": "Ramírez",
+        "ide": 1699745265,
+        "Acudiente": "Javier",
+        "Direccion": "Cra 43 # 76-15",
+        "Telefono Celular": 3048465289,
+        "Telefono fijo": 6004278140,
+        "Correo electrónico": "estudiante1699745265@gmail.com",
+        "Estado": "Aprobado",
+        "Riesgo": "Bajo",
+        "Ruta": "Java",
+        "Grupo": "C4",
+        "Trainer": "Juan",
+        "Salon de entrenamiento": "Apolo",
+        "Fecha Inicio": "2025-04-15",
+        "Fecha Finalizacion": "2025-12-11",
+        "cursos": {
+            "Intro BBDD": {
+                "nota1": 61,
+                "nota2": 82,
+                "nota3": 76,
+                "notaF": 73.0
+            },
+            "MySQL": {
+                "nota1": 61,
+                "nota2": 77,
+                "nota3": 96,
+                "notaF": 78.0
+            },
+            "PostgreSQL": {
+                "nota1": 65,
+                "nota2": 83,
+                "nota3": 85,
+                "notaF": 77.67
+            },
+            "Intro Back": {
+                "nota1": 87,
+                "nota2": 68,
+                "nota3": 95,
+                "notaF": 83.33
+            },
+            "JavaScript": {
+                "nota1": 83,
+                "nota2": 85,
+                "nota3": 69,
+                "notaF": 79.0
+            },
+            "Python": {
+                "nota1": 60,
+                "nota2": 100,
+                "nota3": 62,
+                "notaF": 74.0
+            },
+            "HTML/CSS": {
+                "nota1": 94,
+                "nota2": 74,
+                "nota3": 64,
+                "notaF": 77.33
+            },
+            "C#": {
+                "nota1": 94,
+                "nota2": 63,
+                "nota3": 93,
+                "notaF": 83.33
+            }
+        }
+    },
+    {
+        "Nombre": "Pedro",
+        "Apellidos": "García",
+        "ide": 1631424312,
         "Acudiente": "Fernando",
-        "Direccion": "Cra 49 # 64-10",
-        "Telefono Celular": 3180647697,
-        "Telefono fijo": 6066958722,
-        "Correo electrónico": "estudiante1901502430@gmail.com",
+        "Direccion": "Cra 84 # 25-28",
+        "Telefono Celular": 3135503114,
+        "Telefono fijo": 6014668878,
+        "Correo electrónico": "estudiante1631424312@gmail.com",
+        "Estado": "Aprobado",
+        "Riesgo": "Bajo",
+        "Ruta": "Java",
+        "Grupo": "A3",
+        "Trainer": "María",
+        "Salon de entrenamiento": "Apolo",
+        "Fecha Inicio": "2025-04-30",
+        "Fecha Finalizacion": "2025-12-26",
+        "cursos": {
+            "C#": {
+                "nota1": 86,
+                "nota2": 93,
+                "nota3": 70,
+                "notaF": 83.0
+            },
+            "HTML/CSS": {
+                "nota1": 86,
+                "nota2": 63,
+                "nota3": 68,
+                "notaF": 72.33
+            },
+            ".Net Core": {
+                "nota1": 85,
+                "nota2": 96,
+                "nota3": 94,
+                "notaF": 91.67
+            },
+            "Scrum": {
+                "nota1": 98,
+                "nota2": 84,
+                "nota3": 84,
+                "notaF": 88.67
+            },
+            "Intro BBDD": {
+                "nota1": 74,
+                "nota2": 66,
+                "nota3": 66,
+                "notaF": 68.67
+            },
+            "Python": {
+                "nota1": 70,
+                "nota2": 87,
+                "nota3": 95,
+                "notaF": 84.0
+            },
+            "Git": {
+                "nota1": 73,
+                "nota2": 64,
+                "nota3": 77,
+                "notaF": 71.33
+            },
+            "JavaScript": {
+                "nota1": 90,
+                "nota2": 61,
+                "nota3": 93,
+                "notaF": 81.33
+            },
+            "PostgreSQL": {
+                "nota1": 83,
+                "nota2": 79,
+                "nota3": 99,
+                "notaF": 87.0
+            }
+        }
+    },
+    {
+        "Nombre": "Valentina",
+        "Apellidos": "Pérez",
+        "ide": 1524323972,
+        "Acudiente": "Javier",
+        "Direccion": "Cra 76 # 100-19",
+        "Telefono Celular": 3085592878,
+        "Telefono fijo": 6063209671,
+        "Correo electrónico": "estudiante1524323972@gmail.com",
+        "Estado": "Inscrito",
+        "Riesgo": "N/A",
+        "Ruta": "Java",
+        "Grupo": "C4",
+        "Trainer": "Juan",
+        "Salon de entrenamiento": "Vladimir",
+        "Fecha Inicio": "2025-04-24",
+        "Fecha Finalizacion": "2025-12-20",
+        "cursos": {}
+    },
+    {
+        "Nombre": "José",
+        "Apellidos": "García",
+        "ide": 1347227452,
+        "Acudiente": "Claudia",
+        "Direccion": "Cra 92 # 58-32",
+        "Telefono Celular": 3128289894,
+        "Telefono fijo": 6009982788,
+        "Correo electrónico": "estudiante1347227452@gmail.com",
+        "Estado": "Cursando",
+        "Riesgo": "Bajo",
+        "Ruta": ".NET",
+        "Grupo": "P1",
+        "Trainer": "Aura",
+        "Salon de entrenamiento": "Apolo",
+        "Fecha Inicio": "2025-06-28",
+        "Fecha Finalizacion": "2026-02-23",
+        "cursos": {
+            "Python": {
+                "nota1": 66,
+                "nota2": 41,
+                "nota3": 49,
+                "notaF": 52.0
+            },
+            "PostgreSQL": {
+                "nota1": 96,
+                "nota2": 68,
+                "nota3": 53,
+                "notaF": 72.33
+            },
+            "Intro BBDD": {
+                "nota1": 97,
+                "nota2": 57,
+                "nota3": 59,
+                "notaF": 71.0
+            },
+            "Intro": {
+                "nota1": 41,
+                "nota2": 83,
+                "nota3": 98,
+                "notaF": 74.0
+            },
+            "Git": {
+                "nota1": 40,
+                "nota2": 54,
+                "nota3": 47,
+                "notaF": 47.0
+            },
+            "Intro Back": {
+                "nota1": 51,
+                "nota2": 57,
+                "nota3": 48,
+                "notaF": 52.0
+            },
+            "Scrum": {
+                "nota1": 74,
+                "nota2": 65,
+                "nota3": 79,
+                "notaF": 72.67
+            },
+            "HTML/CSS": {
+                "nota1": 77,
+                "nota2": 97,
+                "nota3": 60,
+                "notaF": 78.0
+            }
+        }
+    },
+    {
+        "Nombre": "Pedro",
+        "Apellidos": "Díaz",
+        "ide": 1970871372,
+        "Acudiente": "Fernando",
+        "Direccion": "Cra 42 # 88-42",
+        "Telefono Celular": 3104776808,
+        "Telefono fijo": 6026767243,
+        "Correo electrónico": "estudiante1970871372@gmail.com",
+        "Estado": "Cursando",
+        "Riesgo": "Bajo",
+        "Ruta": "NodeJS",
+        "Grupo": "C4",
+        "Trainer": "Pedro",
+        "Salon de entrenamiento": "Zeus",
+        "Fecha Inicio": "2025-02-07",
+        "Fecha Finalizacion": "2025-10-05",
+        "cursos": {
+            "Python": {
+                "nota1": 77,
+                "nota2": 90,
+                "nota3": 97,
+                "notaF": 88.0
+            },
+            "Git": {
+                "nota1": 55,
+                "nota2": 52,
+                "nota3": 93,
+                "notaF": 66.67
+            },
+            "Scrum": {
+                "nota1": 47,
+                "nota2": 52,
+                "nota3": 84,
+                "notaF": 61.0
+            },
+            "MongoDB": {
+                "nota1": 77,
+                "nota2": 43,
+                "nota3": 48,
+                "notaF": 56.0
+            },
+            "Intro BBDD": {
+                "nota1": 44,
+                "nota2": 43,
+                "nota3": 93,
+                "notaF": 60.0
+            },
+            "HTML/CSS": {
+                "nota1": 98,
+                "nota2": 85,
+                "nota3": 94,
+                "notaF": 92.33
+            }
+        }
+    },
+    {
+        "Nombre": "Pedro",
+        "Apellidos": "Ramírez",
+        "ide": 1778710314,
+        "Acudiente": "Fernando",
+        "Direccion": "Cra 59 # 38-45",
+        "Telefono Celular": 3126594092,
+        "Telefono fijo": 6031815784,
+        "Correo electrónico": "estudiante1778710314@gmail.com",
         "Estado": "En proceso de ingreso",
         "Riesgo": "N/A",
         "Ruta": ".NET",
+        "Grupo": "A4",
+        "Trainer": "María",
+        "Salon de entrenamiento": "Apolo",
+        "Fecha Inicio": "2024-01-13",
+        "Fecha Finalizacion": "2024-09-09",
+        "cursos": {}
+    },
+    {
+        "Nombre": "Laura",
+        "Apellidos": "Fernández",
+        "ide": 1958703320,
+        "Acudiente": "Roberto",
+        "Direccion": "Cra 1 # 31-44",
+        "Telefono Celular": 3050436075,
+        "Telefono fijo": 6040591142,
+        "Correo electrónico": "estudiante1958703320@gmail.com",
+        "Estado": "Retirado",
+        "Riesgo": "N/A",
+        "Ruta": "NodeJS",
         "Grupo": "J2",
+        "Trainer": "Camilo",
+        "Salon de entrenamiento": "Apolo",
+        "Fecha Inicio": "2024-04-01",
+        "Fecha Finalizacion": "2024-11-27",
+        "cursos": {}
+    },
+    {
+        "Nombre": "Andrés",
+        "Apellidos": "Fernández",
+        "ide": 1493306758,
+        "Acudiente": "Patricia",
+        "Direccion": "Cra 46 # 28-15",
+        "Telefono Celular": 3109881515,
+        "Telefono fijo": 6045964100,
+        "Correo electrónico": "estudiante1493306758@gmail.com",
+        "Estado": "En proceso de ingreso",
+        "Riesgo": "N/A",
+        "Ruta": ".NET",
+        "Grupo": "P2",
+        "Trainer": "Juan",
+        "Salon de entrenamiento": "Apolo",
+        "Fecha Inicio": "2024-03-29",
+        "Fecha Finalizacion": "2024-11-24",
+        "cursos": {}
+    },
+    {
+        "Nombre": "José",
+        "Apellidos": "Martínez",
+        "ide": 1610814491,
+        "Acudiente": "Hugo",
+        "Direccion": "Cra 46 # 83-33",
+        "Telefono Celular": 3070777864,
+        "Telefono fijo": 6063767302,
+        "Correo electrónico": "estudiante1610814491@gmail.com",
+        "Estado": "Retirado",
+        "Riesgo": "N/A",
+        "Ruta": "NodeJS",
+        "Grupo": "M2",
+        "Trainer": "Pedro",
+        "Salon de entrenamiento": "Apolo",
+        "Fecha Inicio": "2025-07-07",
+        "Fecha Finalizacion": "2026-03-04",
+        "cursos": {}
+    },
+    {
+        "Nombre": "Luis",
+        "Apellidos": "Rodríguez",
+        "ide": 1550281460,
+        "Acudiente": "Diego",
+        "Direccion": "Cra 2 # 83-17",
+        "Telefono Celular": 3147202605,
+        "Telefono fijo": 6002707201,
+        "Correo electrónico": "estudiante1550281460@gmail.com",
+        "Estado": "Retirado",
+        "Riesgo": "N/A",
+        "Ruta": ".NET",
+        "Grupo": "P1",
+        "Trainer": "Pedro",
+        "Salon de entrenamiento": "Vladimir",
+        "Fecha Inicio": "2024-05-22",
+        "Fecha Finalizacion": "2025-01-17",
+        "cursos": {}
+    },
+    {
+        "Nombre": "Mariana",
+        "Apellidos": "Torres",
+        "ide": 1134577564,
+        "Acudiente": "Diego",
+        "Direccion": "Cra 33 # 46-15",
+        "Telefono Celular": 3179707755,
+        "Telefono fijo": 6022440349,
+        "Correo electrónico": "estudiante1134577564@gmail.com",
+        "Estado": "Cursando",
+        "Riesgo": "Bajo",
+        "Ruta": "Java",
+        "Grupo": "C4",
+        "Trainer": "Camilo",
+        "Salon de entrenamiento": "Vladimir",
+        "Fecha Inicio": "2025-06-07",
+        "Fecha Finalizacion": "2026-02-02",
+        "cursos": {
+            "Python": {
+                "nota1": 66,
+                "nota2": 60,
+                "nota3": 54,
+                "notaF": 60.0
+            },
+            "C#": {
+                "nota1": 71,
+                "nota2": 67,
+                "nota3": 51,
+                "notaF": 63.0
+            },
+            ".Net Core": {
+                "nota1": 72,
+                "nota2": 73,
+                "nota3": 86,
+                "notaF": 77.0
+            },
+            "Intro": {
+                "nota1": 99,
+                "nota2": 81,
+                "nota3": 42,
+                "notaF": 74.0
+            },
+            "JavaScript": {
+                "nota1": 49,
+                "nota2": 78,
+                "nota3": 68,
+                "notaF": 65.0
+            },
+            "PostgreSQL": {
+                "nota1": 63,
+                "nota2": 65,
+                "nota3": 43,
+                "notaF": 57.0
+            },
+            "Intro BBDD": {
+                "nota1": 90,
+                "nota2": 98,
+                "nota3": 93,
+                "notaF": 93.67
+            },
+            "Git": {
+                "nota1": 50,
+                "nota2": 59,
+                "nota3": 51,
+                "notaF": 53.33
+            },
+            "MySQL": {
+                "nota1": 87,
+                "nota2": 78,
+                "nota3": 58,
+                "notaF": 74.33
+            },
+            "Scrum": {
+                "nota1": 54,
+                "nota2": 61,
+                "nota3": 65,
+                "notaF": 60.0
+            },
+            "HTML/CSS": {
+                "nota1": 57,
+                "nota2": 79,
+                "nota3": 84,
+                "notaF": 73.33
+            }
+        }
+    },
+    {
+        "Nombre": "Mariana",
+        "Apellidos": "Rodríguez",
+        "ide": 1222021839,
+        "Acudiente": "Pilar",
+        "Direccion": "Cra 1 # 93-23",
+        "Telefono Celular": 3128909663,
+        "Telefono fijo": 6005386637,
+        "Correo electrónico": "estudiante1222021839@gmail.com",
+        "Estado": "Inscrito",
+        "Riesgo": "N/A",
+        "Ruta": "Java",
+        "Grupo": "J1",
+        "Trainer": "Camilo",
+        "Salon de entrenamiento": "Apolo",
+        "Fecha Inicio": "2025-06-25",
+        "Fecha Finalizacion": "2026-02-20",
+        "cursos": {}
+    },
+    {
+        "Nombre": "Sofía",
+        "Apellidos": "Rodríguez",
+        "ide": 1781123180,
+        "Acudiente": "Claudia",
+        "Direccion": "Cra 30 # 87-30",
+        "Telefono Celular": 3000852304,
+        "Telefono fijo": 6084539712,
+        "Correo electrónico": "estudiante1781123180@gmail.com",
+        "Estado": "Expulsado",
+        "Riesgo": "N/A",
+        "Ruta": "NodeJS",
+        "Grupo": "P4",
+        "Trainer": "Pedro",
+        "Salon de entrenamiento": "Vladimir",
+        "Fecha Inicio": "2025-05-19",
+        "Fecha Finalizacion": "2026-01-14",
+        "cursos": {}
+    },
+    {
+        "Nombre": "Pedro",
+        "Apellidos": "Martínez",
+        "ide": 1180709346,
+        "Acudiente": "Pilar",
+        "Direccion": "Cra 33 # 65-29",
+        "Telefono Celular": 3088403013,
+        "Telefono fijo": 6044456753,
+        "Correo electrónico": "estudiante1180709346@gmail.com",
+        "Estado": "Inscrito",
+        "Riesgo": "N/A",
+        "Ruta": ".NET",
+        "Grupo": "P4",
+        "Trainer": "Camilo",
+        "Salon de entrenamiento": "Vladimir",
+        "Fecha Inicio": "2024-09-12",
+        "Fecha Finalizacion": "2025-05-10",
+        "cursos": {}
+    },
+    {
+        "Nombre": "Valentina",
+        "Apellidos": "Pérez",
+        "ide": 1920428306,
+        "Acudiente": "Pilar",
+        "Direccion": "Cra 57 # 61-24",
+        "Telefono Celular": 3009481415,
+        "Telefono fijo": 6043406735,
+        "Correo electrónico": "estudiante1920428306@gmail.com",
+        "Estado": "Aprobado",
+        "Riesgo": "Bajo",
+        "Ruta": "NodeJS",
+        "Grupo": "C4",
+        "Trainer": "Pedro",
+        "Salon de entrenamiento": "Vladimir",
+        "Fecha Inicio": "2025-11-29",
+        "Fecha Finalizacion": "2026-07-27",
+        "cursos": {
+            "Scrum": {
+                "nota1": 93,
+                "nota2": 70,
+                "nota3": 66,
+                "notaF": 76.33
+            },
+            "Python": {
+                "nota1": 93,
+                "nota2": 61,
+                "nota3": 80,
+                "notaF": 78.0
+            },
+            "Express": {
+                "nota1": 91,
+                "nota2": 88,
+                "nota3": 76,
+                "notaF": 85.0
+            },
+            "Intro Back": {
+                "nota1": 97,
+                "nota2": 60,
+                "nota3": 64,
+                "notaF": 73.67
+            },
+            "JavaScript": {
+                "nota1": 63,
+                "nota2": 78,
+                "nota3": 92,
+                "notaF": 77.67
+            },
+            "Intro": {
+                "nota1": 63,
+                "nota2": 94,
+                "nota3": 87,
+                "notaF": 81.33
+            }
+        }
+    },
+    {
+        "Nombre": "Mariana",
+        "Apellidos": "Ramírez",
+        "ide": 1734518432,
+        "Acudiente": "Hugo",
+        "Direccion": "Cra 89 # 88-41",
+        "Telefono Celular": 3144622281,
+        "Telefono fijo": 6015734878,
+        "Correo electrónico": "estudiante1734518432@gmail.com",
+        "Estado": "Inscrito",
+        "Riesgo": "N/A",
+        "Ruta": "Java",
+        "Grupo": "C3",
+        "Trainer": "Aura",
+        "Salon de entrenamiento": "Vladimir",
+        "Fecha Inicio": "2025-02-02",
+        "Fecha Finalizacion": "2025-09-30",
+        "cursos": {}
+    },
+    {
+        "Nombre": "Mariana",
+        "Apellidos": "Fernández",
+        "ide": 1083721031,
+        "Acudiente": "Diego",
+        "Direccion": "Cra 59 # 9-10",
+        "Telefono Celular": 3141276612,
+        "Telefono fijo": 6092291896,
+        "Correo electrónico": "estudiante1083721031@gmail.com",
+        "Estado": "En proceso de ingreso",
+        "Riesgo": "N/A",
+        "Ruta": "Java",
+        "Grupo": "J1",
+        "Trainer": "María",
+        "Salon de entrenamiento": "Zeus",
+        "Fecha Inicio": "2024-11-05",
+        "Fecha Finalizacion": "2025-07-03",
+        "cursos": {}
+    },
+    {
+        "Nombre": "Andrés",
+        "Apellidos": "Fernández",
+        "ide": 1012266637,
+        "Acudiente": "Mónica",
+        "Direccion": "Cra 40 # 31-20",
+        "Telefono Celular": 3100320816,
+        "Telefono fijo": 6097190727,
+        "Correo electrónico": "estudiante1012266637@gmail.com",
+        "Estado": "Retirado",
+        "Riesgo": "N/A",
+        "Ruta": "NodeJS",
+        "Grupo": "A4",
+        "Trainer": "María",
+        "Salon de entrenamiento": "Vladimir",
+        "Fecha Inicio": "2025-09-09",
+        "Fecha Finalizacion": "2026-05-07",
+        "cursos": {}
+    },
+    {
+        "Nombre": "Carlos",
+        "Apellidos": "García",
+        "ide": 1979061762,
+        "Acudiente": "Javier",
+        "Direccion": "Cra 17 # 22-21",
+        "Telefono Celular": 3038232840,
+        "Telefono fijo": 6066095742,
+        "Correo electrónico": "estudiante1979061762@gmail.com",
+        "Estado": "En proceso de ingreso",
+        "Riesgo": "N/A",
+        "Ruta": "Java",
+        "Grupo": "M3",
+        "Trainer": "Pedro",
+        "Salon de entrenamiento": "Vladimir",
+        "Fecha Inicio": "2025-12-24",
+        "Fecha Finalizacion": "2026-08-21",
+        "cursos": {}
+    },
+    {
+        "Nombre": "Carlos",
+        "Apellidos": "Ramírez",
+        "ide": 1997696038,
+        "Acudiente": "Claudia",
+        "Direccion": "Cra 38 # 94-2",
+        "Telefono Celular": 3147326836,
+        "Telefono fijo": 6021682973,
+        "Correo electrónico": "estudiante1997696038@gmail.com",
+        "Estado": "Retirado",
+        "Riesgo": "N/A",
+        "Ruta": "NodeJS",
+        "Grupo": "P4",
+        "Trainer": "Pedro",
+        "Salon de entrenamiento": "Zeus",
+        "Fecha Inicio": "2024-09-18",
+        "Fecha Finalizacion": "2025-05-16",
+        "cursos": {}
+    },
+    {
+        "Nombre": "Sofía",
+        "Apellidos": "Torres",
+        "ide": 1369215947,
+        "Acudiente": "Hugo",
+        "Direccion": "Cra 14 # 93-50",
+        "Telefono Celular": 3009729279,
+        "Telefono fijo": 6060507049,
+        "Correo electrónico": "estudiante1369215947@gmail.com",
+        "Estado": "Retirado",
+        "Riesgo": "N/A",
+        "Ruta": "NodeJS",
+        "Grupo": "A3",
+        "Trainer": "Pedro",
+        "Salon de entrenamiento": "Apolo",
+        "Fecha Inicio": "2024-12-06",
+        "Fecha Finalizacion": "2025-08-03",
+        "cursos": {}
+    },
+    {
+        "Nombre": "Carlos",
+        "Apellidos": "Martínez",
+        "ide": 1763550757,
+        "Acudiente": "Fernando",
+        "Direccion": "Cra 12 # 33-40",
+        "Telefono Celular": 3059721449,
+        "Telefono fijo": 6008264287,
+        "Correo electrónico": "estudiante1763550757@gmail.com",
+        "Estado": "Inscrito",
+        "Riesgo": "N/A",
+        "Ruta": "NodeJS",
+        "Grupo": "M3",
         "Trainer": "María",
         "Salon de entrenamiento": "Vladimir",
         "Fecha Inicio": "2024-02-05",
@@ -251,2186 +1922,217 @@
         "cursos": {}
     },
     {
-        "Nombre": "Mariana",
-        "Apellidos": "Rodríguez",
-        "ide": 1377881439,
-        "Acudiente": "Claudia",
-        "Direccion": "Cra 94 # 7-2",
-        "Telefono Celular": 3017372680,
-        "Telefono fijo": 6093062442,
-        "Correo electrónico": "estudiante1377881439@gmail.com",
-        "Estado": "En proceso de ingreso",
-        "Riesgo": "N/A",
-        "Ruta": ".NET",
-        "Grupo": "C3",
-        "Trainer": "Camilo",
-        "Salon de entrenamiento": "Apolo",
-        "Fecha Inicio": "2025-02-10",
-        "Fecha Finalizacion": "2025-10-08",
-        "cursos": {}
-    },
-    {
-        "Nombre": "Sofía",
-        "Apellidos": "Fernández",
-        "ide": 1604451779,
-        "Acudiente": "Claudia",
-        "Direccion": "Cra 14 # 68-17",
-        "Telefono Celular": 3052284438,
-        "Telefono fijo": 6012631915,
-        "Correo electrónico": "estudiante1604451779@gmail.com",
-        "Estado": "Aprobado",
-        "Riesgo": "Bajo",
-        "Ruta": ".NET",
-        "Grupo": "C3",
-        "Trainer": "María",
-        "Salon de entrenamiento": "Apolo",
-        "Fecha Inicio": "2024-09-23",
-        "Fecha Finalizacion": "2025-05-21",
-        "cursos": {
-            "Scrum": [
-                100,
-                71,
-                77
-            ],
-            "PostgreSQL": [
-                74,
-                96,
-                60
-            ],
-            "Git": [
-                72,
-                71,
-                82
-            ],
-            "MySQL": [
-                97,
-                92,
-                98
-            ],
-            "Intro Back": [
-                96,
-                66,
-                63
-            ],
-            "HTML/CSS": [
-                85,
-                86,
-                69
-            ],
-            "JavaScript": [
-                84,
-                64,
-                78
-            ],
-            "Intro": [
-                79,
-                96,
-                71
-            ],
-            ".Net Core": [
-                97,
-                100,
-                67
-            ],
-            "C#": [
-                70,
-                68,
-                86
-            ],
-            "Intro BBDD": [
-                99,
-                90,
-                74
-            ]
-        }
-    },
-    {
         "Nombre": "Ana",
-        "Apellidos": "Ramírez",
-        "ide": 1049383269,
-        "Acudiente": "Diego",
-        "Direccion": "Cra 2 # 36-48",
-        "Telefono Celular": 3129451637,
-        "Telefono fijo": 6039452352,
-        "Correo electrónico": "estudiante1049383269@gmail.com",
-        "Estado": "Cursando",
-        "Riesgo": "Bajo",
-        "Ruta": ".NET",
-        "Grupo": "A3",
-        "Trainer": "Aura",
-        "Salon de entrenamiento": "Apolo",
-        "Fecha Inicio": "2024-06-26",
-        "Fecha Finalizacion": "2025-02-21",
-        "cursos": {
-            "HTML/CSS": [
-                85,
-                60,
-                61
-            ],
-            "Intro Back": [
-                81,
-                77,
-                62
-            ]
-        }
+        "Apellidos": "Sánchez",
+        "ide": 1534543167,
+        "Acudiente": "Fernando",
+        "Direccion": "Cra 74 # 12-35",
+        "Telefono Celular": 3136244041,
+        "Telefono fijo": 6051802781,
+        "Correo electrónico": "estudiante1534543167@gmail.com",
+        "Estado": "Retirado",
+        "Riesgo": "N/A",
+        "Ruta": "NodeJS",
+        "Grupo": "A4",
+        "Trainer": "Camilo",
+        "Salon de entrenamiento": "Zeus",
+        "Fecha Inicio": "2024-08-30",
+        "Fecha Finalizacion": "2025-04-27",
+        "cursos": {}
     },
     {
         "Nombre": "Luis",
-        "Apellidos": "Ramírez",
-        "ide": 1710717444,
-        "Acudiente": "Patricia",
-        "Direccion": "Cra 83 # 91-32",
-        "Telefono Celular": 3019940472,
-        "Telefono fijo": 6004864588,
-        "Correo electrónico": "estudiante1710717444@gmail.com",
+        "Apellidos": "García",
+        "ide": 1535146675,
+        "Acudiente": "Fernando",
+        "Direccion": "Cra 28 # 3-40",
+        "Telefono Celular": 3198054006,
+        "Telefono fijo": 6054354960,
+        "Correo electrónico": "estudiante1535146675@gmail.com",
+        "Estado": "Aprobado",
+        "Riesgo": "Bajo",
+        "Ruta": "NodeJS",
+        "Grupo": "M2",
+        "Trainer": "María",
+        "Salon de entrenamiento": "Zeus",
+        "Fecha Inicio": "2025-08-19",
+        "Fecha Finalizacion": "2026-04-16",
+        "cursos": {
+            "JavaScript": {
+                "nota1": 93,
+                "nota2": 66,
+                "nota3": 98,
+                "notaF": 85.67
+            },
+            "Intro BBDD": {
+                "nota1": 83,
+                "nota2": 92,
+                "nota3": 85,
+                "notaF": 86.67
+            },
+            "Express": {
+                "nota1": 91,
+                "nota2": 90,
+                "nota3": 73,
+                "notaF": 84.67
+            },
+            "Scrum": {
+                "nota1": 80,
+                "nota2": 63,
+                "nota3": 90,
+                "notaF": 77.67
+            },
+            "Intro Back": {
+                "nota1": 93,
+                "nota2": 93,
+                "nota3": 91,
+                "notaF": 92.33
+            },
+            "Intro": {
+                "nota1": 93,
+                "nota2": 87,
+                "nota3": 73,
+                "notaF": 84.33
+            },
+            "Git": {
+                "nota1": 75,
+                "nota2": 99,
+                "nota3": 74,
+                "notaF": 82.67
+            }
+        }
+    },
+    {
+        "Nombre": "Laura",
+        "Apellidos": "Sánchez",
+        "ide": 1193119906,
+        "Acudiente": "Mónica",
+        "Direccion": "Cra 16 # 43-21",
+        "Telefono Celular": 3092403364,
+        "Telefono fijo": 6056653514,
+        "Correo electrónico": "estudiante1193119906@gmail.com",
         "Estado": "Expulsado",
         "Riesgo": "N/A",
         "Ruta": "Java",
-        "Grupo": "P3",
-        "Trainer": "María",
+        "Grupo": "P1",
+        "Trainer": "Camilo",
+        "Salon de entrenamiento": "Zeus",
+        "Fecha Inicio": "2024-05-22",
+        "Fecha Finalizacion": "2025-01-17",
+        "cursos": {}
+    },
+    {
+        "Nombre": "Laura",
+        "Apellidos": "Fernández",
+        "ide": 1979320427,
+        "Acudiente": "Fernando",
+        "Direccion": "Cra 99 # 4-41",
+        "Telefono Celular": 3061471445,
+        "Telefono fijo": 6070226267,
+        "Correo electrónico": "estudiante1979320427@gmail.com",
+        "Estado": "Inscrito",
+        "Riesgo": "N/A",
+        "Ruta": "Java",
+        "Grupo": "P4",
+        "Trainer": "Pedro",
         "Salon de entrenamiento": "Vladimir",
-        "Fecha Inicio": "2025-12-13",
-        "Fecha Finalizacion": "2026-08-10",
+        "Fecha Inicio": "2024-10-28",
+        "Fecha Finalizacion": "2025-06-25",
         "cursos": {}
     },
     {
         "Nombre": "Mariana",
-        "Apellidos": "Rodríguez",
-        "ide": 1828712949,
-        "Acudiente": "Roberto",
-        "Direccion": "Cra 28 # 81-20",
-        "Telefono Celular": 3163897550,
-        "Telefono fijo": 6058119531,
-        "Correo electrónico": "estudiante1828712949@gmail.com",
-        "Estado": "Inscrito",
-        "Riesgo": "N/A",
-        "Ruta": "NodeJS",
-        "Grupo": "J1",
-        "Trainer": "Pedro",
-        "Salon de entrenamiento": "Zeus",
-        "Fecha Inicio": "2025-03-30",
-        "Fecha Finalizacion": "2025-11-25",
-        "cursos": {}
-    },
-    {
-        "Nombre": "Carlos",
-        "Apellidos": "Ramírez",
-        "ide": 1963253249,
-        "Acudiente": "Javier",
-        "Direccion": "Cra 78 # 15-42",
-        "Telefono Celular": 3109371474,
-        "Telefono fijo": 6019125124,
-        "Correo electrónico": "estudiante1963253249@gmail.com",
-        "Estado": "Retirado",
+        "Apellidos": "García",
+        "ide": 1226232908,
+        "Acudiente": "Diego",
+        "Direccion": "Cra 61 # 62-50",
+        "Telefono Celular": 3196128701,
+        "Telefono fijo": 6002499906,
+        "Correo electrónico": "estudiante1226232908@gmail.com",
+        "Estado": "Expulsado",
         "Riesgo": "N/A",
         "Ruta": ".NET",
         "Grupo": "J2",
-        "Trainer": "Aura",
-        "Salon de entrenamiento": "Vladimir",
-        "Fecha Inicio": "2024-05-19",
-        "Fecha Finalizacion": "2025-01-14",
-        "cursos": {}
-    },
-    {
-        "Nombre": "Sofía",
-        "Apellidos": "Ramírez",
-        "ide": 1810549257,
-        "Acudiente": "Javier",
-        "Direccion": "Cra 72 # 55-40",
-        "Telefono Celular": 3124716415,
-        "Telefono fijo": 6064496729,
-        "Correo electrónico": "estudiante1810549257@gmail.com",
-        "Estado": "Inscrito",
-        "Riesgo": "N/A",
-        "Ruta": ".NET",
-        "Grupo": "P1",
         "Trainer": "Pedro",
-        "Salon de entrenamiento": "Zeus",
-        "Fecha Inicio": "2024-02-02",
-        "Fecha Finalizacion": "2024-09-29",
-        "cursos": {}
-    },
-    {
-        "Nombre": "Ana",
-        "Apellidos": "Rodríguez",
-        "ide": 1306814287,
-        "Acudiente": "Mónica",
-        "Direccion": "Cra 92 # 92-7",
-        "Telefono Celular": 3108955835,
-        "Telefono fijo": 6054547126,
-        "Correo electrónico": "estudiante1306814287@gmail.com",
-        "Estado": "Graduado",
-        "Riesgo": "Bajo",
-        "Ruta": ".NET",
-        "Grupo": "J1",
-        "Trainer": "María",
         "Salon de entrenamiento": "Vladimir",
-        "Fecha Inicio": "2025-10-12",
-        "Fecha Finalizacion": "2026-06-09",
-        "cursos": {
-            "Intro": [
-                73,
-                71,
-                95
-            ],
-            "Python": [
-                93,
-                75,
-                81
-            ],
-            "HTML/CSS": [
-                78,
-                71,
-                72
-            ],
-            "Scrum": [
-                94,
-                78,
-                70
-            ],
-            "Git": [
-                89,
-                82,
-                78
-            ],
-            "JavaScript": [
-                84,
-                73,
-                87
-            ],
-            "Intro Back": [
-                96,
-                87,
-                81
-            ],
-            "Intro BBDD": [
-                78,
-                90,
-                96
-            ],
-            "MySQL": [
-                95,
-                86,
-                95
-            ],
-            "C#": [
-                74,
-                93,
-                93
-            ],
-            "PostgreSQL": [
-                75,
-                88,
-                80
-            ],
-            ".Net Core": [
-                88,
-                93,
-                84
-            ]
-        }
-    },
-    {
-        "Nombre": "Ana",
-        "Apellidos": "Fernández",
-        "ide": 1803774124,
-        "Acudiente": "Silvia",
-        "Direccion": "Cra 55 # 88-40",
-        "Telefono Celular": 3007024793,
-        "Telefono fijo": 6083231913,
-        "Correo electrónico": "estudiante1803774124@gmail.com",
-        "Estado": "Expulsado",
-        "Riesgo": "N/A",
-        "Ruta": "NodeJS",
-        "Grupo": "M1",
-        "Trainer": "Camilo",
-        "Salon de entrenamiento": "Apolo",
-        "Fecha Inicio": "2025-05-03",
-        "Fecha Finalizacion": "2025-12-29",
+        "Fecha Inicio": "2024-10-23",
+        "Fecha Finalizacion": "2025-06-20",
         "cursos": {}
     },
     {
-        "Nombre": "Sofía",
+        "Nombre": "Ana",
         "Apellidos": "Sánchez",
-        "ide": 1787638047,
-        "Acudiente": "Hugo",
-        "Direccion": "Cra 58 # 41-3",
-        "Telefono Celular": 3090962507,
-        "Telefono fijo": 6066959073,
-        "Correo electrónico": "estudiante1787638047@gmail.com",
-        "Estado": "Inscrito",
-        "Riesgo": "N/A",
-        "Ruta": ".NET",
-        "Grupo": "P1",
-        "Trainer": "Pedro",
-        "Salon de entrenamiento": "Zeus",
-        "Fecha Inicio": "2024-11-11",
-        "Fecha Finalizacion": "2025-07-09",
-        "cursos": {}
-    },
-    {
-        "Nombre": "Andrés",
-        "Apellidos": "Rodríguez",
-        "ide": 1461686702,
-        "Acudiente": "Hugo",
-        "Direccion": "Cra 31 # 89-19",
-        "Telefono Celular": 3040184877,
-        "Telefono fijo": 6001386877,
-        "Correo electrónico": "estudiante1461686702@gmail.com",
+        "ide": 1309248527,
+        "Acudiente": "Roberto",
+        "Direccion": "Cra 21 # 78-33",
+        "Telefono Celular": 3045189052,
+        "Telefono fijo": 6041733808,
+        "Correo electrónico": "estudiante1309248527@gmail.com",
         "Estado": "En proceso de ingreso",
         "Riesgo": "N/A",
-        "Ruta": ".NET",
+        "Ruta": "NodeJS",
         "Grupo": "A4",
         "Trainer": "Aura",
         "Salon de entrenamiento": "Apolo",
-        "Fecha Inicio": "2025-10-22",
-        "Fecha Finalizacion": "2026-06-19",
-        "cursos": {}
-    },
-    {
-        "Nombre": "José",
-        "Apellidos": "Sánchez",
-        "ide": 1780107152,
-        "Acudiente": "Claudia",
-        "Direccion": "Cra 84 # 51-22",
-        "Telefono Celular": 3055626472,
-        "Telefono fijo": 6097488031,
-        "Correo electrónico": "estudiante1780107152@gmail.com",
-        "Estado": "En proceso de ingreso",
-        "Riesgo": "N/A",
-        "Ruta": ".NET",
-        "Grupo": "C3",
-        "Trainer": "Pedro",
-        "Salon de entrenamiento": "Vladimir",
-        "Fecha Inicio": "2025-03-30",
-        "Fecha Finalizacion": "2025-11-25",
-        "cursos": {}
-    },
-    {
-        "Nombre": "Ana",
-        "Apellidos": "García",
-        "ide": 1020704189,
-        "Acudiente": "Silvia",
-        "Direccion": "Cra 90 # 86-38",
-        "Telefono Celular": 3027865417,
-        "Telefono fijo": 6091220917,
-        "Correo electrónico": "estudiante1020704189@gmail.com",
-        "Estado": "Inscrito",
-        "Riesgo": "N/A",
-        "Ruta": "Java",
-        "Grupo": "J1",
-        "Trainer": "María",
-        "Salon de entrenamiento": "Vladimir",
-        "Fecha Inicio": "2025-04-13",
-        "Fecha Finalizacion": "2025-12-09",
-        "cursos": {}
-    },
-    {
-        "Nombre": "Mariana",
-        "Apellidos": "Fernández",
-        "ide": 1492682275,
-        "Acudiente": "Patricia",
-        "Direccion": "Cra 95 # 25-23",
-        "Telefono Celular": 3156415347,
-        "Telefono fijo": 6076067979,
-        "Correo electrónico": "estudiante1492682275@gmail.com",
-        "Estado": "Aprobado",
-        "Riesgo": "Bajo",
-        "Ruta": "Java",
-        "Grupo": "M1",
-        "Trainer": "Camilo",
-        "Salon de entrenamiento": "Zeus",
-        "Fecha Inicio": "2024-06-27",
-        "Fecha Finalizacion": "2025-02-22",
-        "cursos": {
-            "Git": [
-                84,
-                68,
-                85
-            ],
-            "Scrum": [
-                91,
-                95,
-                69
-            ],
-            "MySQL": [
-                94,
-                85,
-                74
-            ],
-            "Intro BBDD": [
-                88,
-                74,
-                64
-            ],
-            "Intro": [
-                91,
-                87,
-                61
-            ]
-        }
-    },
-    {
-        "Nombre": "Laura",
-        "Apellidos": "Pérez",
-        "ide": 1422806452,
-        "Acudiente": "Mónica",
-        "Direccion": "Cra 3 # 13-11",
-        "Telefono Celular": 3167015047,
-        "Telefono fijo": 6092179242,
-        "Correo electrónico": "estudiante1422806452@gmail.com",
-        "Estado": "Inscrito",
-        "Riesgo": "N/A",
-        "Ruta": ".NET",
-        "Grupo": "M2",
-        "Trainer": "Juan",
-        "Salon de entrenamiento": "Apolo",
-        "Fecha Inicio": "2024-03-11",
-        "Fecha Finalizacion": "2024-11-06",
-        "cursos": {}
-    },
-    {
-        "Nombre": "Pedro",
-        "Apellidos": "García",
-        "ide": 1733462869,
-        "Acudiente": "Pilar",
-        "Direccion": "Cra 64 # 59-50",
-        "Telefono Celular": 3023852298,
-        "Telefono fijo": 6085904984,
-        "Correo electrónico": "estudiante1733462869@gmail.com",
-        "Estado": "Graduado",
-        "Riesgo": "Bajo",
-        "Ruta": "Java",
-        "Grupo": "P1",
-        "Trainer": "Camilo",
-        "Salon de entrenamiento": "Zeus",
-        "Fecha Inicio": "2024-10-30",
-        "Fecha Finalizacion": "2025-06-27",
-        "cursos": {
-            "Intro": [
-                96,
-                89,
-                74
-            ],
-            "Python": [
-                90,
-                92,
-                93
-            ],
-            "HTML/CSS": [
-                85,
-                78,
-                99
-            ],
-            "Scrum": [
-                71,
-                76,
-                72
-            ],
-            "Git": [
-                83,
-                100,
-                76
-            ],
-            "JavaScript": [
-                84,
-                71,
-                93
-            ],
-            "Intro Back": [
-                71,
-                87,
-                97
-            ],
-            "Intro BBDD": [
-                97,
-                94,
-                96
-            ],
-            "MySQL": [
-                82,
-                78,
-                83
-            ],
-            "C#": [
-                82,
-                88,
-                89
-            ],
-            "PostgreSQL": [
-                73,
-                93,
-                90
-            ],
-            ".Net Core": [
-                83,
-                93,
-                100
-            ]
-        }
-    },
-    {
-        "Nombre": "Mariana",
-        "Apellidos": "Torres",
-        "ide": 1645063874,
-        "Acudiente": "Hugo",
-        "Direccion": "Cra 8 # 67-2",
-        "Telefono Celular": 3165653202,
-        "Telefono fijo": 6083883539,
-        "Correo electrónico": "estudiante1645063874@gmail.com",
-        "Estado": "Inscrito",
-        "Riesgo": "N/A",
-        "Ruta": "NodeJS",
-        "Grupo": "J2",
-        "Trainer": "Aura",
-        "Salon de entrenamiento": "Vladimir",
-        "Fecha Inicio": "2025-10-26",
-        "Fecha Finalizacion": "2026-06-23",
-        "cursos": {}
-    },
-    {
-        "Nombre": "José",
-        "Apellidos": "García",
-        "ide": 1485054638,
-        "Acudiente": "Roberto",
-        "Direccion": "Cra 50 # 54-23",
-        "Telefono Celular": 3103432486,
-        "Telefono fijo": 6076099799,
-        "Correo electrónico": "estudiante1485054638@gmail.com",
-        "Estado": "Inscrito",
-        "Riesgo": "N/A",
-        "Ruta": ".NET",
-        "Grupo": "C4",
-        "Trainer": "Juan",
-        "Salon de entrenamiento": "Vladimir",
-        "Fecha Inicio": "2024-09-04",
-        "Fecha Finalizacion": "2025-05-02",
-        "cursos": {}
-    },
-    {
-        "Nombre": "Mariana",
-        "Apellidos": "Fernández",
-        "ide": 1724195036,
-        "Acudiente": "Roberto",
-        "Direccion": "Cra 54 # 30-36",
-        "Telefono Celular": 3071744428,
-        "Telefono fijo": 6075923821,
-        "Correo electrónico": "estudiante1724195036@gmail.com",
-        "Estado": "Cursando",
-        "Riesgo": "Bajo",
-        "Ruta": "NodeJS",
-        "Grupo": "P4",
-        "Trainer": "Camilo",
-        "Salon de entrenamiento": "Zeus",
-        "Fecha Inicio": "2025-07-07",
-        "Fecha Finalizacion": "2026-03-04",
-        "cursos": {
-            "Intro Back": [
-                76,
-                51,
-                62
-            ],
-            "HTML/CSS": [
-                65,
-                41,
-                100
-            ],
-            "Intro": [
-                97,
-                49,
-                41
-            ],
-            "Express": [
-                71,
-                60,
-                69
-            ],
-            "MongoDB": [
-                43,
-                56,
-                61
-            ],
-            "JavaScript": [
-                79,
-                88,
-                81
-            ],
-            "Scrum": [
-                41,
-                40,
-                90
-            ],
-            "Intro BBDD": [
-                45,
-                77,
-                100
-            ]
-        }
-    },
-    {
-        "Nombre": "Ana",
-        "Apellidos": "Martínez",
-        "ide": 1460135169,
-        "Acudiente": "Silvia",
-        "Direccion": "Cra 65 # 34-40",
-        "Telefono Celular": 3178969617,
-        "Telefono fijo": 6088308894,
-        "Correo electrónico": "estudiante1460135169@gmail.com",
-        "Estado": "Graduado",
-        "Riesgo": "Bajo",
-        "Ruta": "NodeJS",
-        "Grupo": "J1",
-        "Trainer": "Pedro",
-        "Salon de entrenamiento": "Apolo",
-        "Fecha Inicio": "2025-06-19",
-        "Fecha Finalizacion": "2026-02-14",
-        "cursos": {
-            "Intro": [
-                91,
-                91,
-                88
-            ],
-            "Python": [
-                89,
-                84,
-                97
-            ],
-            "HTML/CSS": [
-                92,
-                100,
-                74
-            ],
-            "Scrum": [
-                100,
-                75,
-                81
-            ],
-            "Git": [
-                77,
-                97,
-                78
-            ],
-            "JavaScript": [
-                93,
-                85,
-                84
-            ],
-            "Intro Back": [
-                90,
-                90,
-                87
-            ],
-            "Intro BBDD": [
-                88,
-                90,
-                100
-            ],
-            "MongoDB": [
-                91,
-                74,
-                90
-            ],
-            "Express": [
-                89,
-                73,
-                96
-            ]
-        }
-    },
-    {
-        "Nombre": "José",
-        "Apellidos": "Martínez",
-        "ide": 1258487443,
-        "Acudiente": "Roberto",
-        "Direccion": "Cra 93 # 49-11",
-        "Telefono Celular": 3006804377,
-        "Telefono fijo": 6002266867,
-        "Correo electrónico": "estudiante1258487443@gmail.com",
-        "Estado": "Retirado",
-        "Riesgo": "N/A",
-        "Ruta": "NodeJS",
-        "Grupo": "J2",
-        "Trainer": "Camilo",
-        "Salon de entrenamiento": "Zeus",
-        "Fecha Inicio": "2025-04-14",
-        "Fecha Finalizacion": "2025-12-10",
+        "Fecha Inicio": "2024-06-18",
+        "Fecha Finalizacion": "2025-02-13",
         "cursos": {}
     },
     {
         "Nombre": "Carlos",
-        "Apellidos": "Fernández",
-        "ide": 1394545400,
-        "Acudiente": "Silvia",
-        "Direccion": "Cra 88 # 98-20",
-        "Telefono Celular": 3183118253,
-        "Telefono fijo": 6005653175,
-        "Correo electrónico": "estudiante1394545400@gmail.com",
-        "Estado": "Graduado",
-        "Riesgo": "Bajo",
-        "Ruta": ".NET",
-        "Grupo": "P2",
-        "Trainer": "Aura",
-        "Salon de entrenamiento": "Apolo",
-        "Fecha Inicio": "2025-05-25",
-        "Fecha Finalizacion": "2026-01-20",
-        "cursos": {
-            "Intro": [
-                80,
-                76,
-                76
-            ],
-            "Python": [
-                74,
-                94,
-                94
-            ],
-            "HTML/CSS": [
-                89,
-                91,
-                95
-            ],
-            "Scrum": [
-                80,
-                84,
-                76
-            ],
-            "Git": [
-                74,
-                90,
-                76
-            ],
-            "JavaScript": [
-                79,
-                84,
-                85
-            ],
-            "Intro Back": [
-                75,
-                90,
-                98
-            ],
-            "Intro BBDD": [
-                84,
-                85,
-                88
-            ],
-            "MySQL": [
-                95,
-                98,
-                84
-            ],
-            "C#": [
-                70,
-                78,
-                96
-            ],
-            "PostgreSQL": [
-                72,
-                79,
-                98
-            ],
-            ".Net Core": [
-                92,
-                88,
-                84
-            ]
-        }
-    },
-    {
-        "Nombre": "Andrés",
-        "Apellidos": "López",
-        "ide": 1243105578,
-        "Acudiente": "Roberto",
-        "Direccion": "Cra 3 # 29-27",
-        "Telefono Celular": 3138922330,
-        "Telefono fijo": 6079308229,
-        "Correo electrónico": "estudiante1243105578@gmail.com",
-        "Estado": "Aprobado",
-        "Riesgo": "Bajo",
-        "Ruta": "Java",
-        "Grupo": "J1",
-        "Trainer": "Camilo",
-        "Salon de entrenamiento": "Zeus",
-        "Fecha Inicio": "2024-10-29",
-        "Fecha Finalizacion": "2025-06-26",
-        "cursos": {
-            "Intro BBDD": [
-                80,
-                69,
-                88
-            ],
-            "Intro": [
-                90,
-                85,
-                97
-            ],
-            "HTML/CSS": [
-                97,
-                62,
-                67
-            ],
-            "PostgreSQL": [
-                61,
-                72,
-                87
-            ],
-            "Scrum": [
-                98,
-                100,
-                67
-            ]
-        }
-    },
-    {
-        "Nombre": "Pedro",
-        "Apellidos": "Ramírez",
-        "ide": 1691580152,
-        "Acudiente": "Fernando",
-        "Direccion": "Cra 55 # 56-18",
-        "Telefono Celular": 3097311983,
-        "Telefono fijo": 6046628501,
-        "Correo electrónico": "estudiante1691580152@gmail.com",
-        "Estado": "Expulsado",
-        "Riesgo": "N/A",
-        "Ruta": ".NET",
-        "Grupo": "M3",
-        "Trainer": "Pedro",
-        "Salon de entrenamiento": "Apolo",
-        "Fecha Inicio": "2024-01-19",
-        "Fecha Finalizacion": "2024-09-15",
-        "cursos": {}
-    },
-    {
-        "Nombre": "Mariana",
-        "Apellidos": "Díaz",
-        "ide": 1625383540,
+        "Apellidos": "Sánchez",
+        "ide": 1897750280,
         "Acudiente": "Hugo",
-        "Direccion": "Cra 89 # 52-19",
-        "Telefono Celular": 3117131463,
-        "Telefono fijo": 6014067148,
-        "Correo electrónico": "estudiante1625383540@gmail.com",
+        "Direccion": "Cra 88 # 55-37",
+        "Telefono Celular": 3112570218,
+        "Telefono fijo": 6028695343,
+        "Correo electrónico": "estudiante1897750280@gmail.com",
         "Estado": "Expulsado",
         "Riesgo": "N/A",
-        "Ruta": "NodeJS",
-        "Grupo": "P2",
-        "Trainer": "Camilo",
-        "Salon de entrenamiento": "Apolo",
-        "Fecha Inicio": "2024-06-13",
-        "Fecha Finalizacion": "2025-02-08",
+        "Ruta": "Java",
+        "Grupo": "P4",
+        "Trainer": "Juan",
+        "Salon de entrenamiento": "Vladimir",
+        "Fecha Inicio": "2025-10-01",
+        "Fecha Finalizacion": "2026-05-29",
         "cursos": {}
     },
     {
         "Nombre": "Valentina",
-        "Apellidos": "López",
-        "ide": 1638887501,
-        "Acudiente": "Roberto",
-        "Direccion": "Cra 85 # 80-47",
-        "Telefono Celular": 3190443986,
-        "Telefono fijo": 6083865587,
-        "Correo electrónico": "estudiante1638887501@gmail.com",
+        "Apellidos": "García",
+        "ide": 1492759580,
+        "Acudiente": "Hugo",
+        "Direccion": "Cra 93 # 15-13",
+        "Telefono Celular": 3167178447,
+        "Telefono fijo": 6005606457,
+        "Correo electrónico": "estudiante1492759580@gmail.com",
         "Estado": "Inscrito",
         "Riesgo": "N/A",
-        "Ruta": "Java",
-        "Grupo": "J1",
-        "Trainer": "Camilo",
-        "Salon de entrenamiento": "Zeus",
-        "Fecha Inicio": "2024-02-19",
-        "Fecha Finalizacion": "2024-10-16",
+        "Ruta": "NodeJS",
+        "Grupo": "C3",
+        "Trainer": "Aura",
+        "Salon de entrenamiento": "Apolo",
+        "Fecha Inicio": "2024-01-04",
+        "Fecha Finalizacion": "2024-08-31",
         "cursos": {}
     },
     {
-        "Nombre": "Sofía",
-        "Apellidos": "García",
-        "ide": 1274676773,
-        "Acudiente": "Silvia",
-        "Direccion": "Cra 65 # 17-4",
-        "Telefono Celular": 3046631361,
-        "Telefono fijo": 6039559950,
-        "Correo electrónico": "estudiante1274676773@gmail.com",
-        "Estado": "Graduado",
-        "Riesgo": "Bajo",
-        "Ruta": "Java",
-        "Grupo": "C4",
+        "Nombre": "Pedro",
+        "Apellidos": "Sánchez",
+        "ide": 1342273543,
+        "Acudiente": "Claudia",
+        "Direccion": "Cra 12 # 98-7",
+        "Telefono Celular": 3079171714,
+        "Telefono fijo": 6099320753,
+        "Correo electrónico": "estudiante1342273543@gmail.com",
+        "Estado": "Retirado",
+        "Riesgo": "N/A",
+        "Ruta": "NodeJS",
+        "Grupo": "J1",
         "Trainer": "Pedro",
-        "Salon de entrenamiento": "Vladimir",
+        "Salon de entrenamiento": "Apolo",
         "Fecha Inicio": "2025-12-09",
         "Fecha Finalizacion": "2026-08-06",
-        "cursos": {
-            "Intro": [
-                93,
-                76,
-                88
-            ],
-            "Python": [
-                84,
-                90,
-                79
-            ],
-            "HTML/CSS": [
-                73,
-                92,
-                74
-            ],
-            "Scrum": [
-                93,
-                76,
-                79
-            ],
-            "Git": [
-                76,
-                92,
-                80
-            ],
-            "JavaScript": [
-                97,
-                92,
-                100
-            ],
-            "Intro Back": [
-                87,
-                96,
-                88
-            ],
-            "Intro BBDD": [
-                86,
-                100,
-                79
-            ],
-            "MySQL": [
-                84,
-                92,
-                87
-            ],
-            "C#": [
-                86,
-                74,
-                86
-            ],
-            "PostgreSQL": [
-                86,
-                87,
-                80
-            ],
-            ".Net Core": [
-                88,
-                97,
-                72
-            ]
-        }
-    },
-    {
-        "Nombre": "Carlos",
-        "Apellidos": "Rodríguez",
-        "ide": 1019922354,
-        "Acudiente": "Patricia",
-        "Direccion": "Cra 25 # 63-16",
-        "Telefono Celular": 3195300463,
-        "Telefono fijo": 6090426382,
-        "Correo electrónico": "estudiante1019922354@gmail.com",
-        "Estado": "Expulsado",
-        "Riesgo": "N/A",
-        "Ruta": "Java",
-        "Grupo": "A3",
-        "Trainer": "Pedro",
-        "Salon de entrenamiento": "Zeus",
-        "Fecha Inicio": "2025-12-04",
-        "Fecha Finalizacion": "2026-08-01",
         "cursos": {}
-    },
-    {
-        "Nombre": "Carlos",
-        "Apellidos": "Sánchez",
-        "ide": 1167753301,
-        "Acudiente": "Silvia",
-        "Direccion": "Cra 99 # 44-6",
-        "Telefono Celular": 3018526442,
-        "Telefono fijo": 6002287229,
-        "Correo electrónico": "estudiante1167753301@gmail.com",
-        "Estado": "Graduado",
-        "Riesgo": "Bajo",
-        "Ruta": "Java",
-        "Grupo": "P3",
-        "Trainer": "María",
-        "Salon de entrenamiento": "Zeus",
-        "Fecha Inicio": "2025-07-02",
-        "Fecha Finalizacion": "2026-02-27",
-        "cursos": {
-            "Intro": [
-                83,
-                81,
-                100
-            ],
-            "Python": [
-                75,
-                86,
-                72
-            ],
-            "HTML/CSS": [
-                74,
-                70,
-                82
-            ],
-            "Scrum": [
-                70,
-                77,
-                86
-            ],
-            "Git": [
-                100,
-                90,
-                93
-            ],
-            "JavaScript": [
-                81,
-                77,
-                78
-            ],
-            "Intro Back": [
-                81,
-                93,
-                71
-            ],
-            "Intro BBDD": [
-                95,
-                84,
-                74
-            ],
-            "MySQL": [
-                93,
-                95,
-                94
-            ],
-            "C#": [
-                100,
-                95,
-                85
-            ],
-            "PostgreSQL": [
-                81,
-                98,
-                72
-            ],
-            ".Net Core": [
-                76,
-                72,
-                99
-            ]
-        }
-    },
-    {
-        "Nombre": "Ana",
-        "Apellidos": "Sánchez",
-        "ide": 1342260896,
-        "Acudiente": "Patricia",
-        "Direccion": "Cra 38 # 44-35",
-        "Telefono Celular": 3067148526,
-        "Telefono fijo": 6023009894,
-        "Correo electrónico": "estudiante1342260896@gmail.com",
-        "Estado": "Graduado",
-        "Riesgo": "Bajo",
-        "Ruta": ".NET",
-        "Grupo": "M2",
-        "Trainer": "Camilo",
-        "Salon de entrenamiento": "Vladimir",
-        "Fecha Inicio": "2025-04-07",
-        "Fecha Finalizacion": "2025-12-03",
-        "cursos": {
-            "Intro": [
-                73,
-                100,
-                78
-            ],
-            "Python": [
-                86,
-                97,
-                70
-            ],
-            "HTML/CSS": [
-                78,
-                86,
-                82
-            ],
-            "Scrum": [
-                91,
-                78,
-                85
-            ],
-            "Git": [
-                74,
-                96,
-                89
-            ],
-            "JavaScript": [
-                84,
-                93,
-                77
-            ],
-            "Intro Back": [
-                99,
-                83,
-                91
-            ],
-            "Intro BBDD": [
-                71,
-                81,
-                90
-            ],
-            "MySQL": [
-                99,
-                91,
-                83
-            ],
-            "C#": [
-                70,
-                72,
-                77
-            ],
-            "PostgreSQL": [
-                82,
-                93,
-                75
-            ],
-            ".Net Core": [
-                83,
-                94,
-                96
-            ]
-        }
-    },
-    {
-        "Nombre": "Valentina",
-        "Apellidos": "Sánchez",
-        "ide": 1261633451,
-        "Acudiente": "Hugo",
-        "Direccion": "Cra 55 # 29-48",
-        "Telefono Celular": 3007749000,
-        "Telefono fijo": 6005845700,
-        "Correo electrónico": "estudiante1261633451@gmail.com",
-        "Estado": "Graduado",
-        "Riesgo": "Bajo",
-        "Ruta": "Java",
-        "Grupo": "P2",
-        "Trainer": "Juan",
-        "Salon de entrenamiento": "Zeus",
-        "Fecha Inicio": "2025-01-17",
-        "Fecha Finalizacion": "2025-09-14",
-        "cursos": {
-            "Intro": [
-                96,
-                96,
-                70
-            ],
-            "Python": [
-                77,
-                96,
-                82
-            ],
-            "HTML/CSS": [
-                99,
-                98,
-                87
-            ],
-            "Scrum": [
-                83,
-                93,
-                93
-            ],
-            "Git": [
-                99,
-                96,
-                71
-            ],
-            "JavaScript": [
-                85,
-                74,
-                75
-            ],
-            "Intro Back": [
-                80,
-                81,
-                79
-            ],
-            "Intro BBDD": [
-                76,
-                81,
-                93
-            ],
-            "MySQL": [
-                78,
-                88,
-                77
-            ],
-            "C#": [
-                83,
-                78,
-                77
-            ],
-            "PostgreSQL": [
-                75,
-                98,
-                88
-            ],
-            ".Net Core": [
-                94,
-                70,
-                75
-            ]
-        }
-    },
-    {
-        "Nombre": "Laura",
-        "Apellidos": "Ramírez",
-        "ide": 1255466940,
-        "Acudiente": "Roberto",
-        "Direccion": "Cra 4 # 32-3",
-        "Telefono Celular": 3069697363,
-        "Telefono fijo": 6018755632,
-        "Correo electrónico": "estudiante1255466940@gmail.com",
-        "Estado": "En proceso de ingreso",
-        "Riesgo": "N/A",
-        "Ruta": "NodeJS",
-        "Grupo": "P3",
-        "Trainer": "Aura",
-        "Salon de entrenamiento": "Apolo",
-        "Fecha Inicio": "2025-05-28",
-        "Fecha Finalizacion": "2026-01-23",
-        "cursos": {}
-    },
-    {
-        "Nombre": "Pedro",
-        "Apellidos": "Pérez",
-        "ide": 1235108894,
-        "Acudiente": "Claudia",
-        "Direccion": "Cra 62 # 91-28",
-        "Telefono Celular": 3072604831,
-        "Telefono fijo": 6034563838,
-        "Correo electrónico": "estudiante1235108894@gmail.com",
-        "Estado": "Graduado",
-        "Riesgo": "Bajo",
-        "Ruta": "NodeJS",
-        "Grupo": "J2",
-        "Trainer": "Camilo",
-        "Salon de entrenamiento": "Vladimir",
-        "Fecha Inicio": "2024-02-09",
-        "Fecha Finalizacion": "2024-10-06",
-        "cursos": {
-            "Intro": [
-                98,
-                75,
-                100
-            ],
-            "Python": [
-                88,
-                76,
-                92
-            ],
-            "HTML/CSS": [
-                76,
-                93,
-                100
-            ],
-            "Scrum": [
-                92,
-                95,
-                78
-            ],
-            "Git": [
-                84,
-                72,
-                82
-            ],
-            "JavaScript": [
-                76,
-                70,
-                76
-            ],
-            "Intro Back": [
-                87,
-                93,
-                70
-            ],
-            "Intro BBDD": [
-                72,
-                71,
-                78
-            ],
-            "MongoDB": [
-                84,
-                79,
-                82
-            ],
-            "Express": [
-                96,
-                78,
-                99
-            ]
-        }
-    },
-    {
-        "Nombre": "Luis",
-        "Apellidos": "Torres",
-        "ide": 1263729308,
-        "Acudiente": "Patricia",
-        "Direccion": "Cra 100 # 98-15",
-        "Telefono Celular": 3107939334,
-        "Telefono fijo": 6048338603,
-        "Correo electrónico": "estudiante1263729308@gmail.com",
-        "Estado": "Inscrito",
-        "Riesgo": "N/A",
-        "Ruta": "NodeJS",
-        "Grupo": "C4",
-        "Trainer": "Juan",
-        "Salon de entrenamiento": "Vladimir",
-        "Fecha Inicio": "2025-11-24",
-        "Fecha Finalizacion": "2026-07-22",
-        "cursos": {}
-    },
-    {
-        "Nombre": "Ana",
-        "Apellidos": "Díaz",
-        "ide": 1096265835,
-        "Acudiente": "Javier",
-        "Direccion": "Cra 29 # 4-27",
-        "Telefono Celular": 3137199359,
-        "Telefono fijo": 6057166773,
-        "Correo electrónico": "estudiante1096265835@gmail.com",
-        "Estado": "Aprobado",
-        "Riesgo": "Bajo",
-        "Ruta": "Java",
-        "Grupo": "A3",
-        "Trainer": "Aura",
-        "Salon de entrenamiento": "Apolo",
-        "Fecha Inicio": "2025-09-08",
-        "Fecha Finalizacion": "2026-05-06",
-        "cursos": {
-            "JavaScript": [
-                61,
-                82,
-                75
-            ],
-            "PostgreSQL": [
-                81,
-                93,
-                65
-            ],
-            "Git": [
-                63,
-                85,
-                72
-            ],
-            "Scrum": [
-                75,
-                92,
-                96
-            ],
-            "C#": [
-                90,
-                85,
-                82
-            ],
-            "MySQL": [
-                98,
-                75,
-                64
-            ],
-            "HTML/CSS": [
-                94,
-                94,
-                68
-            ],
-            ".Net Core": [
-                75,
-                83,
-                89
-            ],
-            "Intro Back": [
-                91,
-                97,
-                90
-            ]
-        }
-    },
-    {
-        "Nombre": "Pedro",
-        "Apellidos": "Fernández",
-        "ide": 1221234033,
-        "Acudiente": "Silvia",
-        "Direccion": "Cra 5 # 52-15",
-        "Telefono Celular": 3159746854,
-        "Telefono fijo": 6073932753,
-        "Correo electrónico": "estudiante1221234033@gmail.com",
-        "Estado": "Expulsado",
-        "Riesgo": "N/A",
-        "Ruta": ".NET",
-        "Grupo": "J1",
-        "Trainer": "Pedro",
-        "Salon de entrenamiento": "Zeus",
-        "Fecha Inicio": "2025-03-28",
-        "Fecha Finalizacion": "2025-11-23",
-        "cursos": {}
-    },
-    {
-        "Nombre": "Andrés",
-        "Apellidos": "Pérez",
-        "ide": 1328785653,
-        "Acudiente": "Silvia",
-        "Direccion": "Cra 22 # 49-9",
-        "Telefono Celular": 3087656092,
-        "Telefono fijo": 6083425156,
-        "Correo electrónico": "estudiante1328785653@gmail.com",
-        "Estado": "Aprobado",
-        "Riesgo": "Bajo",
-        "Ruta": "NodeJS",
-        "Grupo": "M2",
-        "Trainer": "Juan",
-        "Salon de entrenamiento": "Vladimir",
-        "Fecha Inicio": "2024-01-30",
-        "Fecha Finalizacion": "2024-09-26",
-        "cursos": {
-            "Intro Back": [
-                91,
-                77,
-                64
-            ],
-            "Intro BBDD": [
-                79,
-                79,
-                67
-            ],
-            "Express": [
-                90,
-                91,
-                66
-            ],
-            "MongoDB": [
-                62,
-                95,
-                71
-            ],
-            "Python": [
-                94,
-                90,
-                68
-            ]
-        }
-    },
-    {
-        "Nombre": "Luis",
-        "Apellidos": "García",
-        "ide": 1374786001,
-        "Acudiente": "Claudia",
-        "Direccion": "Cra 91 # 34-42",
-        "Telefono Celular": 3102913601,
-        "Telefono fijo": 6071586227,
-        "Correo electrónico": "estudiante1374786001@gmail.com",
-        "Estado": "Graduado",
-        "Riesgo": "Bajo",
-        "Ruta": "NodeJS",
-        "Grupo": "J2",
-        "Trainer": "Pedro",
-        "Salon de entrenamiento": "Apolo",
-        "Fecha Inicio": "2025-09-29",
-        "Fecha Finalizacion": "2026-05-27",
-        "cursos": {
-            "Intro": [
-                73,
-                98,
-                90
-            ],
-            "Python": [
-                94,
-                85,
-                75
-            ],
-            "HTML/CSS": [
-                71,
-                97,
-                72
-            ],
-            "Scrum": [
-                75,
-                99,
-                75
-            ],
-            "Git": [
-                74,
-                99,
-                94
-            ],
-            "JavaScript": [
-                100,
-                100,
-                84
-            ],
-            "Intro Back": [
-                91,
-                76,
-                82
-            ],
-            "Intro BBDD": [
-                86,
-                83,
-                80
-            ],
-            "MongoDB": [
-                100,
-                95,
-                78
-            ],
-            "Express": [
-                97,
-                84,
-                84
-            ]
-        }
-    },
-    {
-        "Nombre": "Laura",
-        "Apellidos": "García",
-        "ide": 1679385579,
-        "Acudiente": "Roberto",
-        "Direccion": "Cra 54 # 80-31",
-        "Telefono Celular": 3026978317,
-        "Telefono fijo": 6002944986,
-        "Correo electrónico": "estudiante1679385579@gmail.com",
-        "Estado": "Expulsado",
-        "Riesgo": "N/A",
-        "Ruta": "NodeJS",
-        "Grupo": "A3",
-        "Trainer": "Juan",
-        "Salon de entrenamiento": "Zeus",
-        "Fecha Inicio": "2025-05-02",
-        "Fecha Finalizacion": "2025-12-28",
-        "cursos": {}
-    },
-    {
-        "Nombre": "Valentina",
-        "Apellidos": "Ramírez",
-        "ide": 1003895695,
-        "Acudiente": "Fernando",
-        "Direccion": "Cra 89 # 91-47",
-        "Telefono Celular": 3170047098,
-        "Telefono fijo": 6028971711,
-        "Correo electrónico": "estudiante1003895695@gmail.com",
-        "Estado": "Cursando",
-        "Riesgo": "Bajo",
-        "Ruta": ".NET",
-        "Grupo": "A3",
-        "Trainer": "Pedro",
-        "Salon de entrenamiento": "Apolo",
-        "Fecha Inicio": "2024-06-03",
-        "Fecha Finalizacion": "2025-01-29",
-        "cursos": {
-            "Intro Back": [
-                54,
-                60,
-                82
-            ],
-            "Intro": [
-                59,
-                65,
-                76
-            ],
-            "JavaScript": [
-                66,
-                78,
-                66
-            ],
-            "PostgreSQL": [
-                88,
-                64,
-                86
-            ],
-            "Intro BBDD": [
-                43,
-                87,
-                68
-            ]
-        }
-    },
-    {
-        "Nombre": "Sofía",
-        "Apellidos": "Sánchez",
-        "ide": 1795905484,
-        "Acudiente": "Pilar",
-        "Direccion": "Cra 78 # 45-33",
-        "Telefono Celular": 3139021950,
-        "Telefono fijo": 6052332977,
-        "Correo electrónico": "estudiante1795905484@gmail.com",
-        "Estado": "Expulsado",
-        "Riesgo": "N/A",
-        "Ruta": "NodeJS",
-        "Grupo": "A3",
-        "Trainer": "Juan",
-        "Salon de entrenamiento": "Vladimir",
-        "Fecha Inicio": "2025-11-07",
-        "Fecha Finalizacion": "2026-07-05",
-        "cursos": {}
-    },
-    {
-        "Nombre": "Carlos",
-        "Apellidos": "Sánchez",
-        "ide": 1665042996,
-        "Acudiente": "Silvia",
-        "Direccion": "Cra 27 # 41-13",
-        "Telefono Celular": 3088547048,
-        "Telefono fijo": 6002305694,
-        "Correo electrónico": "estudiante1665042996@gmail.com",
-        "Estado": "Aprobado",
-        "Riesgo": "Bajo",
-        "Ruta": "Java",
-        "Grupo": "P3",
-        "Trainer": "Aura",
-        "Salon de entrenamiento": "Apolo",
-        "Fecha Inicio": "2025-11-18",
-        "Fecha Finalizacion": "2026-07-16",
-        "cursos": {
-            "Intro Back": [
-                87,
-                61,
-                83
-            ],
-            "Python": [
-                78,
-                85,
-                93
-            ],
-            "JavaScript": [
-                62,
-                96,
-                86
-            ],
-            "Scrum": [
-                69,
-                64,
-                92
-            ],
-            ".Net Core": [
-                88,
-                86,
-                84
-            ],
-            "HTML/CSS": [
-                91,
-                100,
-                67
-            ],
-            "Git": [
-                61,
-                68,
-                98
-            ],
-            "PostgreSQL": [
-                84,
-                66,
-                64
-            ],
-            "Intro": [
-                90,
-                91,
-                95
-            ],
-            "Intro BBDD": [
-                87,
-                91,
-                95
-            ]
-        }
-    },
-    {
-        "Nombre": "Andrés",
-        "Apellidos": "Rodríguez",
-        "ide": 1942397204,
-        "Acudiente": "Javier",
-        "Direccion": "Cra 52 # 56-21",
-        "Telefono Celular": 3006412633,
-        "Telefono fijo": 6084335226,
-        "Correo electrónico": "estudiante1942397204@gmail.com",
-        "Estado": "Expulsado",
-        "Riesgo": "N/A",
-        "Ruta": "NodeJS",
-        "Grupo": "M1",
-        "Trainer": "Juan",
-        "Salon de entrenamiento": "Vladimir",
-        "Fecha Inicio": "2025-08-15",
-        "Fecha Finalizacion": "2026-04-12",
-        "cursos": {}
-    },
-    {
-        "Nombre": "Mariana",
-        "Apellidos": "Pérez",
-        "ide": 1316343628,
-        "Acudiente": "Pilar",
-        "Direccion": "Cra 15 # 18-33",
-        "Telefono Celular": 3191803829,
-        "Telefono fijo": 6001796787,
-        "Correo electrónico": "estudiante1316343628@gmail.com",
-        "Estado": "Cursando",
-        "Riesgo": "Alto",
-        "Ruta": ".NET",
-        "Grupo": "M2",
-        "Trainer": "María",
-        "Salon de entrenamiento": "Vladimir",
-        "Fecha Inicio": "2024-05-11",
-        "Fecha Finalizacion": "2025-01-06",
-        "cursos": {
-            "Python": [
-                45,
-                70,
-                49
-            ],
-            "HTML/CSS": [
-                47,
-                68,
-                71
-            ]
-        }
-    },
-    {
-        "Nombre": "Sofía",
-        "Apellidos": "Ramírez",
-        "ide": 1638909579,
-        "Acudiente": "Javier",
-        "Direccion": "Cra 79 # 28-31",
-        "Telefono Celular": 3065636833,
-        "Telefono fijo": 6015822880,
-        "Correo electrónico": "estudiante1638909579@gmail.com",
-        "Estado": "Aprobado",
-        "Riesgo": "Bajo",
-        "Ruta": "NodeJS",
-        "Grupo": "C4",
-        "Trainer": "María",
-        "Salon de entrenamiento": "Apolo",
-        "Fecha Inicio": "2024-11-13",
-        "Fecha Finalizacion": "2025-07-11",
-        "cursos": {
-            "HTML/CSS": [
-                80,
-                65,
-                84
-            ],
-            "MongoDB": [
-                94,
-                97,
-                91
-            ],
-            "Git": [
-                60,
-                75,
-                94
-            ],
-            "Intro BBDD": [
-                97,
-                62,
-                78
-            ],
-            "JavaScript": [
-                66,
-                71,
-                65
-            ],
-            "Intro Back": [
-                99,
-                70,
-                81
-            ],
-            "Express": [
-                90,
-                78,
-                98
-            ]
-        }
-    },
-    {
-        "Nombre": "Sofía",
-        "Apellidos": "Pérez",
-        "ide": 1989409893,
-        "Acudiente": "Mónica",
-        "Direccion": "Cra 7 # 69-46",
-        "Telefono Celular": 3135465931,
-        "Telefono fijo": 6016264039,
-        "Correo electrónico": "estudiante1989409893@gmail.com",
-        "Estado": "Cursando",
-        "Riesgo": "Bajo",
-        "Ruta": ".NET",
-        "Grupo": "C3",
-        "Trainer": "Juan",
-        "Salon de entrenamiento": "Zeus",
-        "Fecha Inicio": "2024-05-20",
-        "Fecha Finalizacion": "2025-01-15",
-        "cursos": {
-            "Intro Back": [
-                76,
-                55,
-                89
-            ],
-            "Intro BBDD": [
-                66,
-                100,
-                40
-            ],
-            "JavaScript": [
-                96,
-                89,
-                88
-            ],
-            "PostgreSQL": [
-                60,
-                64,
-                77
-            ],
-            "Scrum": [
-                90,
-                67,
-                73
-            ],
-            "Python": [
-                75,
-                67,
-                67
-            ],
-            "Intro": [
-                80,
-                61,
-                41
-            ],
-            "C#": [
-                62,
-                57,
-                99
-            ],
-            "Git": [
-                45,
-                53,
-                90
-            ],
-            "MySQL": [
-                76,
-                40,
-                71
-            ],
-            "HTML/CSS": [
-                87,
-                82,
-                52
-            ]
-        }
-    },
-    {
-        "Nombre": "Pedro",
-        "Apellidos": "Torres",
-        "ide": 1626185979,
-        "Acudiente": "Mónica",
-        "Direccion": "Cra 15 # 4-37",
-        "Telefono Celular": 3053272643,
-        "Telefono fijo": 6080809678,
-        "Correo electrónico": "estudiante1626185979@gmail.com",
-        "Estado": "Aprobado",
-        "Riesgo": "Bajo",
-        "Ruta": ".NET",
-        "Grupo": "C4",
-        "Trainer": "Aura",
-        "Salon de entrenamiento": "Zeus",
-        "Fecha Inicio": "2024-03-13",
-        "Fecha Finalizacion": "2024-11-08",
-        "cursos": {
-            "MySQL": [
-                61,
-                99,
-                84
-            ],
-            "HTML/CSS": [
-                65,
-                79,
-                64
-            ],
-            "Intro Back": [
-                65,
-                80,
-                62
-            ],
-            "C#": [
-                85,
-                68,
-                76
-            ],
-            "Python": [
-                95,
-                65,
-                61
-            ],
-            ".Net Core": [
-                60,
-                97,
-                67
-            ],
-            "Scrum": [
-                81,
-                79,
-                94
-            ],
-            "Intro BBDD": [
-                90,
-                65,
-                74
-            ],
-            "JavaScript": [
-                91,
-                89,
-                82
-            ],
-            "PostgreSQL": [
-                84,
-                67,
-                100
-            ],
-            "Intro": [
-                96,
-                62,
-                87
-            ],
-            "Git": [
-                74,
-                77,
-                77
-            ]
-        }
-    },
-    {
-        "Nombre": "Valentina",
-        "Apellidos": "Sánchez",
-        "ide": 1481609573,
-        "Acudiente": "Claudia",
-        "Direccion": "Cra 6 # 84-12",
-        "Telefono Celular": 3118104377,
-        "Telefono fijo": 6070047584,
-        "Correo electrónico": "estudiante1481609573@gmail.com",
-        "Estado": "Retirado",
-        "Riesgo": "N/A",
-        "Ruta": "NodeJS",
-        "Grupo": "C4",
-        "Trainer": "Juan",
-        "Salon de entrenamiento": "Vladimir",
-        "Fecha Inicio": "2024-07-17",
-        "Fecha Finalizacion": "2025-03-14",
-        "cursos": {}
-    },
-    {
-        "Nombre": "Luis",
-        "Apellidos": "Rodríguez",
-        "ide": 1297256054,
-        "Acudiente": "Claudia",
-        "Direccion": "Cra 35 # 75-4",
-        "Telefono Celular": 3057977912,
-        "Telefono fijo": 6077078267,
-        "Correo electrónico": "estudiante1297256054@gmail.com",
-        "Estado": "Retirado",
-        "Riesgo": "N/A",
-        "Ruta": ".NET",
-        "Grupo": "C3",
-        "Trainer": "Camilo",
-        "Salon de entrenamiento": "Vladimir",
-        "Fecha Inicio": "2024-07-14",
-        "Fecha Finalizacion": "2025-03-11",
-        "cursos": {}
-    },
-    {
-        "Nombre": "Mariana",
-        "Apellidos": "Rodríguez",
-        "ide": 1373526834,
-        "Acudiente": "Claudia",
-        "Direccion": "Cra 50 # 11-29",
-        "Telefono Celular": 3058593854,
-        "Telefono fijo": 6031081578,
-        "Correo electrónico": "estudiante1373526834@gmail.com",
-        "Estado": "En proceso de ingreso",
-        "Riesgo": "N/A",
-        "Ruta": "NodeJS",
-        "Grupo": "M1",
-        "Trainer": "Camilo",
-        "Salon de entrenamiento": "Apolo",
-        "Fecha Inicio": "2025-02-12",
-        "Fecha Finalizacion": "2025-10-10",
-        "cursos": {}
-    },
-    {
-        "Nombre": "Ana",
-        "Apellidos": "Martínez",
-        "ide": 1265261327,
-        "Acudiente": "Hugo",
-        "Direccion": "Cra 24 # 75-44",
-        "Telefono Celular": 3176554588,
-        "Telefono fijo": 6097666634,
-        "Correo electrónico": "estudiante1265261327@gmail.com",
-        "Estado": "Graduado",
-        "Riesgo": "Bajo",
-        "Ruta": "NodeJS",
-        "Grupo": "P1",
-        "Trainer": "María",
-        "Salon de entrenamiento": "Zeus",
-        "Fecha Inicio": "2024-12-12",
-        "Fecha Finalizacion": "2025-08-09",
-        "cursos": {
-            "Intro": [
-                88,
-                74,
-                73
-            ],
-            "Python": [
-                99,
-                75,
-                71
-            ],
-            "HTML/CSS": [
-                92,
-                91,
-                82
-            ],
-            "Scrum": [
-                94,
-                92,
-                83
-            ],
-            "Git": [
-                93,
-                96,
-                100
-            ],
-            "JavaScript": [
-                85,
-                98,
-                87
-            ],
-            "Intro Back": [
-                77,
-                76,
-                78
-            ],
-            "Intro BBDD": [
-                72,
-                72,
-                76
-            ],
-            "MongoDB": [
-                93,
-                86,
-                85
-            ],
-            "Express": [
-                84,
-                98,
-                82
-            ]
-        }
-    },
-    {
-        "Nombre": "Luis",
-        "Apellidos": "Díaz",
-        "ide": 1884146990,
-        "Acudiente": "Silvia",
-        "Direccion": "Cra 44 # 13-36",
-        "Telefono Celular": 3077938831,
-        "Telefono fijo": 6089428312,
-        "Correo electrónico": "estudiante1884146990@gmail.com",
-        "Estado": "Aprobado",
-        "Riesgo": "Bajo",
-        "Ruta": "Java",
-        "Grupo": "A3",
-        "Trainer": "Aura",
-        "Salon de entrenamiento": "Vladimir",
-        "Fecha Inicio": "2025-05-20",
-        "Fecha Finalizacion": "2026-01-15",
-        "cursos": {
-            "C#": [
-                67,
-                72,
-                76
-            ],
-            "Scrum": [
-                84,
-                79,
-                98
-            ],
-            "Intro Back": [
-                79,
-                76,
-                73
-            ],
-            "Intro": [
-                74,
-                99,
-                74
-            ],
-            "Python": [
-                62,
-                68,
-                76
-            ]
-        }
-    },
-    {
-        "Nombre": "Sofía",
-        "Apellidos": "Torres",
-        "ide": 1416131077,
-        "Acudiente": "Mónica",
-        "Direccion": "Cra 31 # 76-46",
-        "Telefono Celular": 3131379529,
-        "Telefono fijo": 6090883325,
-        "Correo electrónico": "estudiante1416131077@gmail.com",
-        "Estado": "Cursando",
-        "Riesgo": "Bajo",
-        "Ruta": ".NET",
-        "Grupo": "J1",
-        "Trainer": "Aura",
-        "Salon de entrenamiento": "Vladimir",
-        "Fecha Inicio": "2024-06-23",
-        "Fecha Finalizacion": "2025-02-18",
-        "cursos": {
-            "C#": [
-                75,
-                42,
-                60
-            ],
-            "Python": [
-                55,
-                72,
-                59
-            ],
-            "Intro Back": [
-                76,
-                81,
-                50
-            ],
-            "JavaScript": [
-                64,
-                95,
-                67
-            ],
-            ".Net Core": [
-                83,
-                52,
-                97
-            ],
-            "HTML/CSS": [
-                100,
-                98,
-                46
-            ],
-            "PostgreSQL": [
-                86,
-                81,
-                93
-            ],
-            "Intro BBDD": [
-                84,
-                76,
-                71
-            ],
-            "Git": [
-                91,
-                48,
-                89
-            ]
-        }
     }
 ]

@@ -1,26 +1,23 @@
-import json
-import tabulate 
+import json 
 
 RUTA_campers = "data/campers.json"  
 RUTA_notas = "data/notas.json"  
 RUTA_rutas = "data/rutas.json"
 # Función para cargar el inventario desde un archivo JSON
-def abrirJSON():
-    try:
-        with open("/data/campers.json", 'r') as openFile:
-            estudiantes = json.load(openFile)
-    except FileNotFoundError:
-        estudiantes = {"campers": []} 
-    return estudiantes
-# Función para guardar el inventario en un archivo JSON
-def guardarJSON(estudiantes):
-    with open("./data/campers.json", 'w') as outFile:
-        json.dump(estudiantes, outFile, indent=4)  # indent=4 para formato legible
-    return ("Guardado exitosamente")
+
+def abrirJSON(ruta):
+    dicFinal={}
+    with open(f"./data/{ruta}.json",'r') as openFile:
+        dicFinal=json.load(openFile)
+    return dicFinal
+
+def guardarJSON(ruta,dic):
+    with open(f"./data/{ruta}.json",'w') as outFile:
+        json.dump(dic,outFile)
 
 
-
-estudiantes = abrirJSON()   
+estudiantes={}
+estudiantes = abrirJSON("campers")   
 
 def agregarEstudiantes():
     ide = input("Ingresa el ide : ")
@@ -47,25 +44,25 @@ def agregarEstudiantes():
         "Riesgo": riesgo
     }
     
-    campers[ide] = estudiante
+    estudiantes.append(estudiante)
 
-    guardarJSON(campers)
+    guardarJSON(estudiantes)
     print("Estudiante agregado con éxito.")
 
 
 def verestudiantes():
     for i in range (len(estudiantes)):
         print("Estudiante "),i+1
-        print("  ID: " + (estudiantes[i]["ide"])) 
-        print("  Nombre: " + (estudiantes, [i]["Nombre"]))
-        print("  Apellido: " + (estudiantes, [i]["Apellido"]))
-        print("  Acudiente" + (estudiantes["Acudiente"][i]["Acudiente"]))
-        print("  Dirección: " + (estudiantes,[i]["Dirrecion"]))
-        print("  Teléfono Celular: " + (estudiantes,[i]["Telefono Celular"]))
-        print("  Teléfono Fijo: " + (estudiantes,[i]["Telefono Fijo"]))
-        print("  Correo Electrónico: " + (estudiantes,[i]["Correo electronico"]))
-        print("  Estado: " + (estudiantes,[i]["Estado"]))
-        print("  Riesgo: " + (estudiantes,[i]["Riesgo"]))
+        print("  ID: " + (estudiantes[i]["ide"])) ,
+        print("  Nombre: " + (estudiantes[i]["Nombre"])),
+        print("  Apellido: " + (estudiantes[i]["Apellido"])),
+        print("  Acudiente" + (estudiantes["Acudiente"][i]["Acudiente"])),
+        print("  Dirección: " + (estudiantes[i]["Dirrecion"])),
+        print("  Teléfono Celular: " + (estudiantes[i]["Telefono Celular"])),
+        print("  Teléfono Fijo: " + (estudiantes[i]["Telefono Fijo"])),
+        print("  Correo Electrónico: " + (estudiantes[i]["Correo electronico"])),
+        print("  Estado: " + (estudiantes[i]["Estado"])),
+        print("  Riesgo: " + (estudiantes[i]["Riesgo"]))
 
 def editar_estudi():
     verestudiantes()
@@ -129,26 +126,6 @@ def registrarNotas(): #Probarla y reestructurar
         print("Camper no encontrado. Registrándolo...")
         campers[ide] = {"nota": notas}
         print("Camper registrado y nota guardada.")
-
-def horarios(): #Estructurar 
-    print("\n--- Gestión de Horarios ---")
-    ide = input("Ingrese el ID del camper: ")
-    if ide in campers:
-        print("1. Asignar horario")
-        print("2. Consultar horario")
-        opcion = input("Seleccione una opción: ")
-        if opcion == "1":
-            horario = input("Ingrese el horario (Ej: jornada de la mañana 6 am a 2 pm o tarde 2 pm a 10 pm): ")
-            campers[ide]["horario"] = horario
-            print("Horario asignado correctamente.")
-        elif opcion == "2":
-            if "horario" in campers[ide]:
-                print(f"Horario actual: {campers[ide]['horario']}")
-            else:
-                print("El camper no tiene un horario asignado.")
-    else:
-        print("no joda")
-
 
 def reportes ():
     campers= guardarJSON()

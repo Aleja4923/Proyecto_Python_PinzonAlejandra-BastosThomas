@@ -1,23 +1,21 @@
 import json 
+import tabulate
+from desing.userTrainer import *
 
-RUTA_campers = "data/campers.json"  
-RUTA_notas = "data/notas.json"  
-RUTA_rutas = "data/rutas.json"
+
 # Función para cargar el inventario desde un archivo JSON
-
-def abrirJSON(ruta):
+def abrirJSON(DBFILE):
     dicFinal={}
-    with open(f"./data/{ruta}.json",'r') as openFile:
-        dicFinal=json.load(openFile)
+    with open("./data/campers.json",'r') as openFile:
+        dicFinal=json.load(openFile)        
     return dicFinal
 
-def guardarJSON(ruta,dic):
-    with open(f"./data/{ruta}.json",'w') as outFile:
+def guardarJSON(dic):
+    with open("./data/campers.json",'w') as outFile:
         json.dump(dic,outFile)
 
 
-estudiantes={}
-estudiantes = abrirJSON("campers")   
+estudiantes = abrirJSON()   
 
 def agregarEstudiantes():
     ide = input("Ingresa el ide : ")
@@ -47,7 +45,7 @@ def agregarEstudiantes():
     estudiantes.append(estudiante)
 
     guardarJSON(estudiantes)
-    print("Estudiante agregado con éxito.")
+    print("Estudiante agregado con é   Scrumito.")
 
 
 def verestudiantes():
@@ -114,45 +112,11 @@ def editar_estudi():
 
 campers = {}  #Diccionario para almacenar los datos de los campers
 
-def registrarNotas(): #Probarla y reestructurar
-    ide= abrirJSON()
-    ide = input("Ingrese el ID del camper: ")
-    if ide in campers:
-        notas = input("Agrega la nota de 10 a 100: ")
-        campers[ide]["nota"] = notas
-        print("Nota actualizada correctamente")
-        ide= guardarJSON()   
-    else:
-        print("Camper no encontrado. Registrándolo...")
-        campers[ide] = {"nota": notas}
-        print("Camper registrado y nota guardada.")
-
-def reportes ():
-    campers= guardarJSON()
-    print("--- Generacion de reportes --- ")
-    print("1. Reporte de campers matriculados")
-    print("2. Reporte de campers en riesgo ")
-    opcion = input("Seleccione una opcion: ")
-    if opcion=="1":
-        print("----Campers Matriculados ---")
-        for ide, datos in campers.items():
-            if "cursos" in datos and datos["cursos"]:
-                print(f'Id:{ide}- nombre: {datos["Nombre"]} - cursos: {", ".join(datos["cursos"])}')
-            print("-" * 30)
-
-        if opcion == "2":
-            print("--- campers en riesgo -----")
-            for ide, datos in campers.items():
-                if datos.get("riesgo", "bajo") in ["medio", "alto"]:
-                    print(f'Id:{ide}- nombre: {datos["Nombre"]} - cursos: {", ".join(datos["cursos"])}')
-                    print("-" * 30)
-        else:
-            print("Opción inválida.")
-    
+###
 def modulo_matriculas():
     datos = abrirJSON()
     ide = int(input("Ingrese el ID del camper: "))
-    for estudiante in datos,:
+    for estudiante in datos:
         if estudiante["ide"] == ide:
             print("1. Matricular camper en una ruta")
             print("2. Ver ruta actual del camper")
@@ -170,3 +134,44 @@ def modulo_matriculas():
             return
     print("Camper no encontrado.")
 
+
+
+def campersRiesgo():
+
+    altoriesgo = []
+
+    data = abrirJSON()
+    for camper in data:
+        if camper["Riesgo"] == "Alto":
+            altoriesgo.append(camper)
+    if altoriesgo:
+        for camper in altoriesgo:
+            print (camper)
+
+data = abrirJSON()
+def campersInscritos():
+    print(data)  
+
+    for camper in data:
+        if camper.get("Estado") == "Inscrito":  
+            print(camper)
+
+def campersAprobados():
+    data = abrirJSON()  
+    for camper in data:
+        if camper.get("Estado") == "Aprobado":  
+            print(camper)
+
+def vernotas():
+    verestudiantes()
+    print("Ingrese el ID del estudiante que quieres ver las notas")
+    id=int(input(": "))
+    print("Ingrese el skill del cual quiera saber la nota")
+    skill=str(input(": "))
+    for i in range(data):
+        if id==data[i]["ide"]:
+            print("Estudiante: ",i+1,data[i]["Nombre"])
+            print("Nota Teorica: ",data[i]["cursos"][skill]["nota1"],
+                  "Nota Practica", data[i]["cursos"][skill]["nota2"],
+                  "Nota Quizes: ",data[i]["cursos"][skill]["nota3"],
+                  "Nota Final",data[i]["cursos"][skill]["notaF"])

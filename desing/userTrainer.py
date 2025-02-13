@@ -1,6 +1,6 @@
 
 import json 
-import desing.userCordinadora as uc
+from desing.userCordinadora import *
 
 
 ###funciones de notas
@@ -12,6 +12,7 @@ import desing.userCordinadora as uc
 
 ## Colocar quien eres Pedro Maria o Aura dependiendo de su ruta y proyectar la ruta
 ## proyectarle los estudiantes
+DBFILE= "/campers"
 
 op= """Bienvenido que  trainer eres?
             1. Pedro
@@ -20,34 +21,49 @@ op= """Bienvenido que  trainer eres?
         Porfavor digite un numero
     """
 
+
+
+def EditarNotas():
+    ruta = []
+    Data = abrirJSON(DBFILE)   
+    for camper in Data:
+        if Data[camper]["Ruta"] in [".NET", "Java", "NodeJS"]:
+
+            ruta.append (Data[camper])
+    if ruta:
+
+        c=1
+        for camper in ruta:
+            print ("Estudiante# ",c,ruta[camper])
+            c+=1
+        print(" ")
+        print("A que estudiante quiere editar (digite id)")
+        x=int(input(": "))
         
-            
-def mirar_rutas():
-    rutas = {
-        "Ruta Java": ["Intro", "Python", "HTML/CSS", "Scrum", "Git", "JavaScript", "Intro Back", "Intro BBDD", "MySQL", "Java", "PostgreSQL", "SpringBoot"],
-        "Ruta NodeJS": ["Intro", "Python", "HTML/CSS", "Scrum", "Git", "JavaScript", "Intro Back", "Intro BBDD", "MongoDB", "JavaScript", "MySQL", "Express"],
-        "Ruta .NET": ["Intro", "Python", "HTML/CSS", "Scrum", "Git", "JavaScript", "Intro Back", "Intro BBDD", "MySQL", "C#", "PostgreSQL", ".Net Core"]
-    }
-    print("--- Rutas de Entrenamiento ---")
-    for ruta, modulos in rutas.items():
-        print(f"{ruta}: {', '.join(modulos)}")
+        print("Ingrese el skill al cual le quiere editar las notas")
+        skill=input(": ")
+        print('''
+              Que nota quiere editar?
+              1. Prueba teorica
+              2. Prueba Practica
+              3. Quizes
+              ''')
+        nota=int(input(": "))
+        if nota==1 :
+            g="nota1"
+        elif nota==2:
+            g="nota2"
+        elif g==3:
+            g="nota3"
+        else:
+            print("Nota no valida")
+        print("Ingrese la nueva nota")
+        nota=int(input(": "))
+        for estudiante in Data["campers"]:
+            if x == estudiante["ide"]:
+                if skill in estudiante["cursos"]:
+                    estudiante["cursos"][skill][g] = nota
+                else:
+                    print("El skill ingresado no existe.")
+
         
-def listar_estudiantes():
-    datos = abrirJSON()
-    print("--- Lista de Estudiantes ---")
-    for estudiante in datos["campers"]:
-        print(f"ID: {estudiante['ide']}, Nombre: {estudiante['Nombre']} {estudiante['Apellidos']}, Estado: {estudiante['Estado']}, Riesgo: {estudiante['Riesgo']}")
-
-def menutrainers ():
-    op= input( """Bienvenido que  trainer eres?
-            1. Pedro
-            2. Maria
-            3. Aura
-        Porfavor digite un numero
-    """)
-
-    match op:
-        case 1: 
-            print ("sapo perro")
-
-
